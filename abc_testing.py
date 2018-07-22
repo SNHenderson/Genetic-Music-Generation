@@ -26,13 +26,7 @@ CROTCHET_WEIGHTS = [13, 8, 5, 3, 2, 2]
 BARS = [4, 2, 8]
 BAR_WEIGHTS = [2, 2, 1]
 
-def main():
-    title = "Test"
-    note_count = 6
-    note_duration = 1
-    note_bar = bars = 8
-    key = 'C'
-    measures = 10
+def gen_measure_list(CHORD_WEIGHTS, PITCH_PWEIGHTS, PITCH_SWEIGHTS, LENGTH_WEIGHTS, measures = 10, key = 'C', note_count = 4, note_bar = 4, bars = 4):
     measure_list = []
     
     root = CHORDS.index(key)
@@ -91,6 +85,17 @@ def main():
             measure += multiplier
             beats_left -= float(Fraction(multiplier))
         measure_list.append(measure)
+    return measure_list
+
+def main():
+    title = "Test"
+    note_count = 4
+    note_duration = 1
+    note_bar = bars = 4
+    key = 'C'
+    measures = 10
+    measure_list = gen_measure_list(CHORD_WEIGHTS, PITCH_PWEIGHTS, PITCH_SWEIGHTS, LENGTH_WEIGHTS, note_count = note_count, note_bar = note_bar, bars = bars, key = key, measures = measures)
+    
     tune = " | ".join(measure_list) + " |]"
     song = ABC_PREFIX.format(title, note_count, bars, note_duration, note_bar, key, tune)
 
