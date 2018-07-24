@@ -4,7 +4,7 @@ from copy import copy, deepcopy
 from models.tune import Tune
 from models.measure import Measure
 from models.symbol import Symbol
-from songs.songs import twinkle
+from songs.songs import Lichfield
 from algorithms.genetic import Genetic
 
 ABC_PREFIX = ("X:1\n"
@@ -26,21 +26,22 @@ def run():
     WEIGHTS['LENGTH'] = [55, 34, 21, 13, 8, 5, 3, 2, 2, 1]
 
     title = "Test"
-    note_count = 2
+    note_count = 4
     note_duration = 1
-    note_bar = bars = 4
-    key = 'C'
-    measures = 24
+    bars = 4
+    note_bar = 8
+    key = 'G'
+    measures = 16
     
     big_tune = ""
-    gen = Genetic(twinkle, key = key, note_count = note_count, note_bar = note_bar, bars = bars, WEIGHTS = WEIGHTS)
+    gen = Genetic(Lichfield, key = key, note_count = note_count, note_bar = note_bar, bars = bars, WEIGHTS = WEIGHTS, max_gen = 200)
 
     for generation in gen.run(measures):
         print("Generation: {}       | Cost: {}      | Best: {}".format(*generation))
-        if not gen.gen % 5:
+        if not gen.gen % 10:
             big_tune += "| " + str(gen.best)
     
-    if gen.gen % 5:
+    if gen.gen % 10:
         big_tune += "| " + str(gen.best)
 
     tune = big_tune + " |]"

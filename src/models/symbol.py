@@ -5,11 +5,35 @@ from utils.convert import convert_to_float
 
 class Symbol():
     """docstring for symbol"""
-    def __init__(self, note = "", length = "1", prefix = "", suffix = ""):
+    def __init__(self, note = "", length = "1", prefix = "", suffix = "", string = None):
         self.prefix = prefix
         self.note = note
         self.suffix = suffix
         self.length = length
+        
+        if string:
+            self.parse_string(string)            
+
+    def parse_string(self, string):
+        idx = 0
+        
+        if string[0].isalpha():
+            self.note = string[idx]
+            idx += 1
+        else:
+            self.prefix = string[idx]
+            idx += 1
+            self.note = string[idx]
+            idx += 1
+        
+        if idx < len(string):
+            try:
+                convert_to_float(string[idx:])
+                self.length = string[idx:]
+            except Exception as e:
+                self.suffix = string[idx]
+                idx += 1
+                self.length = string[idx:]
 
     def gen_prefix(self, WEIGHTS, PITCH_PREFIXES = ['', '^', '=', '_']):
         return random.choices(PITCH_PREFIXES, weights=WEIGHTS['PITCH_P'])[0]
@@ -25,7 +49,7 @@ class Symbol():
         weights_left = WEIGHTS['LENGTH'][:len(lengths_left)]
         return random.choices(lengths_left, weights=weights_left)[0]
 
-    def gen_note(self, note_weights, NOTE_NAMES = ["A", "B", "C", "D", "E", "F", "G", "z"]):
+    def gen_note(self, note_weights, NOTE_NAMES = ["a", "b", "c", "d", "e", "f", "g", "A", "B", "C", "D", "E", "F", "G", "z"]):
         return random.choices(NOTE_NAMES, weights=note_weights)[0]
 
     def gen(self, WEIGHTS, note_weights, beats_left):
@@ -46,10 +70,10 @@ class Symbol():
         return distance(self.prefix, other.prefix) + distance(self.note, other.note) + distance(self.suffix, other.suffix) + 2*distance(self.length, other.length)
 
     def mutate(self, WEIGHTS, note_weights, beats_left):
-        self.prefix = self.gen_prefix(WEIGHTS)
-        self.suffix = self.gen_suffix(WEIGHTS)
         if random.randint(1, 100) < 50:
             self.note = self.gen_note(note_weights)
         else:
             self.length = self.gen_length(WEIGHTS, beats_left)
+        self.prefix = self.gen_prefix(WEIGHTS)
+        self.suffix = self.gen_suffix(WEIGHTS, self.note.isupper())
         return self.length

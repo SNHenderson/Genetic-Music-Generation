@@ -5,7 +5,7 @@ from Levenshtein import distance
 from models.measure import Measure
 
 class Tune():
-    def __init__(self, key = None, note_count = None, note_bar = None, bars = None, measures = None, gen = False, count = 10, WEIGHTS = None):
+    def __init__(self, key = None, note_count = None, note_bar = None, bars = None, measures = None, gen = False, count = 10, WEIGHTS = None, string = None):
         self.WEIGHTS = deepcopy(WEIGHTS)
         self.key = key
         self.note_count = note_count
@@ -17,6 +17,11 @@ class Tune():
             self.measures = []
             if gen:
                 self.gen(count)
+        if string:
+            self.parse_string(string)
+
+    def parse_string(self, string):
+        self.measures = [Measure(chord = None, string = s) for s in string.split("|")]            
 
     def gen_chord(self, chords, chord_weights):
         return random.choices(chords, weights=chord_weights)[0]

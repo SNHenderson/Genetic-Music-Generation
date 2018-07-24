@@ -7,13 +7,20 @@ from utils.convert import convert_to_float
 
 class Measure():
     """docstring for measure"""
-    def __init__(self, chord, symbols = None):
+    def __init__(self, chord, symbols = None, string = None):
         self.chord = chord
         if symbols:
             self.symbols = symbols
         else:
             self.symbols = []
         self.locked = False
+
+        if string:
+            self.parse_string(string) 
+
+    def parse_string(self, string):
+        self.chord = string[1]
+        self.symbols = [Symbol(string = s) for s in string[4:].split(" ")]            
 
     def set_weights(self, WEIGHTS, chords):
         root = chords.index(self.chord)
@@ -34,6 +41,8 @@ class Measure():
                 note_weights[i] += 25
             elif i == (root + 12) % len(chords):
                 note_weights[i] += 10
+
+        note_weights.extend(note_weights)
         note_weights.append(sum(note_weights)/len(note_weights))
         return note_weights
 

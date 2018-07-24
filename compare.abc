@@ -1,7 +1,6 @@
-X:1
-T:Test
-M:2/4
-L:1/4
-K:C
-"C" C1 C1 | "C" G1 G1 | "F" A1 A1 | "C" G2 | "F" F1 F1 | "C" E1 E1 | "G" D1 D1 | "C" C2 | "C" G1 G1 | "F" F1 F1 | "C" E1 E1 | "G" D2 | "C" G1 G1 | "F" F1 F1 | "C" E1 E1 | "G" D2 | "C" C1 C1 | "C" G1 G1 | "F"
- A1 A1 | "C" G2 | "F" F1 F1 | "C" E1 E1 | "G" D1 D1 | "C" C2
+X: 1
+T:Milley's Bequest - Lichfield
+M:4/4
+L:1/8
+K:G
+"G" G2 G A B2 G2|"C" E2 c c c4|"D" D2 D E F2 c2|"D" B4 A4|"G" G2 G A B2 G2|"C" E2 c c c4|"D" D2 D E F2 G A|"G" A4 G4|"G" d2 d d c2 c2|"D" B c d B A4|"G" d2 d d c2 c c|"D" B4 A4|"G" G2 G A B2 G2|"C" E2 c c c4|"D" D2 D E F2 G A|"G" A4 G4
