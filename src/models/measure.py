@@ -4,6 +4,7 @@ from Levenshtein import distance
 
 from models.symbol import Symbol
 from utils.convert import convert_to_float
+from utils.pitch import distance as pitch_dist
 
 class Measure():
     """docstring for measure"""
@@ -18,9 +19,25 @@ class Measure():
         if string:
             self.parse_string(string) 
 
+    def __repr__(self):
+        return '"' + self.chord + '" ' + ' '.join((str(symbol) for symbol in self.symbols)) 
+
+    def __str__(self):
+        return self.__repr__()  
+
+    def __copy__(self):
+        copy_object = Measure(chord = self.chord, symbols = copy(self.symbols))
+        return copy_object
+
+    def __deepcopy__(self, memodict={}):
+        copy_object = Measure(self.chord)
+        copy_object.symbols = [deepcopy(symbol) for symbol in self.symbols]        
+        return copy_object            
+
     def parse_string(self, string):
-        self.chord = string[1]
-        self.symbols = [Symbol(string = s) for s in string[4:].split(" ")]            
+        end = string[1:].index('"')
+        self.chord = string[1:end + 1]
+        self.symbols = [Symbol(string = s) for s in string[end + 3:].split(" ")]            
 
     def set_weights(self, WEIGHTS, chords):
         root = chords.index(self.chord)
@@ -65,33 +82,29 @@ class Measure():
     def insert(self, index, symbol):
         self.symbols.insert(index, symbol)    
 
-    def __repr__(self):
-        return '"' + self.chord + '" ' + ' '.join((str(symbol) for symbol in self.symbols)) 
-
-    def __str__(self):
-        return self.__repr__()
-
     def dist(self, other):
-        return 2*distance(self.chord, other.chord) + sum([symbol1.dist(symbol2) for (symbol1, symbol2) in zip(self.symbols, other.symbols)]) + 2*abs(len(self.symbols) - len(other.symbols))
+        return pitch_dist(self.chord, other.chord) + sum([symbol1.dist(symbol2) for (symbol1, symbol2) in zip(self.symbols, other.symbols)]) + 2*abs(len(self.symbols) - len(other.symbols))
 
     def lock_measure(self, other):
         if self.dist(other) == 0:
             self.locked = True
 
     def mutate(self, WEIGHTS, chords, count = 1):
+        i = random.randint(1, len(self.symbols))
         for _ in range(count):        
-            i = random.randint(1, len(self.symbols)) - 1
-            beats_left = convert_to_float(self.symbols[i].length)
+            beats_left = convert_to_float(self.symbols[i - 1].length)
             note_weights = self.set_weights(WEIGHTS, chords)
             
             if random.randint(1, 100) < 50: 
-                self.pop(i)
+                self.pop(i - 1)
             else:
-                beats_left -= convert_to_float(self.symbols[i].mutate(WEIGHTS, note_weights, beats_left))
+                beats_left -= convert_to_float(self.symbols[i - 1].mutate(WEIGHTS, note_weights, beats_left))
             
             while beats_left > 0:
                 s = Symbol()
                 beats_left -= convert_to_float(s.gen(WEIGHTS, note_weights, beats_left))
                 if len(self.symbols) > 0:
-                    i = random.randint(1, len(self.symbols)) - 1
-                self.insert(i, s)
+                    i = random.randint(1, len(self.symbols))
+                self.insert(i - 1, s)
+
+            i = (i + 1) % len(self.symbols)

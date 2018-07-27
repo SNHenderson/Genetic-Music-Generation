@@ -5,12 +5,14 @@ from Levenshtein import distance
 from models.measure import Measure
 
 class Tune():
-    def __init__(self, key = None, note_count = None, note_bar = None, bars = None, measures = None, gen = False, count = 10, WEIGHTS = None, string = None):
+    def __init__(self, key, note_count, bars, note_duration, note_bar, title = "", measures = None, gen = False, count = 10, WEIGHTS = None, string = None):
         self.WEIGHTS = deepcopy(WEIGHTS)
         self.key = key
         self.note_count = note_count
         self.note_bar = note_bar
+        self.note_duration = note_duration
         self.bars = bars
+        self.title = title
         if measures:
             self.measures = measures
         else: 
@@ -19,6 +21,28 @@ class Tune():
                 self.gen(count)
         if string:
             self.parse_string(string)
+
+    def __repr__(self):
+        return " | ".join((str(measure) for measure in self.measures))
+
+    def __str__(self):
+        return self.__repr__()
+
+    def __eq__(self, other): 
+        return self.dist(other) == 0  
+
+    def __len__(self):
+        return len(self.measures)
+
+    def __copy__(self):
+        copy_object = Tune(title = self.title, key = self.key, note_count = self.note_count, note_duration = self.note_duration, note_bar = self.note_bar, bars = self.bars, measures = copy(self.measures), WEIGHTS = self.WEIGHTS)
+        return copy_object
+
+    def __deepcopy__(self, memodict={}):
+        copy_object = Tune(title = self.title, key = self.key, note_count = self.note_count, note_duration = self.note_duration, note_bar = self.note_bar, bars = self.bars, WEIGHTS = self.WEIGHTS)
+        copy_object.measures = [deepcopy(measure) for measure in self.measures]
+        copy_object.chords = self.chords
+        return copy_object
 
     def parse_string(self, string):
         self.measures = [Measure(chord = None, string = s) for s in string.split("|")]            
@@ -58,12 +82,6 @@ class Tune():
     def insert(self, index, measure):
         self.measures.insert(index, measure)    
 
-    def __repr__(self):
-        return " | ".join((str(measure) for measure in self.measures))
-
-    def __str__(self):
-        return self.__repr__()    
-
     def dist(self, other):
         return sum([measure.dist(other_measure) for (measure, other_measure) in zip(self.measures, other.measures)])
 
@@ -83,4 +101,16 @@ class Tune():
             else:
                 if random.randint(1, 100) < 50: 
                     self.measures[i].chord = self.gen_chord(self.chords, self.WEIGHTS['CHORD'])
-                self.measures[i].mutate(self.WEIGHTS, self.chords, count = random.randint(1, 2))
+                else:
+                    self.measures[i].mutate(self.WEIGHTS, self.chords, count = random.choices([1, 2, 3], [60, 30, 10])[0])
+
+    def crossover(self, other):
+        if len(self.measures) > 1:
+            split = random.randint(1, len(self.measures) - 1)
+            child1 = deepcopy(self)
+            child2 = deepcopy(other)
+            if self != other:
+                for i in range(split):
+                    child1.measures[i], child2.measures[i] = child2.measures[i], child1.measures[i]
+            return child1, child2
+        return None

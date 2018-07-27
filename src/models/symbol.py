@@ -2,6 +2,7 @@ import random
 from Levenshtein import distance
 
 from utils.convert import convert_to_float
+from utils.pitch import distance as pitch_dist
 
 class Symbol():
     """docstring for symbol"""
@@ -12,7 +13,21 @@ class Symbol():
         self.length = length
         
         if string:
-            self.parse_string(string)            
+            self.parse_string(string)  
+
+    def __repr__(self):
+        return self.prefix + self.note + self.suffix + self.length
+
+    def __str__(self):
+        return self.__repr__()    
+        
+    def __copy__(self):
+        copy_object = Symbol(note = self.note, length = self.length, prefix = self.prefix, suffix = self.suffix)
+        return copy_object
+
+    def __deepcopy__(self, memodict={}):
+        copy_object = Symbol(note = self.note, length = self.length, prefix = self.prefix, suffix = self.suffix)
+        return copy_object                   
 
     def parse_string(self, string):
         idx = 0
@@ -60,20 +75,19 @@ class Symbol():
             self.suffix = self.gen_suffix(WEIGHTS, self.note.isupper())
         return self.length
 
-    def __repr__(self):
-        return self.prefix + self.note + self.suffix + self.length
-
-    def __str__(self):
-        return self.__repr__()
-
     def dist(self, other):
-        return distance(self.prefix, other.prefix) + distance(self.note, other.note) + distance(self.suffix, other.suffix) + 2*distance(self.length, other.length)
+        return distance(self.prefix, other.prefix) + pitch_dist(self.note, other.note) + distance(self.suffix, other.suffix) + 2*distance(self.length, other.length)
 
     def mutate(self, WEIGHTS, note_weights, beats_left):
         if random.randint(1, 100) < 50:
             self.note = self.gen_note(note_weights)
+            if self.note == 'z':
+                self.prefix = ""
+                self.suffix = ""
         else:
             self.length = self.gen_length(WEIGHTS, beats_left)
-        self.prefix = self.gen_prefix(WEIGHTS)
-        self.suffix = self.gen_suffix(WEIGHTS, self.note.isupper())
+        
+        if self.note != 'z':    
+            self.prefix = self.gen_prefix(WEIGHTS)
+            self.suffix = self.gen_suffix(WEIGHTS, self.note.isupper())
         return self.length

@@ -1,6 +1,12 @@
-X: 1
-T:Milley's Bequest - Lichfield
-M:4/4
+X:1
+T:Mazurka : Boite de Jazz
+C:Christian Josué, fichier abc : Bernard Loffet
 L:1/8
-K:G
-"G" G2 G A B2 G2|"C" E2 c c c4|"D" D2 D E F2 c2|"D" B4 A4|"G" G2 G A B2 G2|"C" E2 c c c4|"D" D2 D E F2 G A|"G" A4 G4|"G" d2 d d c2 c2|"D" B c d B A4|"G" d2 d d c2 c c|"D" B4 A4|"G" G2 G A B2 G2|"C" E2 c c c4|"D" D2 D E F2 G A|"G" A4 G4
+Q:300
+M:9/8
+K:C
+%%MIDI program 104
+%%MIDI chordprog 29
+%%MIDI gchord fcc
+"Am" z4 z E A2 B|"Am" c3 B2 A B2 A|"G" G2 B E2 E A2 B|"F" c3 B2 c d2 G|"C" e3 z2 d c2 B|"Am" c3 B2 A B2 A|"G" G2 B E2 E A2 B|"F" c3 B2 A G2 B|"Am" A3 z2 A A2 B|"Am" c3 B2 A B2 A|"G" G2 B E2 E A2 B|"F" c3 B2 c d2 G|"C" e3 z2 d c2 B|"Am" c3 B2 A B2 A|"G" G2 B E2 E A2 B|"F" c3 B2 A G2 B|"Am" A3 z2 A A2 c|"Am" e3 ^d3 B2 =d|"G" c3 B3 A2 B|"F" c3 B2 c d2 G|"C" e2 d c2 B c2 d|"Am" e3 ^d3 B2 =d|"G" c3 B3 A2 B|"F" c3 B2 A G2 B|"Am" A3 z2 A A2 c|"Am" e3 ^d3 B2 =d|"G" c3 B3 A2 B|"F" c3 B2 c d2 G|"C" e2 d c2 B c2 d|"Am" e3 ^d3 B2 =d|"G" c3 B3 A2 B|"F" c3 B2 A G2 B|"Am" A3 A,6 |]
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
