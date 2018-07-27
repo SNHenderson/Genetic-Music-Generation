@@ -11,7 +11,8 @@ class Symbol():
         self.note = note
         self.suffix = suffix
         self.length = length
-        
+        self.locked = False
+
         if string:
             self.parse_string(string)  
 
@@ -76,7 +77,11 @@ class Symbol():
         return self.length
 
     def dist(self, other):
-        return distance(self.prefix, other.prefix) + pitch_dist(self.note, other.note) + distance(self.suffix, other.suffix) + 2*distance(self.length, other.length)
+        return distance(self.prefix, other.prefix) + pitch_dist(self.note, other.note) + distance(self.suffix, other.suffix) + round(2*abs(convert_to_float(self.length) - convert_to_float(other.length)))
+
+    def lock_symbol(self, other):
+        if self.dist(other) == 0:
+            self.locked = True
 
     def mutate(self, WEIGHTS, note_weights, beats_left):
         if random.randint(1, 100) < 50:
@@ -87,7 +92,7 @@ class Symbol():
         else:
             self.length = self.gen_length(WEIGHTS, beats_left)
         
-        if self.note != 'z':    
+        if self.note != 'z' and random.randint(1, 100) < 50:
             self.prefix = self.gen_prefix(WEIGHTS)
             self.suffix = self.gen_suffix(WEIGHTS, self.note.isupper())
         return self.length

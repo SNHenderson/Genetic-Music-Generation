@@ -29,21 +29,22 @@ class Genetic():
         while self.best_dist > 0 and self.gen < self.max_gen:
             #Selection
             parent1 = fit[0]
-            parent2 = fit[random.randint(1,3)]
+            parent2 = fit[random.randint(1,5)]
 
             #Crossover
-            children = parent1.crossover(parent2)
+            children = parent1.crossover(parent2, points = 2)
                 
-            #Mutate
             if children:
                 new.extend([*children])
 
-            for child in children:
-                mutated = deepcopy(child)
-                child.lock_measures(self.dest)
-                child.mutate()
-                new.append(mutated)
+                #Mutate children
+                for child in children:
+                    mutated = deepcopy(child)
+                    child.lock_measures(self.dest)
+                    child.mutate()
+                    new.append(mutated)
 
+            #Select and mutate
             for _ in range(round(self.count / 2) + self.gen):
                 mutated = deepcopy(fit[random.randint(0, 3)])
                 mutated.lock_measures(self.dest)

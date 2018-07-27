@@ -83,14 +83,21 @@ class Measure():
         self.symbols.insert(index, symbol)    
 
     def dist(self, other):
-        return pitch_dist(self.chord, other.chord) + sum([symbol1.dist(symbol2) for (symbol1, symbol2) in zip(self.symbols, other.symbols)]) + 2*abs(len(self.symbols) - len(other.symbols))
+        return pitch_dist(self.chord, other.chord) + sum([symbol1.dist(symbol2) for (symbol1, symbol2) in zip(self.symbols, other.symbols)]) + 3*abs(len(self.symbols) - len(other.symbols))
 
     def lock_measure(self, other):
         if self.dist(other) == 0:
             self.locked = True
+        #[symbol.lock_symbol(other_symbol) for (symbol, other_symbol) in zip(self.symbols, other.symbols)]
+
+    def select(self):
+        i = random.randint(1, len(self.symbols))
+        while(self.symbols[i - 1].locked):
+            i = random.randint(1, len(self.symbols))
+        return i
 
     def mutate(self, WEIGHTS, chords, count = 1):
-        i = random.randint(1, len(self.symbols))
+        i = self.select()
         for _ in range(count):        
             beats_left = convert_to_float(self.symbols[i - 1].length)
             note_weights = self.set_weights(WEIGHTS, chords)
@@ -101,10 +108,15 @@ class Measure():
                 beats_left -= convert_to_float(self.symbols[i - 1].mutate(WEIGHTS, note_weights, beats_left))
             
             while beats_left > 0:
-                s = Symbol()
-                beats_left -= convert_to_float(s.gen(WEIGHTS, note_weights, beats_left))
-                if len(self.symbols) > 0:
-                    i = random.randint(1, len(self.symbols))
-                self.insert(i - 1, s)
+                if random.randint(1, 100) < 50 or len(self.symbols) == 0: 
+                    s = Symbol()
+                    beats_left -= convert_to_float(s.gen(WEIGHTS, note_weights, beats_left))
+                    if len(self.symbols) > 0:
+                        i = self.select()
+                    self.insert(i - 1, s)
+                else:
+                    i = self.select()
+                    beats_left += convert_to_float(self.symbols[i - 1].length)
+                    beats_left -= convert_to_float(self.symbols[i - 1].mutate(WEIGHTS, note_weights, beats_left))
 
             i = (i + 1) % len(self.symbols)

@@ -104,13 +104,21 @@ class Tune():
                 else:
                     self.measures[i].mutate(self.WEIGHTS, self.chords, count = random.choices([1, 2, 3], [60, 30, 10])[0])
 
-    def crossover(self, other):
+    def crossover(self, other, points = 1):
         if len(self.measures) > 1:
-            split = random.randint(1, len(self.measures) - 1)
+            split = random.randint(1, round(len(self.measures) / 2)) if points > 1 else random.randint(1, len(self.measures) - 1)
+               
             child1 = deepcopy(self)
             child2 = deepcopy(other)
-            if self != other:
-                for i in range(split):
+            if self == other:
+                return None
+            for i in range(split):
+                child1.measures[i], child2.measures[i] = child2.measures[i], child1.measures[i]
+
+            
+                split = random.randint(round(len(self.measures) / 2), len(self.measures) - 1)    
+                for i in range(split, len(self.measures)):
                     child1.measures[i], child2.measures[i] = child2.measures[i], child1.measures[i]
+            
             return child1, child2
         return None

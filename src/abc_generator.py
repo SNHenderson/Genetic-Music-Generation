@@ -36,7 +36,7 @@ def run():
 
     best = ABC_PREFIX.format(song.title + " evolved", song.note_count, song.bars, song.note_duration, song.note_bar, song.key, big_tune + " |]")
 
-    with open('best.abc', 'w') as file:
+    with open('generated_songs/best.abc', 'w') as file:
         file.write(best)
     
     print('\n')
