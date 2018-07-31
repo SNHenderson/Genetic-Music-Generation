@@ -57,13 +57,13 @@ class Tune():
         chord_weights = self.WEIGHTS['CHORD']
         for i in range(len(CHORDS)):
             if i == root:
-                chord_weights[i] += 500
+                chord_weights[i] += 100
             elif i in ((root + 1) % len(self.chords), (root + 2) % len(self.chords)):
                 self.chords[i] += "m"
             elif i in ((root + 3) % len(self.chords), (root + 4) % len(self.chords)):
-                chord_weights[i] += 250
+                chord_weights[i] += 75
             elif i == (root + 5) % len(self.chords):
-                chord_weights[i] += 200 
+                chord_weights[i] += 50 
                 self.chords[i] += "m"
             elif i == (root + 6) % len(self.chords):
                 self.chords[i] += "dim"    
@@ -88,12 +88,16 @@ class Tune():
     def lock_measures(self, other):
         [measure.lock_measure(other_measure) for (measure, other_measure) in zip(self.measures, other.measures)]
 
+    def select(self):
+        i = random.randint(1, len(self.measures)) - 1
+        while(self.measures[i].locked):
+            i = random.randint(1, len(self.measures)) - 1
+        return i
+
     def mutate(self, count = 1):
         for _ in range(count): 
-            i = random.randint(1, len(self.measures)) - 1
-            while(self.measures[i].locked):
-                i = random.randint(1, len(self.measures)) - 1
-            if random.randint(1, 100) < 50: 
+            i = self.select()
+            if random.randint(1, 100) < 25: 
                 self.pop(i)
                 m = Measure(self.gen_chord(self.chords, self.WEIGHTS['CHORD']))
                 m.gen(self.WEIGHTS, self.chords, key = self.key, note_count = self.note_count, note_bar = self.note_bar, bars = self.bars)
@@ -104,21 +108,18 @@ class Tune():
                 else:
                     self.measures[i].mutate(self.WEIGHTS, self.chords, count = random.choices([1, 2, 3], [60, 30, 10])[0])
 
-    def crossover(self, other, points = 1):
-        if len(self.measures) > 1:
-            split = random.randint(1, round(len(self.measures) / 2)) if points > 1 else random.randint(1, len(self.measures) - 1)
-               
+    def crossover(self, other, double_point = False):
+        if len(self.measures) > 1 and self != other:
+            split = random.randint(1, round(len(self.measures) / 2)) if double_point else random.randint(1, len(self.measures) - 1)
             child1 = deepcopy(self)
             child2 = deepcopy(other)
-            if self == other:
-                return None
+            
             for i in range(split):
                 child1.measures[i], child2.measures[i] = child2.measures[i], child1.measures[i]
-
             
+            if double_point:
                 split = random.randint(round(len(self.measures) / 2), len(self.measures) - 1)    
                 for i in range(split, len(self.measures)):
                     child1.measures[i], child2.measures[i] = child2.measures[i], child1.measures[i]
-            
             return child1, child2
         return None

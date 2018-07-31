@@ -77,7 +77,7 @@ class Symbol():
         return self.length
 
     def dist(self, other):
-        return distance(self.prefix, other.prefix) + pitch_dist(self.note, other.note) + distance(self.suffix, other.suffix) + round(2*abs(convert_to_float(self.length) - convert_to_float(other.length)))
+        return distance(self.prefix, other.prefix) + distance(self.note, other.note) + distance(self.suffix, other.suffix) + distance(self.length,other.length)
 
     def lock_symbol(self, other):
         if self.dist(other) == 0:

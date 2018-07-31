@@ -45,17 +45,17 @@ class Measure():
         note_weights = copy(WEIGHTS['CHORD'])
         for i in range(len(chords)):
             if i == root:
-                note_weights[i] += 500
-            elif i == (root + 2) % len(chords):
-                note_weights[i] += 400   
-            elif i == (root + 4) % len(chords):
-                note_weights[i] += 500
-            elif i == (root + 6) % len(chords):
                 note_weights[i] += 100
+            elif i == (root + 2) % len(chords):
+                note_weights[i] += 80  
+            elif i == (root + 4) % len(chords):
+                note_weights[i] += 100
+            elif i == (root + 6) % len(chords):
+                note_weights[i] += 60
             elif i == (root + 8) % len(chords):
-                note_weights[i] += 50
+                note_weights[i] += 40
             elif i == (root + 10) % len(chords):
-                note_weights[i] += 25
+                note_weights[i] += 20
             elif i == (root + 12) % len(chords):
                 note_weights[i] += 10
 
@@ -83,7 +83,7 @@ class Measure():
         self.symbols.insert(index, symbol)    
 
     def dist(self, other):
-        return pitch_dist(self.chord, other.chord) + sum([symbol1.dist(symbol2) for (symbol1, symbol2) in zip(self.symbols, other.symbols)]) + 3*abs(len(self.symbols) - len(other.symbols))
+        return pitch_dist(self.chord, other.chord) + sum([symbol1.dist(symbol2) for (symbol1, symbol2) in zip(self.symbols, other.symbols)]) + 2*abs(len(self.symbols) - len(other.symbols))
 
     def lock_measure(self, other):
         if self.dist(other) == 0:
@@ -97,8 +97,8 @@ class Measure():
         return i
 
     def mutate(self, WEIGHTS, chords, count = 1):
-        i = self.select()
-        for _ in range(count):        
+        for _ in range(count):  
+            i = self.select()      
             beats_left = convert_to_float(self.symbols[i - 1].length)
             note_weights = self.set_weights(WEIGHTS, chords)
             
@@ -119,4 +119,4 @@ class Measure():
                     beats_left += convert_to_float(self.symbols[i - 1].length)
                     beats_left -= convert_to_float(self.symbols[i - 1].mutate(WEIGHTS, note_weights, beats_left))
 
-            i = (i + 1) % len(self.symbols)
+            #i = (i + 1) % len(self.symbols)

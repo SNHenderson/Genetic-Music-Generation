@@ -21,13 +21,13 @@ def run():
     except:
         raise Exception("Song '{}' does not exist".format(args.song))
 
-    gen = Genetic(song, WEIGHTS = WEIGHTS, count = args.population, max_gen = args.max, seed = args.seed)
+    gen = Genetic(song, WEIGHTS = WEIGHTS, count = args.population, max_gen = args.max, seed = args.seed, cost = args.cost)
     gen_log = []
     cost_log = []
     for generation in gen.run():
         gen_log.append(generation[0])
         cost_log.append(generation[1])
-        print("Generation: {}       | Cost: {}      | Best: {}".format(*generation))
+        print("Generation: {:4d} | Cost: {:3d} | Best: {}".format(*generation))
         if not gen.gen % 10:
             big_tune += "| " + str(gen.best)
     
@@ -36,7 +36,7 @@ def run():
 
     best = ABC_PREFIX.format(song.title + " evolved", song.note_count, song.bars, song.note_duration, song.note_bar, song.key, big_tune + " |]")
 
-    with open('generated_songs/best.abc', 'w') as file:
+    with open('generated_songs/{}.abc'.format('evolved'), 'w') as file:
         file.write(best)
     
     print('\n')

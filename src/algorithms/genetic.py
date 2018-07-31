@@ -5,11 +5,12 @@ from models.tune import Tune
 
 class Genetic():
     """docstring for Genetic"""
-    def __init__(self, dest, WEIGHTS, count, max_gen, seed = None):
+    def __init__(self, dest, WEIGHTS, count = None, max_gen = None, seed = None, cost = None):
         self.WEIGHTS = WEIGHTS
         self.dest = dest
         self.count = count if count else 100
         self.max_gen = max_gen if max_gen else 100
+        self.cost = cost if cost else 0
         if seed:
             random.seed(seed)
 
@@ -20,22 +21,21 @@ class Genetic():
         
         # Compute fitness
         fit = sorted([tune for tune in tune_list], key = lambda x: x.dist(self.dest))
-        new = []
         self.best = fit[0]
         self.best_dist = fit[0].dist(self.dest)
 
         yield self.gen, self.best_dist, self.best
 
-        while self.best_dist > 0 and self.gen < self.max_gen:
+        while self.gen < self.max_gen and self.best_dist > self.cost:
             #Selection
             parent1 = fit[0]
             parent2 = fit[random.randint(1,5)]
 
             #Crossover
-            children = parent1.crossover(parent2, points = 2)
+            children = parent1.crossover(parent2, double_point = True)
                 
             if children:
-                new.extend([*children])
+                new = [*children]
 
                 #Mutate children
                 for child in children:
@@ -54,7 +54,6 @@ class Genetic():
             #Unfit die
             fit = fit[:len(new) * -1]
             fit.extend(new)
-            new = []
             
             #Compute fitness
             fit = sorted([tune for tune in fit], key = lambda x: x.dist(self.dest))

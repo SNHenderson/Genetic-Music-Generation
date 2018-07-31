@@ -8,5 +8,5 @@ K:C
 %%MIDI program 104
 %%MIDI chordprog 29
 %%MIDI gchord fcc
-"G" G2 G1 A1 B1 G2 g1 | "C" E2 c1 c1 c4 | "D" D2 D1 E1 F1 c2 A,1 | "D" B4 A4 | "G" G2 G1 A1 B2 G2 | "C" E2 c1 c1 c4 | "D" D2 D1 E1 F2 G1 A1 | "G" A4 G4 | "G" d2 d1 d1 c2 c2 | "D" B1 c1 d1 B1 A4 | "G" d2 d1 d1 c2 c1 c1 | "D" B4 A4 | "G" G2 G1 A1 B2 G2 | "C" E2 c1 c1 c4 | "D" D2 D1 E1 F2 G1 A1 | "G" A4 G4 |]
+"Am" z4 z1 E1 A2 B1 | "Am" c3 B2 A1 B2 A1 | "G" G2 B1 z2 E1 A2 B1 | "F" c3 B2 c1 c2 G1 | "C" e3 z2 d1 c2 B1 | "Am" c3 B2 A1 B2 A1 | "G" G2 B1 G1 E1 A3 B1 | "F" c2 A2 A1 G2 C2 | "Am" A3 z2 A1 A1 B2 | "Am" c1 B2 A1 B4 A1 | "G" G2 B1 E3 E1 A2 | "F" c3 B2 c1 d2 G1 | "C" e3 z2 d1 c2 B1 | "Am" c1 B4 A1 B2 A1 | "G" G2 B1 G2 g1 A2 B1 | "F" c3 g2 A1 G2 B1 | "Am" A1 z2 A1 A2 c3 | "Am" e3 ^a2 B2 =d2 | "G" c3 B3 A2 B1 | "F" c3 f2 c1 g2 G1 | "C" e1 d1 c2 B1 c4 | "Am" e3 ^d6 | "G" c3 B3 A2 B1 | "F" c3 B2 A1 G2 B1 | "Am" A3 z2 A1 A2 c1 | "Am" e3 ^d3 B2 =C1 | "G" c1 B1 A6 B1 | "F" c3 a2 c1 e2 G1 | "C" e2 d1 G1 C1 c2 d2 | "Am" e3 ^c3 B2 =f1 | "G" c3 B3 A2 B1 | "F" c3 B2 A1 G2 B1 | "Am" A3 A6 |]
 W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
