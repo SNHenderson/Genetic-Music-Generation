@@ -1,3 +1,4 @@
+""" ABC_PREFIX and WEIGHTS are kept here """
 ABC_PREFIX = ("X:1\n"
               "T:{}\n"
               "M:{}/{}\n"

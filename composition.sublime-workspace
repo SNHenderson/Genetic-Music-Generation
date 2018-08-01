@@ -475,7 +475,7 @@
 			"file": "src/abc_generator.py",
 			"settings":
 			{
-				"buffer_size": 1463,
+				"buffer_size": 1514,
 				"line_ending": "Windows"
 			}
 		},
@@ -483,7 +483,7 @@
 			"file": "src/algorithms/genetic.py",
 			"settings":
 			{
-				"buffer_size": 2440,
+				"buffer_size": 2434,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -492,7 +492,7 @@
 			"file": "src/models/tune.py",
 			"settings":
 			{
-				"buffer_size": 5244,
+				"buffer_size": 5246,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -501,7 +501,7 @@
 			"file": "src/models/measure.py",
 			"settings":
 			{
-				"buffer_size": 4495,
+				"buffer_size": 4497,
 				"line_ending": "Windows"
 			}
 		},
@@ -898,15 +898,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1463,
+						"buffer_size": 1514,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1195,
-								1185
+								0,
+								0
 							]
 						],
 						"settings":
@@ -931,15 +931,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2440,
+						"buffer_size": 2434,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1237,
-								1249
+								0,
+								0
 							]
 						],
 						"settings":
@@ -964,15 +964,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5244,
+						"buffer_size": 5246,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								115,
-								115
+								0,
+								0
 							]
 						],
 						"settings":
@@ -997,15 +997,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4495,
+						"buffer_size": 4497,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								904,
-								904
+								0,
+								0
 							]
 						],
 						"settings":

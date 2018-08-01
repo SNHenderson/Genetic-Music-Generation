@@ -5,7 +5,23 @@ from Levenshtein import distance
 from models.measure import Measure
 
 class Tune():
+    """Class for representing a tune, a list of measures """
     def __init__(self, key, note_count, bars, note_duration, note_bar, title = "", measures = None, gen = False, count = 10, WEIGHTS = None, string = None):
+        """Initialize the class
+    
+        Arguments:
+        key -- the key of the tune
+        note_count -- the number of crotchets in the measure (in 3/4, 3)
+        bars -- the number of bars per measure (in 3/4, 4)
+        note_duration -- the starting duration of a note in ABC notation
+        note_bar -- the number of bars for a note in ABC notation
+        title -- the title of the tune
+        measures -- a list of measures to init the song with, optional
+        gen -- an optional parameter, if true immediately generate a random list of measures
+        count -- the number of measures to generate if gen is true
+        WEIGHTS -- the WEIGHTS to set for generating random songs
+        string -- a string to initialize the tune
+        """
         self.WEIGHTS = deepcopy(WEIGHTS)
         self.key = key
         self.note_count = note_count
@@ -13,12 +29,14 @@ class Tune():
         self.note_duration = note_duration
         self.bars = bars
         self.title = title
+        
         if measures:
             self.measures = measures
         else: 
             self.measures = []
             if gen:
                 self.gen(count)
+        
         if string:
             self.parse_string(string)
 

@@ -91,8 +91,11 @@ class Symbol():
                 self.suffix = ""
         else:
             self.length = self.gen_length(WEIGHTS, beats_left)
+
+        if self.suffix != "":
+            self.suffix = self.gen_suffix(WEIGHTS, self.note.isupper())
         
         if self.note != 'z' and random.randint(1, 100) < 50:
             self.prefix = self.gen_prefix(WEIGHTS)
-            self.suffix = self.gen_suffix(WEIGHTS, self.note.isupper())
+            
         return self.length
