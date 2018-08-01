@@ -7,8 +7,15 @@ from utils.convert import convert_to_float
 from utils.pitch import distance as pitch_dist
 
 class Measure():
-    """docstring for measure"""
+    """Class for representing a measure, a list of symbols """
     def __init__(self, chord, symbols = None, string = None):
+        """Initialize the class
+    
+        Arguments:
+        chord -- the chord of the measure
+        symbols -- an optional list of symbols to set for the measure
+        string -- a string to initialize the measure
+        """
         self.chord = chord
         if symbols:
             self.symbols = symbols
@@ -40,6 +47,12 @@ class Measure():
         self.symbols = [Symbol(string = s) for s in string[end + 3:].split(" ")]            
 
     def set_weights(self, WEIGHTS, chords):
+        """Returns the note weights modified based off the chord of the measure
+    
+        Arguments:
+        WEIGHTS -- the default weights
+        chords -- the possible chords
+        """
         root = chords.index(self.chord)
         
         note_weights = copy(WEIGHTS['CHORD'])
@@ -64,6 +77,16 @@ class Measure():
         return note_weights
 
     def gen(self, WEIGHTS, chords, key, note_count, note_bar, bars):
+        """Generate a random list of symbols for the measure that fit in the necessary time signature
+
+        Arguments:
+        WEIGHTS -- the default weights
+        chords -- the possible chords
+        key -- the tune's key
+        note_count -- needed for time signature
+        note_bar -- needed for time signature
+        bars -- needed for time signature
+        """
         self.symbols = []
         beats_left = (note_count * 1/bars) * note_bar
         note_weights = self.set_weights(WEIGHTS, chords)
@@ -74,29 +97,42 @@ class Measure():
             self.append(s)
 
     def pop(self, index):
+        """Helper function for removing a symbol"""
         self.symbols.pop(index)
 
     def append(self, symbol):
+        """Helper function for appending a symbol"""
         self.symbols.append(symbol)
 
     def insert(self, index, symbol):
+        """Helper function for inserting a symbol"""
         self.symbols.insert(index, symbol)    
 
     def dist(self, other):
+        """Returns the distance (or cost) from one measure to another"""        
         return pitch_dist(self.chord, other.chord) + sum([symbol1.dist(symbol2) for (symbol1, symbol2) in zip(self.symbols, other.symbols)]) + 2*abs(len(self.symbols) - len(other.symbols))
 
     def lock_measure(self, other):
+        """Locks measure if it is equal to other"""
         if self.dist(other) == 0:
             self.locked = True
         #[symbol.lock_symbol(other_symbol) for (symbol, other_symbol) in zip(self.symbols, other.symbols)]
 
     def select(self):
+        """Returns a random unlocked symbol"""        
         i = random.randint(1, len(self.symbols))
         while(self.symbols[i - 1].locked):
             i = random.randint(1, len(self.symbols))
         return i
 
     def mutate(self, WEIGHTS, chords, count = 1):
+        """Mutates a random symbol
+
+        Arguments:
+        WEIGHTS - the default weights
+        chords -- the possible chords
+        count -- the number of symbols to mutate        
+        """
         for _ in range(count):  
             i = self.select()      
             beats_left = convert_to_float(self.symbols[i - 1].length)

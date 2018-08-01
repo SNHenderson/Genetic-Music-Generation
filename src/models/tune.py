@@ -63,12 +63,29 @@ class Tune():
         return copy_object
 
     def parse_string(self, string):
+        """Parse and convert a string into a list of measures 
+
+        Arguments:
+        string -- the string to parse
+        """
         self.measures = [Measure(chord = None, string = s) for s in string.split("|")]            
 
     def gen_chord(self, chords, chord_weights):
+        """Returns a randomly generated chord
+
+        Arguments:
+        chords -- the chords, modified to fit the key
+        chord_weighs -- the chord weights, modified to fit the key
+        """
         return random.choices(chords, weights=chord_weights)[0]
 
     def gen(self, count = 10, CHORDS = ["A", "B", "C", "D", "E", "F", "G"]):
+        """Generates a random list of n measures 
+
+        Arguments:
+        count -- the number of measures to generate
+        CHORDS -- the unmodified chords, default A through G
+        """
         self.measures = []
         root = CHORDS.index(self.key)
         self.chords = copy(CHORDS)
@@ -92,27 +109,38 @@ class Tune():
             self.measures.append(m)
 
     def pop(self, index):
+        """Helper function for removing a measure"""
         self.measures.pop(index)
 
     def append(self, measure):
+        """Helper function for appending a measure"""
         self.measures.append(measure)
 
     def insert(self, index, measure):
+        """Helper function for inserting a measure"""
         self.measures.insert(index, measure)    
 
     def dist(self, other):
+        """Returns the distance (or cost) from one tune to another"""
         return sum([measure.dist(other_measure) for (measure, other_measure) in zip(self.measures, other.measures)])
 
     def lock_measures(self, other):
+        """Call the lock measure function for each measure"""
         [measure.lock_measure(other_measure) for (measure, other_measure) in zip(self.measures, other.measures)]
 
     def select(self):
+        """Returns a random unlocked measure"""
         i = random.randint(1, len(self.measures)) - 1
         while(self.measures[i].locked):
             i = random.randint(1, len(self.measures)) - 1
         return i
 
     def mutate(self, count = 1):
+        """Mutates a random measure
+
+        Arguments:
+        count -- the number of measures to mutate
+        """
         for _ in range(count): 
             i = self.select()
             if random.randint(1, 100) < 25: 
@@ -127,6 +155,13 @@ class Tune():
                     self.measures[i].mutate(self.WEIGHTS, self.chords, count = random.choices([1, 2, 3], [60, 30, 10])[0])
 
     def crossover(self, other, double_point = False):
+        """ Returns two children that are combinations of self and other at a random point or points
+            Retuns None if self = other or self only has one measure
+
+        Arguments:
+        other -- the tune to combine with
+        double_point -- true if the crossover happens twice
+        """
         if len(self.measures) > 1 and self != other:
             split = random.randint(1, round(len(self.measures) / 2)) if double_point else random.randint(1, len(self.measures) - 1)
             child1 = deepcopy(self)

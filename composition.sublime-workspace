@@ -5,7 +5,7 @@
 		[
 			[
 				"note",
-				"note_duration"
+				"note_weights"
 			],
 			[
 				"not",
@@ -471,48 +471,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "src/abc_generator.py",
-			"settings":
-			{
-				"buffer_size": 1514,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/algorithms/genetic.py",
-			"settings":
-			{
-				"buffer_size": 2434,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/models/tune.py",
-			"settings":
-			{
-				"buffer_size": 5246,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/models/measure.py",
-			"settings":
-			{
-				"buffer_size": 4497,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/models/symbol.py",
-			"settings":
-			{
-				"buffer_size": 3824,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "Packages/Golang Build/Go.sublime-build",
 	"build_system_choices":
@@ -590,25 +548,39 @@
 		"/C/Users/sayhen/git/composition/bin",
 		"/C/Users/sayhen/git/composition/src",
 		"/C/Users/sayhen/git/composition/src/algorithms",
+		"/C/Users/sayhen/git/composition/src/algorithms/__pycache__",
 		"/C/Users/sayhen/git/composition/src/models",
 		"/C/Users/sayhen/git/composition/src/songs",
 		"/C/Users/sayhen/git/composition/src/utils"
 	],
 	"file_history":
 	[
-		"/C/Users/sayhen/git/composition/comp_project.sublime-project",
-		"/C/Users/sayhen/git/composition/src/test.py",
-		"/C/Users/sayhen/git/composition/src/songs/songs.py",
 		"/C/Users/sayhen/git/composition/src/models/tune.py",
-		"/C/Users/sayhen/git/composition/src/models/symbol.py",
+		"/C/Users/sayhen/git/composition/src/abc_generator.py",
 		"/C/Users/sayhen/git/composition/src/utils/pitch.py",
+		"/C/Users/sayhen/git/composition/src/songs/songs.py",
 		"/C/Users/sayhen/git/composition/src/models/abc.py",
-		"/C/Users/sayhen/git/composition/Lichfield2.abc",
+		"/C/Users/sayhen/git/spotify-analysis/spotify_analysis/api.py",
+		"/C/Users/sayhen/git/composition/src/utils/convert.py",
 		"/C/Users/sayhen/git/composition/src/utils/argparser.py",
+		"/C/Users/sayhen/git/composition/src/models/symbol.py",
+		"/C/Users/sayhen/git/composition/src/models/measure.py",
+		"/C/Users/sayhen/git/composition/compare.abc",
+		"/C/Users/sayhen/git/composition/test.abc",
+		"/C/Users/sayhen/git/composition/generated_songs/mazurka - Copy.abc",
+		"/C/Users/sayhen/git/composition/generated_songs/mazurka.abc",
+		"/C/Users/sayhen/git/composition/src/algorithms/genetic.py",
+		"/C/Users/sayhen/git/composition/generated_songs/evolved.abc",
+		"/C/Users/sayhen/git/composition/generated_songs/Lichfield4.abc",
+		"/C/Users/sayhen/git/composition/generated_songs/Lichfield1.abc",
+		"/C/Users/sayhen/git/composition/generated_songs/Lichfield3.abc",
+		"/C/Users/sayhen/git/composition/generated_songs/Lichfield2.abc",
+		"/C/Users/sayhen/git/composition/generated_songs/Lichfield_infinity.abc",
+		"/C/Users/sayhen/git/composition/src/test.py",
+		"/C/Users/sayhen/git/composition/Lichfield2.abc",
 		"/C/Users/sayhen/git/composition/bin/music_generator",
 		"/C/Users/sayhen/git/composition/.gitignore",
 		"/C/Users/sayhen/git/composition/best.abc",
-		"/C/Users/sayhen/git/composition/compare.abc",
 		"/C/Users/sayhen/git/composition/Lichfield1.abc",
 		"/c/users/sayhen/appdata/local/temp/rsub-tk0be0/jobs.html",
 		"/c/users/sayhen/appdata/local/temp/rsub-uk432j/job.go",
@@ -645,7 +617,6 @@
 		"/C/Users/sayhen/git/spotify-analysis/spotify_analysis/templates/auth.html",
 		"/C/Users/sayhen/git/spotify-analysis/spotify_analysis/static/js/analysis.js",
 		"/C/Users/sayhen/git/spotify-analysis/spotify_analysis/templates/analyze.html",
-		"/C/Users/sayhen/git/spotify-analysis/spotify_analysis/api.py",
 		"/c/users/sayhen/appdata/local/temp/rsub-bduv33/scheduler.go",
 		"/c/users/sayhen/appdata/local/temp/rsub-0kgabb/nodeid.go",
 		"/c/users/sayhen/appdata/local/temp/rsub-xttqn8/job.go",
@@ -711,23 +682,11 @@
 		"/c/users/sayhen/appdata/local/temp/rsub-kqmx2r/responses.go",
 		"/c/users/sayhen/appdata/local/temp/rsub-7g7m8b/object.go",
 		"/c/users/sayhen/appdata/local/temp/rsub-p4x65l/object.go",
-		"/c/users/sayhen/appdata/local/temp/rsub-9_7nqi/responses.go",
-		"/c/users/sayhen/appdata/local/temp/rsub-bjbqxj/r",
-		"/c/users/sayhen/appdata/local/temp/rsub-xeii3f/object.go",
-		"/c/users/sayhen/appdata/local/temp/rsub-cpsrm9/object",
-		"/c/users/sayhen/appdata/local/temp/rsub-wx084g/errors.go",
-		"/c/users/sayhen/appdata/local/temp/rsub-mjo6hu/job.go",
-		"/c/users/sayhen/appdata/local/temp/rsub-jgesu8/job.go",
-		"/c/users/sayhen/appdata/local/temp/rsub-9ao5aj/object.go",
-		"/c/users/sayhen/appdata/local/temp/rsub-gb3357/representation.go",
-		"/c/users/sayhen/appdata/local/temp/rsub-crrr_r/job.go",
-		"/c/users/sayhen/appdata/local/temp/rsub-m42mih/errors.go",
-		"/c/users/sayhen/appdata/local/temp/rsub-bvr51k/responses.go",
-		"/c/users/sayhen/appdata/local/temp/rsub-5sn51t/artifact.go"
+		"/c/users/sayhen/appdata/local/temp/rsub-9_7nqi/responses.go"
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 41.0
 	},
 	"find_in_files":
 	{
@@ -738,9 +697,48 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"count",
+			"10",
+			"Symbol",
+			"Measure",
+			"Tune",
+			"(?:[^|]*\\|){33}([^|]*)",
+			"(?:[^|]*\\|){66}([^|]*)",
+			"(?:[^|]*\\|){6}([^|]*)",
+			"(?:[^|]*\\|){66}([^|]*)",
+			"(?:[^|]*\\|){32}([^|]*)",
+			"^(?:[^|]*\\|){3}([^|]*)",
+			"]",
+			"% page",
+			"(?:[^|]*\\|){33}",
+			"^(?:[^|]*\\|){33}",
+			"(?:[^|]*\\|){32}",
+			"(?:[^|]*\\|){3}",
+			"^(?:[^|]*\\|){3}",
+			"F2",
+			"(?:[^|]*\\|){4}",
+			"(?:[^|]*\\|){3}",
+			"^(?:[^|]*\\|){3}",
+			"^((?:[^|]*\\\\|){3})[^|]+",
+			"^((?:[^|]*\\\\|){3})[^|]+ ",
+			"^((?:[^|]*\\\\|){3})[^|]+",
+			"[|]*[|]*[|]*[|]*[|]*[|]*[|]*[|]*[|]* |",
+			"[|]*[|]*[|]*[|]*[|]*[|]*[|]*[|]*[|]*",
+			"c,",
+			"c",
+			"c,",
+			"c",
+			"c,",
+			"c",
+			"c'",
+			"%%MIDI chordvol 1",
+			"%%MIDI gchord c",
+			"cost",
+			"pitch_dist",
+			"WEIGHTS['CHORD']",
 			"i - 1",
 			"measure",
 			"measures",
@@ -829,46 +827,7 @@
 			"gen",
 			" = ",
 			"twinkle",
-			"arg",
-			"songs",
-			"twinkle",
-			"\n    ",
-			"            ",
-			"           ",
-			"          ",
-			"         ",
-			"        ",
-			"       ",
-			"      ",
-			"     ",
-			"    ",
-			"symbol()",
-			"measure(",
-			"symbol(",
-			"measure(",
-			"Tune(",
-			"tune(",
-			"measure_list",
-			"symbol",
-			"measure",
-			"distance",
-			"copy",
-			"string",
-			"convert_to_float",
-			"compare_measure_list",
-			"0",
-			"compare_measure_list2",
-			"E",
-			"chord_weights",
-			"WEIGHTS",
-			"0",
-			"E",
-			"print",
-			"compare_measure_list",
-			"compare_measure_list2",
-			"self.chord_weights",
-			"chord_weights",
-			"float(Fraction"
+			"arg"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -889,177 +848,14 @@
 	"groups":
 	[
 		{
-			"selected": 4,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/abc_generator.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1514,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"SL.278.region_keys":
-							[
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 54.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/algorithms/genetic.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2434,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"SL.289.region_keys":
-							[
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 324.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/models/tune.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5246,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"SL.308.region_keys":
-							[
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/models/measure.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4497,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"SL.282.region_keys":
-							[
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 324.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/models/symbol.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3824,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3177,
-								3177
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1242.4,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 29.0
 	},
 	"input":
 	{
@@ -1114,12 +910,12 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 508.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 382.0
 	},
 	"select_symbol":
 	{
