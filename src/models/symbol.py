@@ -1,12 +1,22 @@
-import random 
-from Levenshtein import distance
+import random
 
+from Levenshtein import distance
 from utils.convert import convert_to_float
-from utils.pitch import distance as pitch_dist
+
 
 class Symbol():
-    """docstring for symbol"""
-    def __init__(self, note = "", length = "1", prefix = "", suffix = "", string = None):
+    """Class for representing a symbol """
+
+    def __init__(self, note="", length="1", prefix="", suffix="", string=None):
+        """Initialize the class
+
+        Arguments:
+        note -- the note of the symbol
+        length -- the length of the symbol
+        prefix -- the prefix of the symbol
+        suffix -- the suffix of the symbol
+        string -- a string to initialize the symbol
+        """
         self.prefix = prefix
         self.note = note
         self.suffix = suffix
@@ -14,30 +24,38 @@ class Symbol():
         self.locked = False
 
         if string:
-            self.parse_string(string)  
+            self.parse_string(string)
 
     def __repr__(self):
         return self.prefix + self.note + self.suffix + self.length
 
     def __str__(self):
-        return self.__repr__()    
-        
+        return self.__repr__()
+
     def __copy__(self):
-        copy_object = Symbol(note = self.note, length = self.length, prefix = self.prefix, suffix = self.suffix)
+        copy_object = Symbol(
+            note=self.note,
+            length=self.length,
+            prefix=self.prefix,
+            suffix=self.suffix)
         return copy_object
 
     def __deepcopy__(self, memodict={}):
-        copy_object = Symbol(note = self.note, length = self.length, prefix = self.prefix, suffix = self.suffix)
-        return copy_object                   
+        copy_object = Symbol(
+            note=self.note,
+            length=self.length,
+            prefix=self.prefix,
+            suffix=self.suffix)
+        return copy_object
 
     def parse_string(self, string):
-        """Parse and convert a string into a list of measures 
+        """Parse and convert a string into a list of measures
 
         Arguments:
         string -- the string to parse
         """
         idx = 0
-        
+
         if string[0].isalpha():
             self.note = string[idx]
             idx += 1
@@ -46,7 +64,7 @@ class Symbol():
             idx += 1
             self.note = string[idx]
             idx += 1
-        
+
         if idx < len(string):
             try:
                 convert_to_float(string[idx:])
@@ -56,7 +74,7 @@ class Symbol():
                 idx += 1
                 self.length = string[idx:]
 
-    def gen_prefix(self, WEIGHTS, PITCH_PREFIXES = ['', '^', '=', '_']):
+    def gen_prefix(self, WEIGHTS, PITCH_PREFIXES=['', '^', '=', '_']):
         """Return a random prefix weighted with WEIGHTS
 
         Arguments:
@@ -65,7 +83,8 @@ class Symbol():
         """
         return random.choices(PITCH_PREFIXES, weights=WEIGHTS['PITCH_P'])[0]
 
-    def gen_suffix(self, WEIGHTS, upper = True, PITCH_LOWER_SUFFIXES = ['', '\''], PITCH_UPPER_SUFFIXES = ['', ',']):
+    def gen_suffix(self, WEIGHTS, upper=True, PITCH_LOWER_SUFFIXES=[
+                   '', '\''], PITCH_UPPER_SUFFIXES=['', ',']):
         """Return a random suffix weighted with WEIGHTS
 
         Arguments:
@@ -74,11 +93,14 @@ class Symbol():
         PITCH_UPPER_SUFFIXES -- optional suffixes for uppercase pitches
         """
         if upper:
-            return random.choices(PITCH_UPPER_SUFFIXES, weights=WEIGHTS['PITCH_S'])[0]
+            return random.choices(PITCH_UPPER_SUFFIXES,
+                                  weights=WEIGHTS['PITCH_S'])[0]
         else:
-            return random.choices(PITCH_LOWER_SUFFIXES, weights=WEIGHTS['PITCH_S'])[0]
+            return random.choices(PITCH_LOWER_SUFFIXES,
+                                  weights=WEIGHTS['PITCH_S'])[0]
 
-    def gen_length(self, WEIGHTS, beats_left, LENGTH_SUFFIXES = ['1', '2', '3', '4', '6', '8', '12', '1/2', '3/2', '1/4']):
+    def gen_length(self, WEIGHTS, beats_left, LENGTH_SUFFIXES=[
+                   '1', '2', '3', '4', '6', '8', '12', '1/2', '3/2', '1/4']):
         """Return a random length weighted with WEIGHTS that's less than beats_left
 
         Arguments:
@@ -86,11 +108,15 @@ class Symbol():
         beats_left -- number of beats left in the measure
         LENGTH_SUFFIXES -- optional suffixes for lengths
         """
-        lengths_left = [suffix for suffix in LENGTH_SUFFIXES if convert_to_float(suffix) <= beats_left]
+        lengths_left = [
+            suffix for suffix in LENGTH_SUFFIXES if
+            convert_to_float(suffix) <= beats_left]
         weights_left = WEIGHTS['LENGTH'][:len(lengths_left)]
         return random.choices(lengths_left, weights=weights_left)[0]
 
-    def gen_note(self, note_weights, NOTE_NAMES = ["a", "b", "c", "d", "e", "f", "g", "A", "B", "C", "D", "E", "F", "G", "z"]):
+    def gen_note(self, note_weights, NOTE_NAMES=[
+            "a", "b", "c", "d", "e", "f", "g",
+            "A", "B", "C", "D", "E", "F", "G", "z"]):
         """Return a random note weighted with note_weights
 
         Arguments:
@@ -114,8 +140,12 @@ class Symbol():
         return self.length
 
     def dist(self, other):
-         """Returns the distance (or cost) from one tune to another"""
-        return distance(self.prefix, other.prefix) + distance(self.note, other.note) + distance(self.suffix, other.suffix) + distance(self.length,other.length)
+        """Returns the distance (or cost) from one tune to another"""
+        prefix_dist = distance(self.prefix, other.prefix)
+        note_dist = distance(self.note, other.note)
+        suffix_dist = distance(self.suffix, other.suffix)
+        length_dist = distance(self.length, other.length)
+        return prefix_dist + note_dist + suffix_dist + length_dist
 
     def lock_symbol(self, other):
         """Locks symbol if it is equal to other"""
@@ -140,8 +170,8 @@ class Symbol():
 
         if self.suffix != "":
             self.suffix = self.gen_suffix(WEIGHTS, self.note.isupper())
-        
+
         if self.note != 'z' and random.randint(1, 100) < 50:
             self.prefix = self.gen_prefix(WEIGHTS)
-            
+
         return self.length
