@@ -58,6 +58,7 @@ class Genetic():
             #Compute fitness
             fit = sorted([tune for tune in fit], key = lambda x: x.dist(self.dest))
             
+            # yield gen, best cost, and best tune if the new best fit is better than the old best
             if self.best_dist > fit[0].dist(self.dest):
                 self.best = fit[0]
                 self.best_dist = fit[0].dist(self.dest)

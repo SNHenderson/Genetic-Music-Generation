@@ -42,6 +42,11 @@ class Measure():
         return copy_object            
 
     def parse_string(self, string):
+        """Parse and convert a string into a list of measures 
+
+        Arguments:
+        string -- the string to parse
+        """
         end = string[1:].index('"')
         self.chord = string[1:end + 1]
         self.symbols = [Symbol(string = s) for s in string[end + 3:].split(" ")]            
@@ -154,5 +159,3 @@ class Measure():
                     i = self.select()
                     beats_left += convert_to_float(self.symbols[i - 1].length)
                     beats_left -= convert_to_float(self.symbols[i - 1].mutate(WEIGHTS, note_weights, beats_left))
-
-            #i = (i + 1) % len(self.symbols)
