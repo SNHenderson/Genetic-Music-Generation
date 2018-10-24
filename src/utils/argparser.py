@@ -9,6 +9,7 @@ def parse():
                         help="The size of the population")
     parser.add_argument("-m", "--max", type=int, help="The max generation")
     parser.add_argument("-s", "--seed", type=int, help="Random seed")
+    parser.add_argument("-r", "--reverse", action='store_true', help="Reverse the order of the final song")
     parser.add_argument(
         "-c",
         "--cost",

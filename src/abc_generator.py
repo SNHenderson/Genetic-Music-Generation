@@ -14,7 +14,8 @@ def run():
     # parse arguments
     args = argparser.parse()
 
-    big_tune = ""
+    # big_tune = ""
+    big_tune = []
 
     # load song
     try:
@@ -43,13 +44,18 @@ def run():
         cost_log.append(generation[1])
         print("Generation: {:4d} | Cost: {:3d} | Best: {}".format(*generation))
         if not gen.gen % generation_n:
-            big_tune += "| " + str(gen.best)
+            big_tune.append(gen.best)
+            #big_tune += "| " + str(gen.best)
 
     # add final song to tune
     if gen.gen % generation_n or gen.best_dist != 0:
-        big_tune += "| " + str(song)
+        big_tune.append(song)
+        #big_tune += "| " + str(song)
 
     # format as ABC notation
+    if args.reverse:
+        big_tune.reverse()
+
     best = ABC_PREFIX.format(
         song.title + " " + title,
         song.note_count,
@@ -57,7 +63,8 @@ def run():
         song.note_duration,
         song.note_bar,
         song.key,
-        big_tune + " |]")
+        "\n| ".join([str(gen) for gen in big_tune]) + " |]")
+        #big_tune + " |]")
 
     # Save song
     with open('generated_songs/{}.abc'.format(title), 'w') as file:

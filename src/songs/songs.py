@@ -3,6 +3,41 @@ from models.symbol import Symbol
 from models.tune import Tune
 
 """Tunes are encoded in this file"""
+# X: 2
+# T: Mandad'ei comigo
+# N: 
+# M: 3/4
+# L: 1/4
+# Q: 1/4=160
+# K: G Mixolydian
+# V:1
+# %Staff 1
+# # %%MIDI program 74
+# # %
+#  (BG2)|(AB2)|(Bd2)|(cBA)|(BA>G)|G3|
+#  (AG2)|(AB2)|(Bd2)|(cBA)|G3|(GF2)|
+#  (GA2)|B3|(AG2)|(AGF)|(GA/B/c)|(BAB)|G3||
+DiesIrae = Tune(
+    title="Dies Irae",
+    note_count=6,
+    bars=8,
+    note_duration=1,
+    note_bar=4,
+    key='F',
+    string=('"Dm" F3|"Dm" E3|"Dm" F3|"Dm" D3|"Dm" E3|"Dm" C3|"Dm" D3|"Dm" D3|'
+            '"Dm" F3|"Dm" F3|"Dm" G3|"Dm" F3|"Dm" E3|"Dm" D3|"Dm" C3|"Dm" E3|"Dm" F3|"Dm" E3|"Dm" E3|"Dm" D3|"Dm" D3|"Dm" D3'))
+
+Mandad = Tune(
+    title="Mandad'ei comigo",
+    note_count=3,
+    bars=4,
+    note_duration=1,
+    note_bar=4,
+    key='C',
+    string=('"G" B G2|"G" A B2|"G" B d2|"G" c B A|"G" B A3/2 G1/2|"G" G3|'
+            '"G" A G2|"G" A B2|"G" B d2|"G" c B A|"G" G3|"F" G F2|'
+            '"G" G A2|"G" B3|"G" A G2|"F" A G F|"G" G A1/2 B1/2 c|"G" B A B|"G" G3'))
+
 Lichfield = Tune(
     title="Lichfield",
     note_count=4,

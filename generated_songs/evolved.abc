@@ -1,0 +1,19 @@
+X:1
+T:Mandad'ei comigo evolved
+M:3/4
+L:1/4
+K:C
+Q:1/4=300
+%%MIDI gchord c
+%%MIDI program 19
+%%MIDI chordprog 19
+% Organ
+"G" B1 G2 | "G" A1 B2 | "G" B1 d2 | "G" c1 B1 A1 | "G" B1 A3/2 G1/2 | "G" G3 | "G" A1 G2 | "G" A1 B2 | "G" B1 d2 | "G" c1 B1 A1 | "G" G3 | "F" G1 F2 | "G" G1 A2 | "G" B3 | "G" A1 G2 | "F" A1 G1 F1 | "G" G1 A1/2 B1/2 c1 | "G" B1 A1 B1 | "G" G3
+| "G" B1 G2 | "G" A1 B2 | "G" B1 d2 | "G" c1 D1 c1 | "G" B1 A3/2 G1/2 | "G" G3 | "G" A1 G2 | "G" A1 B2 | "G" B1 d2 | "G" c1 d1 A1 | "G" G3 | "F" G1 F2 | "G" G1 A2 | "G" B3 | "G" A1 G2 | "F" A1 G1 F1 | "G" G1 A1/2 b1/2 c1 | "G" B1 A1 D1 | "G" G3
+| "G" B1 G2 | "G" A1 B2 | "G" f1 d2 | "G" c1 B2 | "G" d1 A3/2 G1/2 | "G" G3 | "G" c1 G2 | "G" A1 c2 | "G" B1 g2 | "G" c1 d1 a1 | "G" G3 | "F" G1 F2 | "G" G1 A2 | "G" B3 | "G" A1 G2 | "F" A1 G1 F1 | "G" B1 A1/2 b1/2 c1 | "G" b1 b1 D1 | "G" G3
+| "G" C1 z2 | "G" A1 B2 | "G" f1 g2 | "G" c1 B2 | "G" _d1 g3/2 d1/2 | "G" G3 | "G" c1 f2 | "G" A1 c2 | "G" g1 C2 | "G" c1 d1 a1 | "G" G3 | "F" f1 f2 | "G" G1 A2 | "G" B3 | "G" A1 G2 | "F" A1 G1 F1 | "G" B1 A1/2 b1/2 d1 | "G" b1 b1 D1 | "G" G3
+| "G" C1 z2 | "G" a1 z2 | "G" f1 g2 | "G" ^g1 a1 =D1 | "G" _d1 g3/2 d1/2 | "G" G3 | "G" c1 f2 | "G" A1 c2 | "G" g1 C2 | "G" d1 a1 ^A1 | "G" G3 | "F" f1 f2 | "G" G1 A2 | "G" B3 | "G" B,1 G2 | "F" A1 c1 F1 | "G" F1 a3/2 D1/2 | "G" b1 b1 D1 | "G" G3
+| "G" _f1 c2 | "F" a1 z2 | "G" g1 d2 | "G" a1/2 e1 g1 a1/2 | "G" _d1 g3/2 d1/2 | "G" G3 | "F" c3 | "G" A1 c2 | "F" g1 C2 | "G" d1 a1 ^A1 | "G" G3 | "F" z1 f2 | "G" G1 A2 | "F" f3 | "F" g3 | "F" a1 A1 F,1 | "G" F1 a3/2 D1/2 | "G" b1 b1 D1 | "G" G3
+| "G" _C1 ^c1 ^c1 | "F" G3 | "G" =g1 z2 | "G" a1/2 e1 g1 a1/2 | "G" _d1 g3/2 d1/2 | "G" G3 | "F" d1 E1 C1 | "G" A1 c2 | "F" g1 C2 | "G" A3 | "G" G3 | "F" f2 z1 | "F" G1 A2 | "F" f3 | "F" g3 | "G" c'1 A1 F,1 | "G" D3 | "G" b1 b1 D1 | "G" G3
+| "G" _C1 ^c1 ^c1 | "F" G3 | "F" _A1 g1 G,1 | "G" a1/2 e1 g1 a1/2 | "G" z1 g3/2 d1/4 f1/4 | "G" G3 | "F" e1 A1 ^G1/4 f1/2 C1/4 | "G" _C3 | "F" g1 C2 | "F" A3 | "G" D3 | "F" f2 z1 | "F" z2 =C1 | "G" c2 D1/2 B,1/2 | "F" g3 | "G" c'1 A1 F,1 | "G" D3 | "G" b1 b1 D1 | "G" G3
+| "G" _C1 ^c1 ^c1 | "F" G3 | "F" _A1 g1 G,1 | "F" F1/2 e2 a1/2 | "G" =F1 z3/2 g1/4 C1/4 | "G" G3 | "F" e1 A1 ^G1/4 f1/2 C1/4 | "G" _C3 | "G" b1/2 z1/4 g2 _F1/4 | "C" A3 | "G" D3 | "Am" z2 z1/4 g1/2 _B1/4 | "F" z2 =C1 | "Am" c2 D1/2 B,1/2 | "C" F1/2 _d2 f1/2 | "Am" c'1 A1 F,1 | "Bdim" =F2 =D,1 | "G" b1 b1 D1 | "F" A,1 A1/2 B3/2 |]
