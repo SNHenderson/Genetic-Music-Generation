@@ -14,7 +14,7 @@ def parse():
         "-c",
         "--cost",
         type=int,
-        help="The cost to stop elvolving at")
+        help="The cost to stop evolving at")
     parser.add_argument(
         "-n",
         "--number",
