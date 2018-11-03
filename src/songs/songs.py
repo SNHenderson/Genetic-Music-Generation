@@ -3,20 +3,6 @@ from models.symbol import Symbol
 from models.tune import Tune
 
 """Tunes are encoded in this file"""
-# X: 2
-# T: Mandad'ei comigo
-# N: 
-# M: 3/4
-# L: 1/4
-# Q: 1/4=160
-# K: G Mixolydian
-# V:1
-# %Staff 1
-# # %%MIDI program 74
-# # %
-#  (BG2)|(AB2)|(Bd2)|(cBA)|(BA>G)|G3|
-#  (AG2)|(AB2)|(Bd2)|(cBA)|G3|(GF2)|
-#  (GA2)|B3|(AG2)|(AGF)|(GA/B/c)|(BAB)|G3||
 DiesIrae = Tune(
     title="Dies Irae",
     note_count=6,
