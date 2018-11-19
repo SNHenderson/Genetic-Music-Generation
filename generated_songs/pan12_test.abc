@@ -1,0 +1,53 @@
+X:1
+T:Panning evolved
+M:4/4
+L:1/16
+K:B
+z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1
+| c1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1
+| c1 z1 a1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1
+| c1 z1 z1 z1 z1 z1 z1 ^b1 z1 z1 z1 B1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1
+| z1 z1 z1 z1 z1 z1 z1 z1/2 z1 z2 z1/2 B1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1
+| z1 z1 z1 z1 z1 z1 B1 z1/2 z1 z2 z1/2 B1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1
+| z1 z1 z1 z1 z1 z1 z1 E1 z1/2 z2 z1/2 B1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 e1 z1 z1
+| z1 z1 z1 z1 z1 z1 z1 E1 z1/2 z2 z1/2 B1 z1 f1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 e1 z1 z1
+| z1 z1 z1 z1 z1 z1 z1 E1 z1/2 z2 z1/2 B1 z1 f1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 A1 B1 z1 e1 z1 z1
+| A1 z1 z1 z1 z1 z1 z1 E1 z1/2 z2 z1/2 B1 z1 f1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 A1 B1 z1 e1 z1 z1
+| f1 z1 E1 z1 z1 z1 z1 E1 z1/2 z2 z1/2 B1 z1 E1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 A1 B1 z1 e1 z1 z1
+| f1 z1 E1 z1 z1 z1 z1 E1 z1/2 z2 z1/2 B1 z1 a1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 A1 B1 z1 e1 z1 b1
+| z1 f1 z1 e1 z1 z1 z1 E1 z1/2 z2 z1/2 B1 z1 B1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 A1 B1 z1 e1 F1 b1
+| f1 z1 E1 e1 z1 z1 z1 E1 z1/2 z2 z1/2 B1 z1 a1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 A1 B1 z1 e1 F1 b1
+| f1 z1 E1 e1 z1 z1 B1 E1 z1/2 z2 z1/2 B1 z1 a1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 A1 B1 z1 e1 F1 b1
+| f1 z1 E1 e1 z1 C1 B1 E1 z1/2 z2 z1/2 B1 z1 a1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 A1 B1 z1 e1 F1 b1
+| f1 z1 E1 e1 z1 C1 B1 E1 z1/2 z2 z1/2 B1 z1 a1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 A1 B1 z1 e1 F1 b1
+| f1 z1 E1 e1 z1 C1 B1 E1 z1/2 z2 z1/2 B1 z1 a1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 A1 B1 f1 e1 F1 b1
+| f1 z1 E1 e1 z1 C1 B1 E1 z1/2 z2 z1/2 B1 =F1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 A1 B1 f1 e1 F1 b1
+| f1 f1 E1 e1 z1 C1 B1 E1 z1/2 z2 z1/2 B1 =F1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 A1 B1 f1 e1 F1 b1
+| f1 f1 E1 e1 z1 C1 B1 E1 z1/2 z2 z1/2 B1 =F1 z1 z1 z1 | b1 z1 z1 z1 z1 z1 z1 B1 z1 z1 A1 B1 f1 e1 F1 b1
+| f1 f1 E1 e1 z1 C1 B1 E1 z1 z2 z1 B1 F1/2 z1 z1 z1/2 | b1 B1 z1 b1 z1 z1 z1 B1 G1 z1 A1 B1 f1 e1 F1 z1
+| f1 f1 E1 e1 z1 C1 B1 E1 z1/2 z2 z1/2 B1 =F1 z1 z1 z1 | b1 B1 z1 b1 z1 z1 z1 B1 z1 z1 A1 B1 f1 e1 F1 b1
+| f1 f1 E1 e1 z1 C1 B1 E1 z1/2 z2 z1/2 B1 =F1 z1 z1 z1 | b1 B1 z1 b1 z1 z1 z1 B1 G1 z1 A1 B1 f1 e1 F1 b1
+| f1 f1 E1 e1 z1 C1 B1 E1 z1/2 z2 z1/2 B1 =F1 z1 =a1 z1 | b1 B1 z1 b1 z1 z1 z1 B1 G1 z1 A1 B1 f1 e1 F1 b1
+| f1 f1 e1 z1 b1 B2 B1 E1 z1/2 z2 z1/2 B1 F1 f1 z1 | b1 B1 z1 B1 z1 z1 z1 B1 G1 z1 A1 B1 f1 e1 F1 b1
+| f1 f1 e1 z1 b1 B2 B1 E1 z1/2 z2 z1/2 B1 =F1 f1 z1 | b1 B1 z1 B1 z1 z1 z1 B1 G1 z1 A1 B1 f1 e1 F1 b1
+| f1 f1 e1 z1 b1 B2 B1 E1 z1/2 z2 z1/2 B1 =F1 f1 z1 | B1 =C1 z1 B1 z1 z1 z1 B1 G1 z1 A1 B1 f1 e1 F1 B1
+| f1 f1 e1 z1 b1 B2 B1 E1 z1/2 z2 z1/2 B1 =F1 f1 z1 | B1 E2 z1 B1 z1 z1 z1 B1 G1 z1 A1 B1 f1 F1 B1
+| f1 f1 e1 z1 b1 D1 B2 B1 E1 z1/2 z2 z1/2 B1 F1 z1 | B1 E2 z1 B1 z1 z1 z1 B1 G1 z1 A1 B1 f1 F1 B1
+| f1 f1 e1 z1/2 b1 D1 B2 B1 E1 z1/2 z2 B1/2 B1 z1 F1/2 z1 | B1 E2 z1 B1 z1 z1 z1 B1 G1 z1 A1 B1 f1 F1 B1
+| f1 f1 e1 z1/2 b1 D1 B2 B1 E1 z1/2 z2 z1/2 B1 z1 F1/2 z1 | B1 E2 z1 B1 z1 z1 z1 B1 G1 z1 A1 B1 f1 F1 B1
+| f1 f1 e1 z1/2 b1 D1 B2 B1 E1 z1/2 z2 z1/2 B1 z1 F1/2 z1 | B1 E2 z1 G1 B1 z1 z1 B1 G1 z1 A1 B1 f1 D1 B1
+| f1 e1 z1/2 b1 D1 B2 B1 E1 z1/2 z2 z1/2 B1 z1 F2 _d1/2 | B1 E2 z1 G1 B1 z1 z1 B1 G1 z1 A1 B1 f1 D1 B1
+| f1 e1 z1/2 b1 D1 B2 B1 E1 z1/2 z2 z1/2 =B1 z1 F2 _d1/2 | B1 E2 z1 G1 B1 z1 z1 B1 G1 z1 A1 B1 f1 D1 B1
+| f1 e1 z1/2 z3 D1 e2 B1 E1 z1/2 z2 F1/2 =B1 z1 _d1/2 | B1 E2 z1 G1 B1 z1 z1 B1 G1 z1 A1 B1 f1 D1 B1
+| f1 e1 z1/2 z3 D1 e2 B1 E1 z1/2 z2 F1/2 =B1 z1 _d1/2 | B1 E2 G1 B1 B1 z1 z1 B1 G1 z1 A1 B1 f1 D1 B1
+| f1 e1 E1/2 z3 D1 e2 b1 E1 z1/2 z2 F1/2 =b1 z1 _d1/2 | B1 G1 B1 c1 B1 z1 z1 B1 G1 b1 z1 A1 B1 f1 D1 B1
+| f1 e1 E1/2 z3 D1 e2 b1 E1 z1/2 z2 F1/2 =b1 z1 _d1/2 | B1 E2 G1 B1 B1 z1 z1 B1 G1 z1 A1 B1 f1 D1 B1
+| f1 e1 E1/2 z3 D1 e2 b1 E1 z1/2 z2 F1/2 =b1 z1 _d1/2 | E2 G1 B1 B1 z1 B1 G1 z1 B2 A1 B1 f1 D1 B1
+| f1 e1 E1/2 z3 D1 e2 b1 E1 z1/2 z2 F1/2 =b1 z1 _d1/2 | E2 G1 B1 =e1 z1 G1 z1 A1 B1 f1 D3 D1 B1
+| f1 e1 E1/2 z3 D1 e2 b1 E1 z1/2 z2 F1/2 =b1 z1 _d1/2 | E2 G1 B1 =e1 z1 G1 z1 A1 ^f1 f1 D3 D1 B1
+| f1 e1 E1/2 z3 D1 e2 b1 E1 z1/2 z2 F1/2 =b1 z1 _d1/2 | E2 G1 B2 =e1 G1 z1 A1 ^f1 f1 D3 D1 B1
+| f1 b1 z3 D1 e2 E1 _B2 z1/2 z2 =E1 z1 _d1/2 | E2 B2 B1 z1 A1 f1 D1 z6 B1
+| a1 b6 F3 F1 z4 B1/4 ^C1/2 z1/4 | E2 B2 B1 z1 A1 f1 D1 z6 B1
+| _f1 g1 E1 _e1 D1 B1 F1 =E,1 a6 e2 | ^E1 b4 ^C1 =g4 z1 z2 C1 g1 _E1
+| a1 b6 F3 F1 z4 B1/4 ^C1/2 z1/4 | D1 E2 B2 E1 F2 F,1 z6 C1
+| a1 b6 F3 F1 z4 B1/4 ^C1/2 z1/4 | G1 _B,2 F2 z6 b1 c4 |]
