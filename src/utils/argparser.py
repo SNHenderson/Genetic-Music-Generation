@@ -23,7 +23,7 @@ def parse():
     parser.add_argument(
         "-t",
         "--title",
-        type=int,
+        type=str,
         help="The title of the file to save")
 
     return parser.parse_args()

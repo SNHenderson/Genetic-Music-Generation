@@ -472,21 +472,11 @@
 	"buffers":
 	[
 		{
-			"file": "src/models/tune.py",
+			"file": "src/models/symbol.py",
 			"settings":
 			{
-				"buffer_size": 7375,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/models/measure.py",
-			"settings":
-			{
-				"buffer_size": 5877,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"buffer_size": 6028,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -562,17 +552,15 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/sayhen/git/composition",
-		"/C/Users/sayhen/git/composition/bin",
-		"/C/Users/sayhen/git/composition/src",
-		"/C/Users/sayhen/git/composition/src/algorithms",
-		"/C/Users/sayhen/git/composition/src/algorithms/__pycache__",
-		"/C/Users/sayhen/git/composition/src/models",
-		"/C/Users/sayhen/git/composition/src/songs",
-		"/C/Users/sayhen/git/composition/src/utils"
+		"/home/samuel/git/Genetic-Music-Generation",
+		"/home/samuel/git/Genetic-Music-Generation/src",
+		"/home/samuel/git/Genetic-Music-Generation/src/models",
+		"/home/samuel/git/Genetic-Music-Generation/src/songs"
 	],
 	"file_history":
 	[
+		"/home/samuel/git/Genetic-Music-Generation/src/models/measure.py",
+		"/home/samuel/git/Genetic-Music-Generation/src/models/tune.py",
 		"/C/Users/sayhen/git/composition/src/models/tune.py",
 		"/C/Users/sayhen/git/composition/src/abc_generator.py",
 		"/C/Users/sayhen/git/composition/src/utils/pitch.py",
@@ -698,13 +686,11 @@
 		"/c/users/sayhen/appdata/local/temp/rsub-we83x5/job_test.json",
 		"/c/users/sayhen/appdata/local/temp/rsub-bla9d8/objectstore.go",
 		"/c/users/sayhen/appdata/local/temp/rsub-kqmx2r/responses.go",
-		"/c/users/sayhen/appdata/local/temp/rsub-7g7m8b/object.go",
-		"/c/users/sayhen/appdata/local/temp/rsub-p4x65l/object.go",
-		"/c/users/sayhen/appdata/local/temp/rsub-9_7nqi/responses.go"
+		"/c/users/sayhen/appdata/local/temp/rsub-7g7m8b/object.go"
 	],
 	"find":
 	{
-		"height": 41.0
+		"height": 39.886039886
 	},
 	"find_in_files":
 	{
@@ -718,6 +704,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"PITCH",
 			"measure",
 			"e \"\"\"",
 			" \"\"\"",
@@ -844,8 +831,7 @@
 			"= ",
 			".gen",
 			"gen",
-			"best",
-			"best_dist"
+			"best"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -866,70 +852,34 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/models/tune.py",
-					"semi_transient": false,
+					"file": "src/models/symbol.py",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 7375,
+						"buffer_size": 6028,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5564,
-								5455
+								2411,
+								2416
 							]
 						],
 						"settings":
 						{
-							"SL.70.region_keys":
-							[
-							],
 							"syntax": "Packages/Python/Python.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1998.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/models/measure.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5877,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4761,
-								4761
-							]
-						],
-						"settings":
-						{
-							"SL.72.region_keys":
-							[
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1944.0,
+						"translation.y": 1210.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
