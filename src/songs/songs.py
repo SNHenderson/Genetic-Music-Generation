@@ -24,6 +24,168 @@ Mandad = Tune(
             '"G" A G2|"G" A B2|"G" B d2|"G" c B A|"G" G3|"F" G F2|'
             '"G" G A2|"G" B3|"G" A G2|"F" A G F|"G" G A1/2 B1/2 c|"G" B A B|"G" G3'))
 
+pan_16 = Tune(
+    title="Panning",
+    note_count=4,
+    bars=4,
+    note_duration=1,
+    note_bar=16,
+    key="B",
+    string=('"B" z z z z z z z z z z z z z z z B|"B" z z z z z z z z z z z z z z z B'))
+
+pan_15 = Tune(
+    title="Panning",
+    note_count=4,
+    bars=4,
+    note_duration=1,
+    note_bar=16,
+    key="B",
+    string=('"B" z z z z z z z z z z z z z z B z|"B" z z z z z z z z z z z z z z B z'))
+
+pan_14 = Tune(
+    title="Panning",
+    note_count=4,
+    bars=4,
+    note_duration=1,
+    note_bar=16,
+    key="B",
+    string=('"B" z z z z z z z z z z z z z B z z|"B" z z z z z z z z z z z z z B z z'))
+
+pan_13 = Tune(
+    title="Panning",
+    note_count=4,
+    bars=4,
+    note_duration=1,
+    note_bar=16,
+    key="B",
+    string=('"B" z z z z z z z z z z z z B z z z|"B" z z z z z z z z z z z z B z z z'))
+
+pan_12 = Tune(
+    title="Panning",
+    note_count=4,
+    bars=4,
+    note_duration=1,
+    note_bar=16,
+    key="B",
+    string=('"B" z z z z z z z z z z z B z z z z|"B" z z z z z z z z z z z B z z z z'))
+
+pan_11 = Tune(
+    title="Panning",
+    note_count=4,
+    bars=4,
+    note_duration=1,
+    note_bar=16,
+    key="B",
+    string=('"B" z z z z z z z z z z B z z z z z|"B" z z z z z z z z z z B z z z z z'))
+
+pan_10 = Tune(
+    title="Panning",
+    note_count=4,
+    bars=4,
+    note_duration=1,
+    note_bar=16,
+    key="B",
+    string=('"B" z z z z z z z z z B z z z z z z|"B" z z z z z z z z z B z z z z z z'))
+
+pan_9 = Tune(
+    title="Panning",
+    note_count=4,
+    bars=4,
+    note_duration=1,
+    note_bar=16,
+    key="B",
+    string=('"B" z z z z z z z z B z z z z z z z|"B" z z z z z z z z B z z z z z z z'))
+
+pan_8 = Tune(
+    title="Panning",
+    note_count=4,
+    bars=4,
+    note_duration=1,
+    note_bar=16,
+    key="B",
+    string=('"B" z z z z z z z B z z z z z z z z|"B" z z z z z z z B z z z z z z z z'))
+
+pan_7 = Tune(
+    title="Panning",
+    note_count=4,
+    bars=4,
+    note_duration=1,
+    note_bar=16,
+    key="B",
+    string=('"B" z z z z z z B z z z z z z z z z|"B" z z z z z z B z z z z z z z z z'))
+
+pan_6 = Tune(
+    title="Panning",
+    note_count=4,
+    bars=4,
+    note_duration=1,
+    note_bar=16,
+    key="B",
+    string=('"B" z z z z z B z z z z z z z z z z|"B" z z z z z B z z z z z z z z z z'))
+
+pan_5 = Tune(
+    title="Panning",
+    note_count=4,
+    bars=4,
+    note_duration=1,
+    note_bar=16,
+    key="B",
+    string=('"B" z z z z B z z z z z z z z z z z|"B" z z z z B z z z z z z z z z z z'))
+
+pan_4 = Tune(
+    title="Panning",
+    note_count=4,
+    bars=4,
+    note_duration=1,
+    note_bar=16,
+    key="B",
+    string=('"B" z z z B z z z z z z z z z z z z|"B" z z z B z z z z z z z z z z z z'))
+
+pan_3 = Tune(
+    title="Panning",
+    note_count=4,
+    bars=4,
+    note_duration=1,
+    note_bar=16,
+    key="B",
+    string=('"B" z z B z z z z z z z z z z z z z|"B" z z B z z z z z z z z z z z z z'))
+
+pan_2 = Tune(
+    title="Panning",
+    note_count=4,
+    bars=4,
+    note_duration=1,
+    note_bar=16,
+    key="B",
+    string=('"B" z B z z z z z z z z z z z z z z|"B" z B z z z z z z z z z z z z z z'))
+
+pan_1 = Tune(
+    title="Panning",
+    note_count=4,
+    bars=4,
+    note_duration=1,
+    note_bar=16,
+    key="B",
+    string=('"B" B z z z z z z z z z z z z z z z|"B" B z z z z z z z z z z z z z z z'))
+
+Clarinet_2 = Tune(
+    title="Clarinet research",
+    note_count=3,
+    bars=4,
+    note_duration=1,
+    note_bar=16,
+    key="B",
+    string=('"B" B D F B D F B D F B D F'))
+
+Clarinet = Tune(
+    title="Clarinet research",
+    note_count=3,
+    bars=4,
+    note_duration=1,
+    note_bar=16,
+    key="B",
+    string=('"B" B B B B B B B B B B B B'))
+
 Lichfield = Tune(
     title="Lichfield",
     note_count=4,

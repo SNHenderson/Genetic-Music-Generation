@@ -49,6 +49,8 @@ class Genetic():
             # Crossover
             children = parent1.crossover(parent2, double_point=True)
 
+            new = []
+            
             if children:
                 new = [*children]
 
