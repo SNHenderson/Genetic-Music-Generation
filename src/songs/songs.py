@@ -31,7 +31,7 @@ pan_16 = Tune(
     note_duration=1,
     note_bar=16,
     key="B",
-    string=('"B" z z z z z z z z z z z z z z z B|"B" z z z z z z z z z z z z z z z B'))
+    string=('"B" z4 z2 z2 z4 z z z B|"B" z4 z2 z2 z4 z z z B'))
 
 pan_15 = Tune(
     title="Panning",
@@ -40,7 +40,7 @@ pan_15 = Tune(
     note_duration=1,
     note_bar=16,
     key="B",
-    string=('"B" z z z z z z z z z z z z z z B z|"B" z z z z z z z z z z z z z z B z'))
+    string=('"B" z4 z2 z2 z4 z z B z|"B" z4 z2 z2 z4 z z B z'))
 
 pan_14 = Tune(
     title="Panning",
@@ -49,7 +49,7 @@ pan_14 = Tune(
     note_duration=1,
     note_bar=16,
     key="B",
-    string=('"B" z z z z z z z z z z z z z B z z|"B" z z z z z z z z z z z z z B z z'))
+    string=('"B" z4 z2 z2 z4 z B z z|"B" z4 z2 z2 z4 z B z z'))
 
 pan_13 = Tune(
     title="Panning",
@@ -58,7 +58,7 @@ pan_13 = Tune(
     note_duration=1,
     note_bar=16,
     key="B",
-    string=('"B" z z z z z z z z z z z z B z z z|"B" z z z z z z z z z z z z B z z z'))
+    string=('"B" z4 z2 z2 z4 B z z z|"B" z4 z2 z2 z4 B z z z'))
 
 pan_12 = Tune(
     title="Panning",
@@ -67,7 +67,7 @@ pan_12 = Tune(
     note_duration=1,
     note_bar=16,
     key="B",
-    string=('"B" z z z z z z z z z z z B z z z z|"B" z z z z z z z z z z z B z z z z'))
+    string=('"B" z4 z4 z z z B z4|"B" z4 z4 z z z B z4'))
 
 pan_11 = Tune(
     title="Panning",
@@ -76,7 +76,7 @@ pan_11 = Tune(
     note_duration=1,
     note_bar=16,
     key="B",
-    string=('"B" z z z z z z z z z z B z z z z z|"B" z z z z z z z z z z B z z z z z'))
+    string=('"B" z4 z4 z z B z4 z|"B" z4 z4 z z B z4 z'))
 
 pan_10 = Tune(
     title="Panning",
@@ -85,7 +85,7 @@ pan_10 = Tune(
     note_duration=1,
     note_bar=16,
     key="B",
-    string=('"B" z z z z z z z z z B z z z z z z|"B" z z z z z z z z z B z z z z z z'))
+    string=('"B" z4 z4 z B z4 z z|"B" z4 z4 z B z4 z z'))
 
 pan_9 = Tune(
     title="Panning",
@@ -94,7 +94,7 @@ pan_9 = Tune(
     note_duration=1,
     note_bar=16,
     key="B",
-    string=('"B" z z z z z z z z B z z z z z z z|"B" z z z z z z z z B z z z z z z z'))
+    string=('"B" z4 z4 B z4 z z z|"B" z4 z4 B z4 z z z'))
 
 pan_8 = Tune(
     title="Panning",
@@ -103,7 +103,7 @@ pan_8 = Tune(
     note_duration=1,
     note_bar=16,
     key="B",
-    string=('"B" z z z z z z z B z z z z z z z z|"B" z z z z z z z B z z z z z z z z'))
+    string=('"B" z4 z z z B z4 z4|"B" z4 z z z B z4 z4'))
 
 pan_7 = Tune(
     title="Panning",
@@ -112,7 +112,7 @@ pan_7 = Tune(
     note_duration=1,
     note_bar=16,
     key="B",
-    string=('"B" z z z z z z B z z z z z z z z z|"B" z z z z z z B z z z z z z z z z'))
+    string=('"B" z4 z z B z4 z4 z|"B" z4 z z B z4 z4 z'))
 
 pan_6 = Tune(
     title="Panning",
@@ -121,7 +121,7 @@ pan_6 = Tune(
     note_duration=1,
     note_bar=16,
     key="B",
-    string=('"B" z z z z z B z z z z z z z z z z|"B" z z z z z B z z z z z z z z z z'))
+    string=('"B" z4 z B z4 z4 z z|"B" z4 z B z4 z4 z z'))
 
 pan_5 = Tune(
     title="Panning",
@@ -130,7 +130,7 @@ pan_5 = Tune(
     note_duration=1,
     note_bar=16,
     key="B",
-    string=('"B" z z z z B z z z z z z z z z z z|"B" z z z z B z z z z z z z z z z z'))
+    string=('"B" z4 B z4 z4 z z z|"B" z4 B z4 z4 z z z'))
 
 pan_4 = Tune(
     title="Panning",
@@ -139,7 +139,7 @@ pan_4 = Tune(
     note_duration=1,
     note_bar=16,
     key="B",
-    string=('"B" z z z B z z z z z z z z z z z z|"B" z z z B z z z z z z z z z z z z'))
+    string=('"B" z z z B z4 z2 z2 z4|"B" z z z B z4 z2 z2 z4'))
 
 pan_3 = Tune(
     title="Panning",
@@ -148,7 +148,7 @@ pan_3 = Tune(
     note_duration=1,
     note_bar=16,
     key="B",
-    string=('"B" z z B z z z z z z z z z z z z z|"B" z z B z z z z z z z z z z z z z'))
+    string=('"B" z z B z4 z2 z2 z4 z|"B" z z B z4 z2 z2 z4 z'))
 
 pan_2 = Tune(
     title="Panning",
@@ -157,7 +157,7 @@ pan_2 = Tune(
     note_duration=1,
     note_bar=16,
     key="B",
-    string=('"B" z B z z z z z z z z z z z z z z|"B" z B z z z z z z z z z z z z z z'))
+    string=('"B" z B z4 z2 z2 z4 z z|"B" z B z4 z2 z2 z4 z z'))
 
 pan_1 = Tune(
     title="Panning",
@@ -166,7 +166,7 @@ pan_1 = Tune(
     note_duration=1,
     note_bar=16,
     key="B",
-    string=('"B" B z z z z z z z z z z z z z z z|"B" B z z z z z z z z z z z z z z z'))
+    string=('"B" B z4 z2 z2 z4 z z z|"B" B z4 z2 z2 z4 z z z'))
 
 Clarinet_2 = Tune(
     title="Clarinet research",

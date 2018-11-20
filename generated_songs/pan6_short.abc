@@ -1,0 +1,30 @@
+X:1
+T:Panning pan6_short
+M:4/4
+L:1/16
+K:B
+Q: 1/4=60
+z4 z1 B1 z4 z4 z1 z1 | z4 z1 B1 z4 z4 z1 z1
+| z4 z1 B1 z4 b4 z1 z1 | z4 z1 B1 z4 z4 z1 z1
+| z4 z1 B1 z6 z2 z1 z1 | z4 z1 B1 z4 z4 z1 z1
+| z8 z1 B1 z2 z2 z1 z1 | z4 z1 B1 z4 z4 z1 z1
+| z8 z1 B1 z2 z2 z1 z1 | z4 z1 B1 z4 z4 d1 z1
+| z8 z1 B1 z2 z2 z1 z1 | z4 z1 B1 z2 z6 z1 z1
+| z8 z1 B1 z2 z2 z1 z1 | z4 z1 B6 z2 z1 z1 z1
+| z8 z1 B1 z2 z2 z1 z1 | z3 z1 B6 z2 z2 z1 z1
+| z8 z1 B1 z2 f2 z1 z1 | z3 z1 B6 z2 z2 z1 z1
+| d8 z1 B1 z2 f2 z1 z1 | z3 z1 B6 z2 z2 z1 z1
+| f8 B1 B1 z2 f2 z1 z1 | z3 z1 B6 z2 z2 z1 z1
+| f8 z1 d1 c1 z2 f2 z1 | z3 z1 B6 z2 z2 z1 z1
+| f8 z1 f1 c1 z2 ^F2 z1 | z3 z1 B6 z2 z2 z1 z1
+| ^F8 z1 f1 c1 z2 ^F2 z1 | z3 z1 B6 z2 z2 z1 z1
+| ^F8 z1 f1 c1 z2 ^F2 z1 | z3 z1 B6 z2 z2 F1 z1
+| ^F8 z1 f1 c1 G2 ^F2 z1 | z3 z1 B6 z2 z2 F1 z1
+| ^F8 z1 f1 c1 G2 F1 z2 | B3 z1 B6 z2 z2 F1 A1
+| ^F8 z1 f1 c1 G2 ^F2 z1 | B3 z1 B6 z2 z2 F1 A1
+| G2 G2 B2 D1 B6 D2 z1 | B3 z1 B6 e2 z2 F1 A1
+| G2 e'2 B2 D1 B6 D2 z1 | B3 z1 B6 e2 z2 F1 A1
+| G2 z3 B2 B6 D2 z1 | z1 B6 F2 d3 f1 z2 B1
+| G2 z2 B2 _D1 B6 D2 z1 | z1 B6 F2 d3 f1 z2 B1
+| G2 e'2 B2 _D1 B6 D2 z1 | z1 B6 F2 d3 f1 z2 B1
+| G2 e'2 B2 _D1 B6 D2 z1 | ^f1 =d1 a6 g1 b3 =f1 B3 |]

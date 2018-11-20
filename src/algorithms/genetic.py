@@ -79,6 +79,7 @@ class Genetic():
             # yield gen, best cost, and best tune if the new best fit is better
             # than the old best
             if self.best_dist > fit[0].dist(self.dest):
+            #if self.best.dist(fit[0]) != 0:
                 self.best = fit[0]
                 self.best_dist = fit[0].dist(self.dest)
                 self.gen += 1

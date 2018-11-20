@@ -1,0 +1,28 @@
+X:1
+T:Panning pan7_short
+M:4/4
+L:1/16
+K:B
+Q: 1/4=60
+z4 z1 z1 B1 z4 z4 z1 | z4 z1 z1 B1 z4 z4 z1
+| z4 z1 z1 B1 z4 z4 z1 | z2 z1 z1 B1 z4 z6 z1
+| z4 z1 z1 B1 z4 z4 z1 | z2 z1 z1 B1 z8 z2 z1
+| z4 z1 z1 B1 z2 z4 z3 | z2 z1 z1 B1 z8 z2 z1
+| z4 z1 z1 B1 z2 z4 z3 | z2 z1 z1 B1 z8 a2 z1
+| z4 z1 z1 B1 z2 z4 z3 | z1 z1 z2 B1 z8 a2 z1
+| z4 z1 F1 B1 z2 z4 z3 | z1 z1 z2 B1 z8 a2 z1
+| z4 z1 b1 B1 F2 z4 z3 | z1 z1 z2 B1 z8 a2 z1
+| z4 z1 b1 C1 F2 z4 z3 | z1 z1 z2 B1 z8 a2 z1
+| z4 z1 b1 C1 F2 z4 z3 | z1 z1 z2 B1 _a8 b2 z1
+| z4 z1 b1 C1 F2 z4 z3 | E1 z1 z2 B2 e1 b8 z1
+| z4 z1 b1 C1 F2 z4 z3 | E2 z1 c1 B2 e1 b8 F1
+| z4 z1 C1 F2 b1 z4 z3 | E2 z1 c1 B2 e1 b8 F1
+| z4 z1 C1 F2 b1 z4 z3 | E2 z1 c1 f2 e1 b8 F1
+| g4 z1 C1 F2 b1 z4 z3 | E2 z1 c1 f2 e1 b8 F1
+| g4 C1 F2 E2 z4 z3 | E2 z1 c1 f2 e1 b8 F1
+| g4 C1 F2 E2 z4 z3 | E2 z1 c1 ^A2 e1 b8 F1
+| g4 C1 F2 E2 E4 z3 | E2 z1 c1 ^A2 e1 b8 F1
+| C1 E1 z2 =C1 B4 c3 e2 B2 | E2 c1 z2 ^E1 z1 b8 F1
+| g4 E2 E4 F3 z3 | E2 c1 ^A2 ^E1 e1 b8 F1
+| C1 E1 z2 =C1 B4 c3 e2 B2 | E2 c1 ^A2 ^E1 e1 b8 F1
+| C1 E1 z2 =C1 B4 c3 e2 B2 | E2 c1 ^A2 ^E1 e1 b8 F1 |]

@@ -1,0 +1,220 @@
+X:1
+T:Panning evolved
+M:4/4
+L:1/16
+K:B
+Q: 1/4=60
+V: P9
+z4 z4 B1 z4 z1 z1 z1 | z4 z4 B1 z4 z1 z1 z1
+| z4 z4 B1 z3 z1 z1 z2 | z4 z4 B1 z4 z1 z1 z1
+| f4 z4 B1 z3 z1 z1 z2 | z4 z4 B1 z4 z1 z1 z1
+| z3 z6 B1 z1 z1 z3 z1 | z4 z4 B1 z4 z1 z1 z1
+| z2 z6 B2 z1 z1 z3 z1 | z4 z4 B1 z4 z1 z1 z1
+| z2 z6 B2 z1 z1 z3 z1 | z4 z4 ^B1 z4 z1 z1 z1
+| z2 z6 B2 z1 z1 z3 z1 | z3 z4 B2 z4 z1 z1 z1
+| z2 z6 B2 z1 z1 z3 B1 | z3 z4 B2 z4 z1 z1 z1
+| z2 z6 B2 z1 z1 z3 B1 | z3 z4 B2 z4 B1 z1 z1
+| d2 z6 B2 z1 z1 z3 B1 | z3 z4 B2 z4 B1 z1 z1
+| d2 z6 B2 z1 z1 z3 B1 | z3 z4 B3 z3 B1 z1 z1
+| d2 z6 B2 z1 z1 z3 B1 | z3 z4 b3 z3 B1 z1 z1
+| d2 z6 B2 g1 z1 z3 B1 | z3 z4 b3 z3 B1 z1 z1
+| d2 z6 B2 g1 e1 z3 B1 | z3 z4 b3 z3 B1 z1 z1
+| d2 z6 G1 g1 z2 d3 B1 | z3 z4 b3 z3 B1 z1 z1
+| d2 z6 g1 z2 d3 B2 | z3 z4 b3 z3 B1 z1 z1
+| d2 z6 g1 z2 d3 B2 | z3 z4 E1 b3 z3 z1 b1
+| d2 z6 g1 z2 F1 d2 B2 | z3 z4 b3 B3 e'1 z1 b1
+| d2 z6 g1 z2 d3 B2 | z3 z4 b3 B3 e'1 z1 b1
+| d2 z6 g1 z2 d3 B2 | z3 z4 _g3 B3 e'1 z1 b1
+| _d2 z6 g1 z2 d3 B2 | z3 z4 _g3 B3 e'1 z1 b1
+| _d2 z6 g1 z2 d3 B2 | f4 ^B,2 a1 A4 c1 z3 =B1
+| _d1 z6 g1 z2 ^g1 z2 d3 | f4 ^B,2 a1 A4 c1 =b3 =B1
+| _d2 z6 g1 z2 d3 B2 | f4 =E2 a1 A4 c1 =b3 =C,1
+| _d2 z6 g1 z2 d3 B2 | f4 a1 =a2 A4 c1 =b3 =C,1
+| z4 C1 F1 G1 C2 z3/2 A2 ^b3 b1/2 | _g4 b3 c4 g2 z1 b2 |]
+V: P10
+z4 z4 z1 B1 z4 z1 z1 | z4 z4 z1 B1 z4 z1 z1
+| z4 z4 D1 B1 z4 z1 z1 | z4 z4 z1 B1 z4 z1 z1
+| z2 z6 z1 B1 z4 z1 z1 | z4 z4 z1 B1 z4 z1 z1
+| z1 z6 z1 B1 z4 z1 z2 | z4 z4 z1 B1 z4 z1 z1
+| z1 z6 z1 B1 z2 z1 z4 | z4 z4 z1 B1 z4 z1 z1
+| z1 z6 z1 B1 z2 z1 z4 | z4 z4 A1 B1 z4 z1 z1
+| z1 z6 z1 B1 z2 z1 z4 | z4 z4 A1 B1 B4 z1 z1
+| z1 z6 z1 B1 z2 z1 z4 | z4 z4 A4 B1 z1 z1 z1
+| a1 z6 z1 B1 z2 z1 z4 | z4 z4 A4 B1 z1 z1 z1
+| a1 z6 z1 e1 z2 z1 z4 | z4 z4 A4 B1 z1 z1 z1
+| a1 z6 b1 z1 z2 z1 z4 | z4 z4 A4 B1 z1 z1 z1
+| a1 z6 b1 z1 z2 z1 f4 | z4 z4 A4 B1 z1 z1 z1
+| a1 z6 b1 e1 b1 z1 z1 f4 | z4 z4 A4 B1 z1 z1 z1
+| a1 z6 b1 e1 b1 z1 z1 f4 | z4 z4 A4 B1 E1 z1 z1
+| a1 z6 b1 e1 b1 z1 z1 f4 | z4 z4 A4 B1 E1 a1 z1
+| a1 z6 b1 e1 b1 z1 z1 f4 | z4 z4 A4 _d1 B1 a1 z1
+| a1 z6 b1 e1 b1 z1 z1 f4 | f1 z4 B6 _B1 f2 F1 z1
+| a1 z6 b1 e1 b1 z1 z1 f4 | z4 A4 B6 a1 z1
+| a1 _b6 e1 b1 B1 z1 z1 B4 | z4 A4 B6 a1 z1
+| a4 f1 f1 =a2 F3 g1 z4 | b1 f3 a1 B8 f1 b1 F1
+| C2 G2 E3 E4 g3 D2 | z4 A4 B6 a1 z1
+| a4 G1 =a2 c3 g1 ^f'1 z4 | f3 z1 d8 f1 b2 F1
+| a4 G1 =a2 c3 g1 ^f'1 z4 | f3 z1 d8 f1 b2 F1
+| C2 G2 E3 E4 E3 D2 | G1 g'4 A4 B6 f1 |]
+V: P11
+z4 z4 z1 z1 B1 z4 z1 | z4 z4 z1 z1 B1 z4 z1
+| z2 z4 z1 z1 B1 z6 z1 | z4 z4 z1 z1 B1 z4 z1
+| z2 z4 z1 z1 B1 z6 z1 | z4 G4 z1 z1 B1 z4 z1
+| z2 z4 z1 z1 B1 z6 z1 | z6 z2 z1 z1 B1 z4 z1
+| z2 z8 z1 z1 B1 z2 z1 | z6 z2 z1 z1 B1 z4 z1
+| z2 z1 z1 z1 B1 z2 z8 | z6 z2 z1 z1 B1 z4 z1
+| z2 z1 z1 z1 B1 z2 z8 | z2 z2 z1 z1 B1 z8 z1
+| z2 z1 z1 z1 B1 z2 z8 | z2 z2 d1 z1 B1 z8 z1
+| z2 z1 z1 z1 B1 z2 z8 | z2 F2 d1 z1 B1 z8 z1
+| z2 z1 z1 z1 B1 z2 z8 | D2 F2 d1 z1 B1 z8 z1
+| z2 z1 z1 z1 G1 z2 z8 | D2 F2 d1 z1 B1 z8 z1
+| z2 z1 z1 z1 G1 z2 z8 | D2 F2 f1 z1 B1 E8 z1
+| f2 z1 z1 z1 G1 z2 z8 | D2 F2 f1 z1 B1 E8 z1
+| f2 z1 z1 z1 G1 z2 B8 | D2 F2 f1 z1 B1 E8 z1
+| B1 f2 z1 z1 E1 z2 B8 | D2 F2 f1 z1 B1 E8 z1
+| B1 f2 B1 z1 E1 z2 f8 | D2 F2 f1 z1 B1 E8 z1
+| B1 f2 B1 z2 z1 f8 g1 | D2 F2 f1 z1 B1 E8 z1
+| B1 f2 B1 z2 z1 f8 g1 | D2 F2 f1 z1 e1 D8 z1
+| B1 f2 B1 E2 z1 f8 g1 | D2 F2 f1 z1 e1 D8 z1
+| B1 f1 f2 E2 z1 f8 g1 | D2 F2 f1 z1 e1 D8 z1
+| B1 f1 f2 E2 z1 f8 g1 | D2 F2 f1 z1 e1 D8 ^F1
+| a3 =b2 E3 B1 B6 E1 | B2 F2 f1 z1 e1 D8 ^F1
+| g12 E4 | D2 F2 f1 z1 e1 D8 ^F1
+| a3 =b2 _c3 z4 B2 =c2 | D2 F2 f1 z1 e1 D8 ^F1 |]
+V: P12
+z4 z4 z1 z1 z1 B1 z4 | z4 z4 z1 z1 z1 B1 z4
+| z4 z4 z1 z1 z1 B1 z4 | z6 z4 z1 z1 z1 B1 z2
+| F4 z4 z1 z1 z1 B1 z4 | z6 z4 z1 z1 z1 B1 z2
+| z2 z4 z1 z1 z1 B1 z6 | z6 z4 z1 z1 z1 B1 z2
+| z2 z8 z1 z1 z1 B1 z2 | z6 z4 z1 z1 z1 B1 z2
+| G2 z8 z1 z1 z1 B1 z2 | z6 z4 z1 z1 z1 B1 z2
+| G2 z8 E1 z1 z1 B1 z2 | z6 z4 z1 z1 z1 B1 z2
+| G2 z8 E1 z1 z1 B1 z2 | z6 z4 z1 z2 z1 B1 z1
+| G2 z8 E1 z1 z1 B1 z2 | z6 z4 z2 z1 D1 B1 z1
+| G2 E8 E1 z1 z1 B1 z2 | z6 z4 z2 z1 D1 B1 z1
+| G2 E8 E1 z1 z1 z1 z2 | z6 z4 z2 z1 D1 B1 z1
+| G2 E8 E1 z1 z1 z1 z2 | z6 z4 z2 f1 D1 B1 z1
+| G2 E8 E1 z1 z1 z1 z2 | z6 z4 z2 f1 D1 E1 z1
+| G2 E8 E1 z1 z1 z2 z1 | z6 z4 z2 f1 D1 E1 z1
+| G2 E8 E1 z1 z1 z2 z1 | z6 z4 z2 f1 D1 E1 a1
+| G2 E8 E1 z3 z1 z1 | z6 z4 z2 f1 D1 E1 a1
+| G2 E8 E1 g3 z1 z1 | z6 z4 z2 f1 D1 E1 a1
+| e2 _F8 E1 g3 z1 z1 | z6 z4 z2 f1 D1 E1 a1
+| e2 _F8 E1 g3 z1 z1 | c3 z6 z4 f1 D1 a1
+| F2 _F8 E1 b1 b3 z1 | c3 z6 z4 f1 D1 a1
+| f3 F3 f8 b1 z1 | e3 z6 z4 f2 a1
+| b8 f2 F3 b2 z1 | e3 z6 z4 f2 a1
+| b8 f2 F3 b2 z1 | e3 z6 E6 b1
+| b8 f2 F3 b2 z1 | e3 z6 E6 b1
+| b8 f2 F3 b2 z1 | e3 z6 E6 b1 |]
+V: P13
+z4 z2 z2 z4 B1 z1 z1 z1 | z4 z2 z2 z4 B1 z1 z1 z1
+| z4 z2 z2 z4 B1 z1 z1 z1 | z6 z2 z2 z2 B1 z1 z1 z1
+| z2 z2 z2 z6 B1 z1 z1 z1 | z6 z2 z2 z2 B1 z1 z1 z1
+| z2 z2 z2 z6 B1 z1 z1 z1 | z1 z2 z2 z2 B6 z1 z1 z1
+| z1 z2 z2 z6 B1 z1 z2 z1 | z1 z2 z2 z2 B6 z1 z1 z1
+| z1 z2 z2 z6 B1 z1 z2 z1 | z1 z2 z2 z2 A6 z1 z1 z1
+| z1 z2 z2 z6 B1 z1 z2 z1 | z1 z2 z2 D2 A6 z1 z1 z1
+| z1 z2 z2 z6 B1 z1 z2 E1 | z1 z2 z2 D2 A6 z1 z1 z1
+| z1 z2 z2 z6 B1 z1 b2 E1 | z1 z2 z2 D2 A6 z1 z1 z1
+| z1 z2 z2 z6 B1 z1 b2 E1 | z1 z2 z2 D2 A6 z1 F1 z1
+| z1 z2 a2 z6 B1 z1 b2 E1 | z1 z2 z2 D2 A6 z1 F1 z1
+| z1 z2 a2 z6 B1 z1 b2 E1 | z1 z2 c2 D2 A6 z1 F1 z1
+| z1 z2 a2 z6 B1 z1 b2 E1 | z1 z2 c2 D2 a6 z1 F1 E1
+| z1 C2 a2 z6 B1 z1 b2 E1 | z1 z2 c2 D2 a6 z1 F1 E1
+| z1 C2 a2 z6 D1 z1 b2 E1 | z1 z2 c2 D2 a6 z1 F1 E1
+| z1 C2 a2 z6 D1 z1 b2 E1 | z1 D2 c2 D2 a6 z1 F1 E1
+| z1 C2 a2 z6 D1 B1 b2 E1 | z1 D2 c2 D2 a6 z1 F1 E1
+| z1 C2 a2 z6 D1 B1 b2 E1 | z1 D2 c2 D2 a6 F1 F1 E1
+| z1 C1 a2 z6 B1 b4 E1 | z1 D2 c2 D2 a6 F1 F1 E1
+| z1 C1 a2 F6 B1 b4 E1 | z1 D2 c2 D2 a6 F1 F1 E1
+| B1 C1 a2 F6 B1 b4 E1 | z1 D2 c2 D2 a6 F1 F1 E1
+| B1 C1 a2 F6 B1 b4 E1 | z1 e2 b2 F3 _G1 _b2 z3 a2
+| B1 C1 a2 F6 B1 b4 E1 | f2 a8 z6
+| B1 C1 a2 F6 B1 b4 E1 | f2 a8 z6
+| B1 _b'2 c2 F6 b4 g1 | f2 a8 z6 |]
+V: P14
+z4 z2 z2 z4 z1 B1 z1 z1 | z4 z2 z2 z4 z1 B1 z1 z1
+| z2 z2 z2 z6 z1 B1 z1 z1 | z4 z2 z2 z4 z1 B1 z1 z1
+| z2 z2 z2 z1 z1 B1 z1 z6 | z4 z2 z2 z4 z1 B1 z1 z1
+| z2 z2 z2 z1 z1 B1 z1 z6 | z4 z2 z1 z4 z2 B1 z1 z1
+| z1 z2 z2 z1 z1 B1 z2 z6 | z4 z2 z1 z4 z2 B1 z1 z1
+| z1 z2 z2 z1 z1 B1 z2 z6 | z4 z2 z1 z4 e2 B1 z1 z1
+| z1 B2 z2 z1 z1 B1 z2 z6 | z4 z2 z1 z4 e2 B1 z1 z1
+| z1 B2 z2 E1 z1 B1 z2 z6 | z4 z2 z1 z4 e2 B1 z1 z1
+| z1 B2 z2 E1 z1 B1 z2 z6 | z4 z2 e1 z4 e2 B1 z1 z1
+| z1 B2 z2 E1 z1 B1 z2 z6 | z4 b2 e1 z4 e2 B1 z1 z1
+| z1 B2 B2 E1 z1 B1 z2 z6 | z4 b2 e1 z4 e2 B1 z1 z1
+| z1 B2 B2 E1 z1 B1 z2 b6 | z4 b2 e1 z4 e2 B1 z1 z1
+| z1 B2 B2 E1 z1 C1 z2 d6 | z4 b2 e1 z4 e2 B1 z1 z1
+| z1 B2 B2 E1 z1 C1 z2 d6 | z4 b2 e1 z4 e2 B1 a1 z1
+| z1 B2 B2 E1 z1 C1 z2 d6 | z4 b2 e1 z4 e2 z1 a1 z1
+| b1 B2 B2 E1 z1 C1 z2 d6 | z4 b2 e1 z4 e2 z1 a1 z1
+| b1 B2 B2 E1 z1 C1 z2 d6 | z4 b2 e1 e3 z1 a1 e2 z2
+| b1 B2 B2 B1 E1 z1 z2 d6 | z4 b2 e1 e3 z1 a1 e2 z2
+| b1 B2 B2 B1 E1 z1 z2 d6 | z4 b2 e1 e3 E1 a1 e2 z2
+| b1 B2 B2 B1 E1 z1 z2 d6 | c4 b2 e1 e3 E1 a1 e2 z2
+| b1 B2 B2 B1 E1 z1 z2 d6 | c4 b2 e3 g1 b1 a1 e2 b2
+| b1 B2 d1 B2 B1 E1 z2 b6 | c4 C,2 e3 g1 b1 a1 D1 z1 b2
+| b1 B2 d1 B2 B1 E1 z2 b6 | c4 C,2 e3 g1 b1 a1 e2 b2
+| b3 d1 B2 B1 E1 z2 b6 | c4 C2 e3 g1 b1 C1 e2 b2
+| b3 d1 B2 B1 E1 z2 b6 | c4 C,2 e3 g1 b1 a1 e2 b2
+| b3 d1 B2 B1 E1 z2 b6 | c4 C,2 e3 g1 b1 a1 e2 b2 |]
+V: P15
+z4 z2 z2 z4 z1 z1 B1 z1 | z4 z2 z2 z4 z1 z1 B1 z1
+| z4 z2 z2 z4 z1 z1 B1 z1 | z4 z2 z2 E4 z1 z1 B1 z1
+| z4 z2 z2 z4 z1 z1 B1 z1 | z4 z2 z2 z1 z1 z4 B1 z1
+| z4 z2 z2 z4 z1 z1 B1 z1 | z8 z1 z2 z1 z1 z1 B1 z1
+| z4 z2 z2 z1 z1 z1 B1 z4 | z8 z1 z2 z1 z1 z1 B1 z1
+| z3 z2 z2 z2 z1 z1 B1 z4 | z8 z1 z2 z1 z1 z1 B1 z1
+| z3 z2 z2 z2 z1 z1 B1 z4 | z4 z1 z2 z1 z1 z1 B1 z1 =B4
+| z1 z2 z2 z2 z1 z3 B1 z4 | z4 z1 z2 z1 z1 z1 B1 z1 =B4
+| z1 z2 z2 z2 z1 z3 B1 z4 | z1 z1 z2 z1 z1 z1 B1 z4 =B4
+| z1 z2 z2 z2 a1 z3 B1 z4 | z1 z1 z2 z1 z1 z1 B1 z4 =B4
+| z1 z2 z2 a2 a1 z3 B1 z4 | z1 z1 z2 z1 z1 z1 B1 z4 =B4
+| z1 z2 z2 a2 b1 z3 B1 z4 | B1 z1 z2 z1 z1 z1 B1 z4 =B4
+| z1 G2 z2 a2 b1 z3 B1 z4 | B1 z1 z2 z1 z1 z1 B1 z4 =B4
+| z1 G2 z2 a2 b1 z3 B1 z4 | B1 z1 z2 e1 z1 z1 B1 z4 =B4
+| z1 G2 z2 a1 b1 z3 B1 z1 d4 | B1 z1 z2 e1 z1 z1 B1 z4 =B4
+| z1 G2 z2 a1 b1 z3 B1 F1 d4 | B1 z1 z2 e1 z1 z1 B1 z4 =B4
+| z1 G2 z2 a1 b1 z3 B1 F1 d4 | B1 z1 z2 e1 z1 z1 b1 z4 =B4
+| z1 G2 b2 a1 b1 z3 B1 F1 d4 | B1 z1 z2 e1 z1 z1 b1 z4 =B4
+| z1 G2 F2 a1 b1 z3 B1 d4 A,1 | B1 z1 z2 e1 z1 z1 b1 z4 =B4
+| g1 G2 F2 a1 b1 z3 B1 F4 A,1 | z1 z1 A2 e1 z1 z1 b1 z4 =B4
+| g1 G2 F2 a1 b1 z3 B1 F4 A,1 | B1 z1 A2 e1 z1 z1 b1 z4 =B4
+| g1 G2 F2 a1 b1 z3 B1 F4 A,1 | B1 B1 b2 e1 z1 z1 b1 z4 =B4
+| g1 G2 F2 a1 b1 z3 B1 F4 A,1 | B1 B1 b2 e1 D1 z1 b1 z4 =B4
+| g1 =F2 F2 a1 b1 z3 B1 F4 A,1 | B1 B1 b2 e1 D1 z1 b1 z4 =B4
+| g1 =F2 F2 a1 b1 z3 B1 F4 A,1 | B1 B1 b2 e1 D1 z1 b1 f4 =B4
+| g1 =F2 F2 a1 b1 z3 B1 F4 A,1 | B1 B1 b2 e1 z1 _b2 f4 =B4
+| g1 =F2 F2 a1 b1 z3 B1 F4 A,1 | B3 ^b'8 E2 f1 f1/2 _c1/2 =e1 |]
+V: P16
+z4 z2 z2 z4 z1 z1 z1 B1 | z4 z2 z2 z4 z1 z1 z1 B1
+| z4 z2 z2 z4 z1 z1 z1 B1 | z4 z2 z2 z4 z1 z1 e1 B1
+| z4 z2 z2 z4 z1 z1 z1 B1 | z2 z2 z2 z4 z1 z1 z3 B1
+| z4 z2 z2 z4 z1 z1 z1 A1 | z2 z2 z2 z4 z1 z1 z3 B1
+| z1 z2 z2 z4 z1 z4 z1 B1 | z2 z2 z2 z4 z1 z1 z3 B1
+| z1 z2 z2 z4 z1 z4 z1 B1 | z2 z2 z2 z1 z1 z1 z6 B1
+| z3 z2 z2 z2 z1 z4 z1 B1 | z2 z2 z2 z1 z1 z1 z6 B1
+| b3 z2 z2 z2 z1 z4 z1 B1 | z2 z2 z2 z1 z1 z1 z6 B1
+| A3 z2 z2 z2 B1 z4 z1 B1 | z2 z2 z2 z1 z1 z1 z6 B1
+| A3 z2 B2 z2 B1 z4 z1 B1 | z2 z2 z2 z1 z1 z1 z6 B1
+| A3 z2 B2 F2 B1 z4 z1 B1 | z2 z2 z2 z1 z1 z1 z6 B1
+| A3 z2 B2 F2 B1 z4 z1 B1 | z2 z2 z2 F1 z1 z1 z6 B1
+| A3 z2 B2 F2 B1 z4 z1 B1 | z2 z2 z2 F1 z1 G1 z6 B1
+| A3 z2 B2 F2 B1 z4 z1 B1 | z2 z2 z2 F1 G1 z6 e1 B1
+| A3 z2 B2 F2 B1 b4 z1 B1 | z2 z2 z2 F1 G1 z6 e1 B1
+| A3 z2 B2 F2 B1 b4 z1 B1 | z2 z2 z2 F1 G1 z6 e1 b1
+| A3 z2 B2 F2 B1 b4 z1 B1 | z2 z2 z2 =c1 G1 z6 e1 b1
+| A3 z2 B2 F2 B1 b4 z1 B1 | B3 z2 z2 G1 z6 e1 b1
+| A3 z2 B2 F2 a1 b4 z1 c1 | B3 z2 z2 G1 z6 e1 b1
+| A3 z2 B2 F2 a1 b4 z1 c1 | B3 z2 B2 G1 z6 e1 b1
+| A1 z8 B2 F2 a1 z1 c1 | B3 z2 B2 G1 z6 e1 b1
+| A1 z8 B2 F2 a1 z1 c1 | B3 z2 B2 z1 b8
+| A1 z8 B2 F2 a1 z1 c1 | B3 z2 B2 A1 b8
+| A1 z8 B2 F2 a1 z1 c1 | z2 B2 A1 b8 d3
+| A1 z8 B2 F2 a1 z1 c1 | z2 B2 A1 b8 d3
+| A1 z8 B2 F2 a1 c2 | z2 B2 A1 b8 d3
+| A1 z8 B2 F2 a1 c2 | z2 B2 A1 b8 d3
+| A1 z8 B2 F2 a1 c2 | z2 b8 d3 d3
+| A1 z8 B2 F2 a1 c2 | z2 b8 d3 d3 |]
