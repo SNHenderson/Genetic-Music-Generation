@@ -3,6 +3,78 @@ from models.symbol import Symbol
 from models.tune import Tune
 
 """Tunes are encoded in this file"""
+Marimba_3 = Tune(
+	title = "marimba_test",
+	note_count=5,
+	bars=4,
+	note_duration=1,
+	note_bar=16,
+	key='B',
+	string=('"B" F F F F F F F F F F F F F F F F F F F F|"B" F F F F F F F F F F F F F F F F F F F F|"B" F F F F F F F F F F F F F F F F F F F F'))
+
+Marimba_2 = Tune(
+	title = "marimba_test",
+	note_count=5,
+	bars=4,
+	note_duration=1,
+	note_bar=16,
+	key='B',
+	string=('"B" D D D D D D D D D D D D D D D D D D D D|"B" D D D D D D D D D D D D D D D D D D D D|"B" D D D D D D D D D D D D D D D D D D D D'))
+
+Marimba = Tune(
+	title = "marimba_test",
+	note_count=5,
+	bars=4,
+	note_duration=1,
+	note_bar=16,
+	key='B',
+	string=('"B" B B B B B B B B B B B B B B B B B B B B|"B" B B B B B B B B B B B B B B B B B B B B|"B" B B B B B B B B B B B B B B B B B B B B'))
+
+Invention_0 = Tune(
+	title = "i_1",
+	note_count=4,
+	bars=4,
+	note_duration=1,
+	note_bar=4,
+	key='G',
+	string=('"Bm" b1/2 b b c\'1/2 b|"Fdim" a1/2 g f g1/2 a|"G" b1/2 a g f1/2 g|"Em" e1/2 e e f1/2 g1/2 a1/2'))
+
+Invention_4 = Tune(
+	title = "i_4",
+	note_count=4,
+	bars=4,
+	note_duration=1,
+	note_bar=4,
+	key='G',
+	string=('"Fdim" f4|"C" c4|"D" d4|"Bm" B4|"Fdim" f4|"C" c4|"D" d4|"Bm" B4'))
+
+Invention_3 = Tune(
+	title = "i_3",
+	note_count=4,
+	bars=4,
+	note_duration=1,
+	note_bar=4,
+	key='G',
+	string=('"D" d4|"Am" A4|"C" c4|"G" G4|"D" d4|"Am" A4|"C" c4|"G" G4'))
+
+Invention_2 = Tune(
+	title = "i_2",
+	note_count=4,
+	bars=4,
+	note_duration=1,
+	note_bar=4,
+	key='G',
+	string=('"C" c4|"G" G4|"Bm" B4|"Fdim" F4|"C" c4|"G" G4|"Bm" B4|"Fdim" F4'))
+
+Invention_1 = Tune(
+	title = "i_1",
+	note_count=4,
+	bars=4,
+	note_duration=1,
+	note_bar=4,
+	key='G',
+	string=('"Bm" B4|"Fdim" F4|"G" G4|"Em" E4|"Bm" B4|"Fdim" F4|"G" G4|"Em" E4'))
+
 DiesIrae = Tune(
     title="Dies Irae",
     note_count=6,
