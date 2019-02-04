@@ -3,6 +3,15 @@ from models.symbol import Symbol
 from models.tune import Tune
 
 """Tunes are encoded in this file"""
+Viol = Tune(
+    title = "violin_test",
+    note_count=11,
+    bars=4,
+    note_duration=1,
+    note_bar=4,
+    key='B',
+    string=('"B" B5 B2 B4|"B" B5 B2 B4|"B" B5 B2 B4|"B" B5 B2 B4|"B" B5 B2 B4'))
+
 Marimba_3 = Tune(
 	title = "marimba_test",
 	note_count=5,

@@ -63,21 +63,21 @@ class Measure():
         root = chords.index(self.chord)
 
         note_weights = copy(WEIGHTS['CHORD'])
-        for i in range(len(chords)):
-            if i == root:
-                note_weights[i] += 100
-            elif i == (root + 2) % len(chords):
-                note_weights[i] += 80
-            elif i == (root + 4) % len(chords):
-                note_weights[i] += 100
-            elif i == (root + 6) % len(chords):
-                note_weights[i] += 60
-            elif i == (root + 8) % len(chords):
-                note_weights[i] += 40
-            elif i == (root + 10) % len(chords):
-                note_weights[i] += 20
-            elif i == (root + 12) % len(chords):
-                note_weights[i] += 10
+        # for i in range(len(chords)):
+        #     if i == root:
+        #         note_weights[i] += 100
+        #     elif i == (root + 2) % len(chords):
+        #         note_weights[i] += 80
+        #     elif i == (root + 4) % len(chords):
+        #         note_weights[i] += 100
+        #     elif i == (root + 6) % len(chords):
+        #         note_weights[i] += 60
+        #     elif i == (root + 8) % len(chords):
+        #         note_weights[i] += 40
+        #     elif i == (root + 10) % len(chords):
+        #         note_weights[i] += 20
+        #     elif i == (root + 12) % len(chords):
+        #         note_weights[i] += 10
 
         note_weights.extend(note_weights)
         note_weights.append(sum(note_weights) / len(note_weights))

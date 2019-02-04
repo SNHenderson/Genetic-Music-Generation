@@ -472,11 +472,93 @@
 	"buffers":
 	[
 		{
-			"file": "src/models/symbol.py",
+			"contents": "X:1\nT:Panning evolved\nM:4/4\nL:1/16\nK:B\nV: P1\nB1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 | B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1\n| B1 z1 b1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 | B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1\n| B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 | B1 z1 z1 z1 z1 G1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1\n| B1 z1 b1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 | B1 z1 z1 z1 z1 G1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1\n| B1 B1 z1 b1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 | B1 z1 z1 z1 z1 G1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1\n| B1 B1 z1 b1 z1 z1 z1 b1 z1 z1 z1 z1 z1 z1 z1 z1 | B1 z1 z1 z1 z1 G1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1\n| B1 f1 b1 z1 z1 z1 b1 z1 z1 z1 D1 z1 z1 z1 z1 z1 | B1 z1 z1 z1 z1 G1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1\n| B1 f1 b1 z1 z1 z1 b1 z1 z1 z1 D1 z1 z1 z1 z1 z1 | B1 z1 F1 z1 z1 d1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1\n| B1 b1 z1 z1 z1 b1 z1 z1 z1 z1 z2 z1 z1 z1 z1 | B1 z1 F1 z1 z1 d1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1\n| B1 b1 z1 z1 z1 F1 z1 z1 z1 z1 z1/2 z2 z1 z1 z1 z1/2 | B1 z1 F1 z1 z1 d1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1\n| B1 b1 z1 z1 z1 z1 z1 z1 z1 z1/2 z2 F1 b1 z1 z1 z1/2 | B1 z1 F1 z1 z1 d1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1\n| B1 b1 z1 z1 z1 z1 z1 z1 z1 z1/2 z2 F1 b1 z1 z1 z1/2 | B1 z1 F1 z1 z1 d1 z1 z1 a1 z1 z1 z1 z1 B1 z1 z1\n| B1 b1 z1 z1 z1 z1 z1 z1 z1 z1/2 f2 F1 b1 z1 z1 z1/2 | B1 z1 F1 z1 z1 d1 z1 z1 a1 z1 z1 z1 B1 z1 z1 z1\n| B1 b1 z1 z1 z1 z1 z1 z1 z1 z1/2 f2 F1 b1 z1 z1 z1/2 | B1 z1 A1 z1 ^E1 z1 d1 z1 z1 a1 z1 z1 z1 z1 z1 z1\n| B1 b1 z1 z1 z1 z1 z1 z1 z1 z1/2 f2 F1 z1 B1 z1 z1/2 | B1 z1 A2 z1 z1 d1 z1 z1 a1 z1 z1 z1 z1 z1 z1\n| B1 b1 z1 z1 z1 z1 z1 z1 z1 z1/2 f2 F1 z1 B1 z1 z1/2 | B1 z1 A2 z1 z1 d1 z1 z1 a1 z1 z1 z1 E1 z1 z1\n| B1 b1 z1 z1 z1 z1 z1 z1 z1 z1/2 f2 F1 z1 B1 z1 z1/2 | B1 z1 A2 z1 d1 z1 z1 G1 a1 z1 z1 z1 E1 z1 z1\n| B1 b1 z1 z1 z1 z1 z1 z1 z1 z1/2 f2 F1 e1 B1 z1 z1/2 | B1 z1 A2 z1 d1 z1 z1 G1 a1 z1 z1 z1 E1 z1 z1\n| B1 b1 z1 z1 E1 z1 z1 z1 z1 z1/2 f2 e1 B1 B1 z1 z1/2 | B1 z1 A2 z1 d1 z1 z1 G1 a1 z1 z1 z1 E1 z1 z1\n| B1 b1 D1 z1 E1 z1 z1 z1 z1 z1/2 f2 e1 B1 B1 z1 z1/2 | B1 z1 A2 z1 d1 z1 z1 G1 a1 z1 z1 z1 E1 z1 z1\n| B1 b1 D1 z1 E1 z1 z1 z1 z1 z1/2 f2 e1 B1 B1 z1 z1/2 | B1 z1 A2 z1 b1 d1 b1 z1 G1 z1 z1 z1 E1 z1 z1\n| B1 b1 D1 G1 z1 E1 z1 z1 z1 z1 z1/2 f2 e1 B1 B1 z1/2 | B1 z1 A2 z1 b1 d1 b1 z1 G1 z1 z1 z1 E1 z1 z1\n| B1 b1 D1 G1 z1 E1 z1 z1 z1 z1 z1/2 f2 e1 B1 B1 z1/2 | B1 d1 A2 z1 b1 d1 b1 z1 G1 z1 z1 z1 E1 z1 z1\n| B1 b1 D1 G1 z1 E1 z1 z1 z1 z1 z1/2 f2 e1 B1 B1 z1/2 | e2 d1 z1 b1 d1 b1 z1 d1 z1 z1 z1 D1 E1 z1 z1\n| b1 D1 z1 D1 B1 z1 z1 z1 z1 z1/2 f2 F1 g1 E1 e1 z1/2 | e2 d1 z1 b1 d1 b1 z1 d1 z1 z1 z1 D1 E1 z1 z1\n| b1 D1 z1 D1 B1 z1 z1 z1 F1 z1/2 f2 F1 g1 E1 e1 z1/2 | e2 d1 z1 b1 d1 b1 z1 d1 z1 z1 z1 D1 E1 z1 z1\n| B1 D1 z1 D1 B1 z1 z1 F1 z1/2 f2 E1 F1 g1 E1 e1 z1/2 | e2 d1 z1 b1 d1 b1 z1 d1 z1 z1 z1 D1 E1 b1 z1\n| b1 D1 z1 D1 B1 z1 z1 F1 z1/2 f2 E1 F1 g1 E1 e1 z1/2 | e2 d1 z1 b1 d1 b1 z1 d1 z1 z1 z1 D1 E1 b1 z1\n| b1 D1 z1 D1 B1 z1 z1 F1 z1/2 f2 E1 F1 g1 E1 e1 z1/2 | e2 d1 z1 b1 d1 b1 z1 d1 z1 z1 b1 D1 E1 b1 z1\n| b1 D1 D1 B1 z1 z1 G1 z1/2 f2 d1 F1 z1 g1 E1 e1 z1/2 | e2 d1 b1 d1 b1 z1 d1 z1 z1 b1 D1 E1 a1 b1 z1\n| b1 D1 D1 B1 z1 z1 F1 G1 z1/2 f2 E1 F1 g1 E1 e1 z1/2 | e2 d1 b1 d1 b1 z1 d1 z1 z1 b1 D1 E1 a1 b1 z1\n| c1 b1 D1 D1 B1 z1 F1 G1 z1/2 f2 E1 F1 g1 E1 e1 z1/2 | e2 d1 b1 d1 b1 z1 d1 z1 z1 b1 D1 E1 a1 b1 z1\n| c1 b1 D1 D1 B1 z1 F1 G1 b1/2 f2 E1 F1 g1 E1 e1 f1/2 | e2 z1 b1 d1 b1 z1 d1 z1 z1 b1 D1 E1 a1 b1 z1\n| c1 b1 D1 D1 B1 z1 F1 G1 b1/2 f2 E1 F1 g1 E1 e1 f1/2 | e2 d1 b1 d1 b1 z1 d1 z1 z1 b1 D1 E1 a1 b1 z1\n| c1 b1 D1 D1 B1 z1 F1 G1 b1/2 f2 E1 F1 g1 E1 e1 f1/2 | e2 d1 b1 d1 b1 z1 d1 e1 z1 D1 D1 E1 a1 b1 z1\n| c1 b1 D1 D1 B1 z1 F1 G1 b1/2 f2 E1 F1 g1 E1 e1 f1/2 | e2 d1 b1 d1 b1 D1 d1 e1 z1 D1 D1 E1 a1 b1 z1\n| c1 b1 D1 D1 B1 z1 F1 G1 b1/2 f2 E1 F1 g1 E1 e1 f1/2 | b2 d1 b1 d1 b1 D1 d1 ^e1 z1 D1 D1 E1 a1 b1 z1\n| c1 b1 D1 D1 B1 z1 F1 G1 b1/2 f2 E1 F1 g1 E1 e1 f1/2 | b1 d1 b1 b1 d1 b1 D2 g1 D1 E1 g1 z3 z1\n| c1 b1 D1 D1 B1 z1 F1 G1 b1/2 f2 E1 F1 g1 E1 e1 f1/2 | b1 d2 b1 d1 b1 D2 z1 D1 E1 g1 z3 z1\n| c1 b1 D1 D1 B1 z1 F1 G1 b1/2 f2 E1 F1 g1 E1 e1 f1/2 | b1 d2 b1 d1 b1 D2 z1 D1 E1 g1 e3 z1\n| c3 d1 D1 D1 B1 z1 F1 G1 d2 b1/2 E1 E1 e1 f1/2 | b1 d2 b1 d1 b1 D2 z1 D1 E1 g1 e3 z1\n| E1/2 d1 z3 A1 B1 z1 F1 G1 f2 E3 E1 e1/2 | d1 b1 e1 c1 D2 z1 F1 E1 e1 B2 g1 ^F1 e1 D1\n| c3 d1 D1 D1 B1 z1 F1 G1 d2 b1/2 E2 E1 f1/2 | b1 d2 b1 d1 b1 D2 z1 D1 E1 g1 e3 z1\n| E1/2 d1 z3 A1 B1 z1 F1 G1 f2 E3 E1 e1/2 | b1 b1 d1 D2 f2 z1 D1 e1 g1 ^F1 e3 D1\n| c3 d1 D1 D1/2 B1 z1 F1 G1 d2 E3 E1 e1/2 | b1 b1 d1 D2 f2 z1 D1 e1 g1 ^F1 e3 D1\n| c3 D1 D,1 _b1 z1 F1 G1 B2 E3 E1 e1/2 B1/2 | b1 b1 d1 D2 f2 z1 D1 e1 g1 ^F1 e3 D1\n| c3 D1 D,1 _b1 z1 F1 G1 B2 E3 E1 e1/2 B1/2 | b1 =b1 d1 f2 =A1 D1 e1 z2 g1 ^F1 e3 D1\n| c3 D1 D,1 e1 _b1 F1 G1 B2 E3 E1 e1/2 B1/2 | b1 =b1 d1 f2 =A1 D1 e1 z2 g1 ^F1 e3 D1\n| G3 B1 D,1 d6 _b1 F1 G1 E1 e1/2 f1/2 | b1 =b1 d1 f2 =A1 D1 e1 z2 g1 ^F1 e3 D1\n| G3 B1 D,1 d6 _b1 F1 G1 E1 e1/2 f1/2 | b1 =b1 d1 f2 =A1 _D,1 e1 z2 g1 ^F1 e3 D1\n| G3 B1 D,1 d6 _b1 F1 G1 E1 e1/2 f1/2 | e'1 D1 B4 B,1 f2 G2 f1 C3 f1\n| G3 B1 D,1 d6 _b1 F1 G1 E1 e1/2 f1/2 | e'1 D1 B4 B,1 f2 G2 f1 C3 f1 |]\nV: P2\nz1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 | z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1\n| z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 | z1 B1 f1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1\n| z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 b1 z1 z1 z1 z1 | z1 B1 f1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1\n| z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 b1 z1 z1 z1 z1 | z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z2 z1 z1\n| z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 b1 z1 z1 z1 z1 | z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 b1 z2 z1\n| z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 b1 z1 z1 z1 z1 | z1 B1 z1 z1 z1 z1 z1 z1/2 z1 z1 z1 z1 z1 z2 z1/2 z1\n| z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 b1 z1 z1 z1 z1 | z1 B1 z1 z1 z1 z1 z1 z1/2 z1 z1 z1 z1 z1 b2 z1/2 z1\n| z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 b1 z1 z1 z1 z1 | z1 B1 z1 z1 z3 z1 z1 z1 z1/2 z1 z1 z1 z1 z1/2 z1\n| z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 b1 z1 z1 z1 z1 | z1 b1 z1 z1 z3 z1 z1 z1 z1/2 z1 z1 z1 z1 z1/2 z1\n| z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 b1 z1 z1 z1 z1 | z1 F1 b1 z1 z1 z3 z1 z1 z1 z1/2 z1 z1 z1 z1/2 z1\n| z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 b1 z1 z1 z1 z1 | z1 F1 z1/2 b1 z1 z1 z1 z3 B1 z1 z1 z1 z1 z1/2 z1\n| z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 b1 z1 z1 b1 z1 z1 | z1 F1 z1/2 z1 z1 z1 z3 B1 z1 z1 z1 z1 z1/2 z1 a1\n| z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 b1 z1 z1 b1 z1 z1 | z1 F1 z1/2 z1 z1 z1 z3 B1 z1 z1 z1 z1 B1/4 z1/4 z1 a1\n| z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 b1 A1 z1 b1 z1 z1 | z1 F1 z1/2 z1 z1 z1 z3 f1 D1 z1 z1 z1 B1/4 z1/4 z1 z1\n| z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 b1 A1 z1 b1 z1 z1 | z1 F1 z1/2 z1 z1 z1 z3 B1 D1 z1 z1 z1 B1/4 z1/4 z1 a1\n| z1 B1 z1 z1 z1 z1 z2 z1 z1 z1 A1 z1 b1 z1 z1 | z1 F1 z1/2 z1 z1 z1 z3 B1 D1 z1 z1 z1 B1/4 z1/4 z1 a1\n| z1 B1 z1 z1 z1 z1 z2 z1 z1 z1 A1 z1 b1 z1 z1 | z1 F1 z1/2 z1 z1 z1 z3 B1 f1 z1 z1 z1 B1/4 e1/4 z1 a1\n| z1 B1 z1 z1 z1 z1 b2 z1 z1 z1 A1 z1 b1 z1 z1 | z1 F1 z1/2 z1 z1 z1 z3 B1 f1 z1 z1 z1 B1/4 e1/4 z1 a1\n| z1 B1 b1 z1 z1 z1 b2 z1 z1 z1 A1 z1 b1 z1 z1 | z1 F1 z1/2 z1 z1 z1 z3 B1 f1 z1 z1 z1 B1/4 e1/4 z1 a1\n| z1 B1 f1 b1 z1 z1 b2 z1 z1 z1 A1 z1 b1 z1 z1 | z1 F1 z1/2 z1 z1 z1 z3 B1 f1 z1 z1 z1 B1/4 e1/4 z1 a1\n| z3 B1 f1 b1 z1 z1 z1 z1 z1 z1 A1 b1 z1 z1 | z1 F1 z1/2 z1 z1 z1 z3 B1 f1 z1 z1 z1 B1/4 e1/4 z1 a1\n| z3 B1 f1 b1 z1 z1 z1 z1 f1 z1 A1 b1 z1 z1 | z1 F1 z1/2 z1 z1 z1 z3 B1 f1 z1 z1 z1 B1/4 e1/4 z1 a1\n| z3 B1 f1 g1 b1 z1 z1 z1 f1 z1 A1 b1 z1 z1 | z1 F1 z1/2 z1 z1 z1 z3 B1 f1 z1 z1 z1 B1/4 e1/4 z1 a1\n| z3 B1 f1 g1 b1 z1 z1 z1 f1 z1 A1 b1 z1 z1 | z1 F1 z1 A1/2 z1 z1 z3 B1 f1 z1 z1 z1 B1/4 e1/4 z1 a1\n| z3 B1 f1 g1 b1 z1 z1 z1 f1 z1 A1 b1 z1 z1 | z1 F1 z1 A1/2 z1 z1 z3 B1 f1 z1 z1 B1 B1/4 e1/4 z1 a1\n| z3 B1 f1 B1 b1 z1 z1 f1 z1 A1 E1 z1 ^f1 z1 | z1 F1 z1 A1/2 z1 z3 f1 z1 z1 B1 B1/4 e1/4 z1 z1 D1 a1\n| z3 z1 f1 B1 b1 z1 z1 f1 z1 A1 E1 z1 ^f1 z1 | z1 F1 z1 A1/2 z1 z3 f1 z1 z1 B1 B1/4 e1/4 z1 z1 D1 a1\n| z1 B1 b1 z1 z1 B1 F1 E1 z1 z1 z6 | z1 F1 f1 z1/2 z1 z3 f1 z1 z1 B1 B1/4 e1/4 z1 z1 D1 a1\n| z1 f1 B1 b1 z1 z1 B1 E1 z1 z1 z6 | z1 F1 z1 A1/2 z1 z3 f1 z1 z1 B1 B1/4 e1/4 z1 z1 D1 a1\n| z1 f1 B1 b1 z1 z1 B1 E1 z1 z1 z6 | z1 F1 f1 A1/2 z1 z3 f1 z1 z1 B1 B1/4 e1/4 z1 z1 D1 a1\n| z1 f1 B1 b1 z1 z1 B1 E1 z1 z1 z6 | z1 F1 f1 A1/2 z1 z3 f1 z1 z1 B1 B1/4 e1/4 F1 z1 D1 a1\n| z1 f1 B1 b1 z1 z1 B1 E1 z1 z1 z6 | z1 F1 f1 A1/2 z1 z3 f1 z1 z1 B1 B1/4 e1/4 F1 C1 D1 a1\n| z1 f1 B1 b1 z1 z1 B1 E1 z1 z1 e6 | z1 F1 f1 A1/2 z1 z3 f1 z1 z1 B1 B1/4 e1/4 F1 C1 D1 a1\n| z1 f1 B1 b1 z1 c1 B1 E1 z1 z1 e6 | z1 F1 f1 A1/2 z1 z3 f1 z1 z1 B1 B1/4 e1/4 F1 C1 D1 a1\n| z1 f1 B1 b1 c1 C1 B1 E1 z1 z1 e6 | z1 F1 f1 A1/2 z1 z3 f1 z1 z1 B1 B1/4 e1/4 F1 C1 D1 a1\n| z1 f1 B2 b1 c1 B1 E1 z1 z1 e6 | z1 F1 f1 A1/2 z1 z3 f1 z1 z1 B1 B1/4 e1/4 F1 C1 D1 a1\n| z1 f1 B2 f1 b1 c1 B1 F1 z1 e6 | z1 F1 f1 A1/2 z1 z3 f1 z1 z1 B1 B1/4 e1/4 F1 C1 D1 a1\n| z1 f1 B2 f1 b1 c1 B1 F1 z1 e6 | F1 f1 A1/2 z1 z3 f1 z1 B1 z1 B1 B1/4 e1/4 F1 C1 D1 a1\n| z1 f1 B2 z1 f2 c1 B1 z1 e6 | F1 f1 A1/2 z1 z3 f1 z1 B1 z1 B1 B1/4 e1/4 F1 C1 D1 a1\n| z1 f1 B2 z1 f2 c1 B1 z1 e6 | _A1/4 F1 f1 A1/2 z1 z3 f1 z1 B1 z1 B1 e1/4 F1 C1 D1 a1\n| z2 F1 e1 z1 C1 B1 g2 B1 e6 | z1/4 _F1 f1 f1 z1 E1/2 z3 B1/4 G2 z1 B1 F1 C1 D1 a1\n| z1 f1 z1 f2 F2 c1 B1 D1 e6 | z1/4 _F1 f1 f1 z1 E1/2 z3 ^B1/4 G2 z1 B1 F1 C1 D1 a1\n| z2 =e1 F1 z1 f2 c1 B1 D1 e6 | z1/4 _F1 f1 f1 z1 E1/2 z3 ^B1/4 G2 z1 B1 F1 C1 D1 a1\n| z2 F1 z1 f2 c1 B1 g2 e6 | z1/4 _F1 f1 f1 z1 E1/2 z3 ^B1/4 G2 z1 B1 F1 C1 D1 a1\n| z2 F1 z1 f2 c1 B1 g2 e6 | B1 z1/4 _F1 f1 z1 E1/2 z3 ^B1/4 G2 z1 B1 F1 C1 D1 a1\n| z2 F1 z1 ^B2 c1 B1 g2 e6 | e2 z2 F1 D1 z3 A1 E2 B1 E1 F2\n| z2 F1 z1 ^B2 c1 B1 g2 e6 | e2 F1 D1 z3 A1 E2 B1 E3 F2\n| z2 F1 z1 ^B2 c1 B1 g2 e6 | e2 F1 D1 z3 A1 E2 B1 E3 F2\n| z2 F1 z1 ^B2 c1 B1 g2 e6 | e2 F1 z3 G2 B1 f2 E3 a2\n| z2 F1 z1 ^B2 c1 B1 g2 e6 | e2 F1 z3 G2 B1 f2 E3 a2\n| z2 F1 z1 ^B2 c1 B1 g2 e6 | e2 F1 z3 G2 B1 f2 E3 a2 |]\nV: P3\nz1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1\n| F1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1\n| F1 z1 B1 z1 z1 z1 z1 z1 C1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1\n| F1 z1 B1 z1 z1 z1 z1 z1 C1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 B1 z1 D1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1\n| F1 z1 B1 z1 z1 z1 z1 z1 f1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 B1 z1 E1 z1 z1 z1 z1 z1 G1 z1 z1 z1 z1 z1\n| z1 z1 B1 z1 z1 z1 z1 z1 f1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 B1 z2 z1 z1 z1 z1 z1 z1 f1 z1 z1 z1 z1\n| F1 z1 B1 z1 z1 z1 z1 z1 f1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 B1 z2 z1 z1 z1 z1 z1 z1 f1 z1 z1 z1 z1\n| F1 e1 B1 z1 z1 z1 z1 z1 f1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 B1 z2 z1 z1 z1 z1 z1 z1 f1 z1 z1 z1 z1\n| F1 e1 B1 z1 z1 z1 z1 z1 f1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 B1 z2 z1 z1 z1 z1 z1 z1/2 z1/2 f1 z1 z1 z1 z1\n| G1 f1 B1 z1 z1 z1 z1 z1 f1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 B1 z2 z1 z1 z1 z1 z1 z1/2 z1/2 f1 z1 z1 e1 z1\n| G1 f1 B1 z1 z1 z1 z1 z1 f1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 B1 z2 z1 z1 z1 z1 z1 z1/2 f1 z1 z1 e1/2 e1 z1\n| G1 f1 B1 z1 z1 z1 z1 z1 f1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 B1 z2 z1 z1 z1 z1 z1/2 f1 z1 z1 a1 e1/2 e1 z1\n| G1 f1 B1 z1 z1 z1 z1 f1 z1 E1 z1 z1 z1 z1 z1 z1 | z1 z1 B1 z2 z1 z1 z1 z1 z1/2 f1 z1 z1 a1 e1/2 e1 z1\n| G1 f1 B1 z1 z1 z1 z1 f1 B1 E1 z1 z1 z1 z1 z1 z1 | z1 z1 B1 z2 z1 z1 z1 z1 z1/2 f1 z1 z1 a1 e1/2 e1 z1\n| G1 f1 B1 z1 z1 z1 d1 f1 B1 E1 z1 z1 z1 z1 z1 z1 | z1 z1 B1 z2 z1 z1 z1 z1 z1/2 f1 z1 z1 a1 e1/2 e1 z1\n| G1 f1 B1 z1 z1 g1 d1 f1 B1 E1 z1 z1 z1 z1 z1 z1 | z1 z1 B1 z2 z1 z1 z1 z1 z1/2 f1 z1 z1 a1 e1/2 e1 z1\n| G1 f1 B1 z1 z1 g1 d1 f1 f1 B1 E1 z1 z1 z1 z1 z1 | z1 z1 B1 z2 z1 z1 z1 z1 z1/2 f1 z1 z1 a1 e1/2 e1 z1\n| G1 f1 B1 z1 z1 g1 d1 f1 f1 B1 E1 z1 z1 z1 z1 z1 | z1 z1 B1 z2 z1 z1 z1 z1 f1 z1 z1 a1 e1/2 e1 E1/2 z1\n| G1 f1 B1 z1 z1 g1 d1 f1 f1 B1 E1 z1 z1 z1 z1 z1 | z1 z1 B1 z2 z1 z1 z1 z1 f1 z1 z1 a1 e1/2 e1 E1/2 c1\n| G1 f1 B1 z1 z1 g1 d1 f1 z1 E1 z2 z1 z1 z1 z1 | z1 z1 B1 z2 z1 z1 z1 z1 f1 z1 z1 a1 e1/2 e1 E1/2 c1\n| G1 f1 B1 z1 z1 g1 d1 f1 z1 E1 B2 z1 z1 z1 z1 | z1 z1 B1 z2 z1 z1 z1 z1 f1 z1 z1 a1 e1/2 e1 E1/2 c1\n| G1 f1 B1 z1 z1 g1 d1 f1 d1 E1 B2 z1 z1 z1 z1 | z1 z1 B1 z2 z1 z1 z1 z1 f1 z1 z1 a1 e1/2 e1 E1/2 c1\n| G1 f1 B1 z1 g1 d1 d1 E1 B2 z1 B2 z1 z1 z1 | z1 z1 B1 z2 z1 z1 z1 z1 f1 z1 z1 a1 e1/2 e1 E1/2 c1\n| G1 f1 B1 z1 g1 d1 d1 E1 B2 z1 B2 z1 z1 z1 | z1 z1 B1 b2 z1 z1 z1 z1 f1 z1 z1 a1 e1/2 e1 f1/2 c1\n| G1 f1 B1 z1 g1 d1 d1 E1 B2 z1 B2 z1 z1 z1 | z1 z1 B1 b2 z1 z1 z1 ^G1/2 z1 f1 z1 z1 a1 e1/2 e1 c1\n| G1 f1 B1 z1 g1 d1 d1 B2 F1 z1 B1 ^g1 z1 z1 z1 | z1 z1 B1 b2 z1 z1/2 G2 z1 f1 z1 z1 a1 e1/2 e1 c1\n| G1 f1 B1 z1 g1 d1 d1 E1 B2 z1 B2 z1 z1 z1 | z1 z1 B1 b2 z1 z1/2 G2 z1 f1 z1 z1 a1 e1/2 e1 c1\n| G1 f1 B1 z1 g1 d1 d1 B2 z1 B2 ^g1 z1 z1 z1 | z1 z1 B1 b2 z1 z1/2 G2 z1 f1 z1 z1 a1 e1/2 e1 c1\n| G1 f1 B1 z1 g1 d1 d1 B2 z1 B2 ^g1 z1 z1 z1 | z1 z1 B1 b2 z1 z1/2 G2 z1 f1 z1 z1 =A1 e1/2 e1 c1\n| G1 f1 B1 z1 g1 d1 d1 B2 z1 B2 ^g1 z1 z1 b1 | z1 z1 B1 b2 z1 z1/2 G2 z1 f1 z1 z1 =A1 e1/2 e1 c1\n| G1 f1 B1 z1 g1 d1 d1 B2 z1 B2 ^g1 z1 z1 b1 | z1 z1 B1 b2 z1 z1/2 =b2 z1 f1 z1 z1 =A1 e1/2 e1 c1\n| _b1 f1 B1 g1 d1 d1 B2 z1 B2 z1 z2 z1 b1 | z1 z1 B1 b2 z1 z1/2 =b2 z1 f1 z1 z1 =A1 e1/2 e1 c1\n| _b1 f1 g1 d1 d1 =A1 B2 z1 B2 z1 z2 z1 b1 | z1 z1 B1 b1 F1 z1/2 b1 z1 =c2 f1 z1 z1 =A1 e1/2 e1 c1\n| _b1 f1 g1 d1 d1 =A1 B2 z1 B2 z1 z2 z1 b1 | z1 z1 B1 b2 z1 z1/2 =b2 z1 f1 z1 z1 =A1 e1/2 e1 c1\n| _b1 f1 g1 d1 d1 =A1 B2 z1 B2 z1 z2 z1 b1 | z1/2 z1 B1 b2 z1 =b2 z1 f1 z1 z1 g'2 e1/2 e1 c1\n| _b1 f1 _f1 d1 d1 =A1 B2 z1 B2 z1 z2 z1 b1 | z1/2 z1 B1 b2 z1 =b2 z1 f1 z1 z1 g'2 e1/2 e1 c1\n| f1 b1 b1 =E3 e1 B2 c1 b1 b1 =f1 z1 D1 b1 | z1/2 z1 B1 _A2 z1 =b2 z1 f1 z1 z1 g'2 e1/2 e1 c1\n| f1 b1 b1 =E3 e1 B2 c1 z1 =B1 D1 c2 b1 | z1/2 z1 B1 _A2 z1 =b2 z1 f1 z1 z1 g'2 e1/2 e1 c1\n| f1 b1 =f3 b1 =E3 B2 z1 z1 c2 b1 | z1/2 z1 B1 _A2 z1 =b2 z1 f1 z1 z1 g'2 e1/2 e1 c1\n| f1 b1 =f3 b1 =E3 B2 z1 z1 c2 b1 | z1/2 z1 B1 _A2 z1 =b2 z1 f1 z1 g'2 _a1 e1/2 e1 c1\n| F1 =D6 c1 G1 E1 =F2 z1 c2 z1 | z1/2 z1 B1 _A2 z1 =b2 G1 f1 z1 g'2 _a1 e1/2 e1 c1\n| f1 =f1 =f3 b1 =E3 B2 z1 z1 c2 b1 | z1/2 z1 B1 _A2 z1 =b2 G1 f1 z1 g'2 _a1 e1/2 e1 c1\n| F1 D6 ^E2 =F2 z1 g1 c2 b1 | z1/2 z1 B1 _A2 z1 =b2 G1 f1 z1 g'2 b1 e1/2 e1 c1\n| F1 D6 ^E2 =F2 z1 g1 c2 b1 | z1/2 z1 B1 _A2 z1 =b2 G1 f1 z1 g'2 _a1 e1/2 e1 c1\n| F1 D6 ^E2 =F2 z1 g1 c2 b1 | z1/2 z1 B1 _A2 z1 =b2 G1 f3/2 z1 g'2 _a1 e1 c1\n| F1 D6 ^E2 =F2 z1 g1 c2 b1 | z1/2 z1 B1 _A2 z1 =b2 G1 f3/2 z1 g'2 _a1 e1 c1\n| =e2 c1/4 B,4 z1 ^A,4 _F1 z1 C1 =g1 z1/2 f'1/4 | z1 f1 d2 =b1 z3 E3 A1 =G3 C1\n| =e2 c1/4 B,4 z1 ^A,4 _F1 z1 C1 =g1 z1/2 f'1/4 | a1 a6 B2 b1 E,3 G2 C1 |]\nV: P4\nz1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1\n| z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1\n| z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 F1\n| z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 z1 B1 z2 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1\n| z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 g1 B1 z2 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1\n| z1 z1 z1 B1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 g1 B1 z2 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1\n| z1 z1 z1 B1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 g1 B1 z2 z1 z1 z1 z1 z1 z1 F1 z1 z1 z1\n| z1 z1 z1 B1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 g1 B1 z2 z1/2 z1 z1 z1 z1 z1 z1/2 z1 z1 z1 z1\n| b1 z1 z1 B1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 g1 B1 z2 z1/2 z1 z1 z1 z1 z1 z1/2 z1 z1 z1 z1\n| b1 z1 z1 B1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 g1 B1 F1/2 z2 z1 z1 z1 z1 z1 z1/2 z1 z1 z1 z1\n| b1 z1 E1 B1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 g1 B1 F1/2 z2 z1 z1 z1 z1 z1 z1/2 z1 z1 z1 z1\n| b1 z1 E1 B1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 | z1 e1 g1 B1 F1/2 z2 z1 z1 z1 z1 z1 z1/2 z1 z1 z1 z1\n| b1 z1 E1 B1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 | z1 e1 g1 B1 F1/2 z2 z1 z1 z1 z1 z1 z1/2 z1 a1 z1 z1\n| b1 z1 E1 B1 z1 z1 B1 z1 z1 z1 z1 z1 z1 b1 z1 z1 | z1 e1 g1 B1 F1/2 z2 z1 z1 z1 z1 z1 z1/2 z1 a1 z1 z1\n| b1 z1 E1 C1 z1 z1 B1 z1 z1 z1 z1 z1 z1 b1 z1 z1 | z1 e1 g1 B1 F1/2 z2 z1 z1 z1 z1 z1 z1/2 z1 a1 z1 z1\n| b1 z1 E1 C1 z1 f1 B1 z1 z1 z1 z1 z1 z1 b1 z1 z1 | z1 e1 g1 B1 F1/2 z2 z1 z1 z1 z1 z1 z1/2 z1 a1 z1 z1\n| b1 z1 E1 C1 z1 f1 B1 z1 z1 z1 z1 z1 z1 b1 z1 z1 | z1 e1 g1 B1 F1/2 z2 F1 z1 z1 z1 z1 z1/2 z1 a1 z1 z1\n| b1 z1 E1 C1 z1 f1 B1 z1 z1 z1 z1 z1 z1 b1 z1 z1 | z1 e1 g1 B1 F1/2 z2 F1 z1 E1 z1 z1 z1/2 z1 a1 z1 z1\n| g1 b1 z1 E1 C1 f1 B1 z1 z1 z1 z1 z1 z1 b1 z1 z1 | z1 e1 g1 B1 F1/2 z2 F1 z1 E1 z1 z1 z1/2 z1 a1 z1 z1\n| g1 b1 z1 C1 f1 z2 z1 z1 E1 z1 z1 z1 b1 z1 z1 | z1 e1 g1 B1 F1/2 z2 F1 z1 E1 z1 z1 z1/2 z1 a1 z1 z1\n| g1 b1 z1 C1 f1 z2 d1 z1 E1 z1 z1 z1 b1 z1 z1 | z1 e1 g1 B1 F1/2 z2 B1 z1 E1 z1 z1 z1/2 z1 a1 z1 z1\n| F1 g1 b1 z1 C1 f1 z2 d1 z1 E1 z1 z1 z1 z1 z1 | z1 e1 g1 B1 F1/2 z2 B1 z1 E1 z1 z1 z1/2 z1 a1 z1 z1\n| F1 g1 b1 z1 C1 f1 z2 d1 z1 E1 z1 z1 z1 z1 z1 | A1 e1 g1 B1 F1/2 z2 B1 z1 E1 z1 z1 z1/2 z1 a1 z1 z1\n| F1 g1 b1 z1 C1 f1 z2 d1 E1 z1 z1 z1 z1 f1 z1 | A1 e1 g1 B1 F1/2 z2 B1 z1 E1 z1 z1 z1/2 z1 a1 z1 z1\n| F1 g1 b1 z1 C1 f1 z2 d1 E1 z1 z1 z1 z1 f1 z1 | A1 e1 B1 F1/2 z2 B1 z1 E1 z1 z1 z1/2 b1 z1 a1 z1 z1\n| F1 g1 b1 z1 C1 z2 d1 E1 z2 z1 z1 z1 f1 z1 | A1 e1 B1 F1/2 z2 B1 z1 E1 z1 z1 z1/2 b1 z1 a1 z1 z1\n| F1 g1 b1 z1 C1 z2 d1 E1 z2 z1 z1 z1 f1 z1 | A1 e1 B1 F1/2 z2 B1 z1 E1 z1 z1 f1/2 b1 z1 a1 z1 z1\n| F1 f1 g1 B1 z1 a1 z1/2 z2 E1 z1/2 z2 z1 z1 d1 z1 | A1 e1 B1 F1/2 z2 B1 e1 E1 z1 z1 e1/2 b1 z1 a1 z1 z1\n| F1 f1 g1 B1/2 z1 a1 z1/2 z2 E1 z2 z1 z1 d1 f1 z1 | A1 e1 B1 F1/2 z2 B1 e1 E1 z1 z1 e1/2 b1 z1 a1 z1 z1\n| F1 f1 g1 b1/2 z1 C1 z1/2 z2 E1 z2 z1 z1 d1 f1 z1 | A1 e1 B1 F1/2 z2 B1 e1 E1 z1 z1 e1/2 b1 z1 a1 z1 z1\n| F1 f1 g1 b1/2 z1 C1 z1/2 z2 E1 z2 z1 z1 C1 f1 z1 | A1 e1 B1 F1/2 z2 B1 e1 E1 g1 z1 e1/2 b1 z1 a1 z1 z1\n| F1 f1 g1 b1/2 z1 C1 z1/2 z2 E1 z3 z1 C1 f1 z1 | A1 e1 B1 F1/2 z2 B1 e1 E1 g1 z1 e1/2 b1 z1 a1 z1 z1\n| F1 z1 g1 G1/2 z1 C1 z1/2 z1 z6 z1 C1 z1 | A1 e1 B1 G1/2 D2 B1 E1 E1 g1 z1 e1/2 b1 z1 a1 z1 z1\n| F1 f1 g1 b1/2 z1 C1 z1/2 z1 z6 z1 C1 z1 | A1 e1 B1 G1/2 D2 B1 E1 E1 g1 z1 e1/2 b1 z1 a1 z1 z1\n| F1 f1 g1 b1/2 z1 C1 z1/2 z1 z6 z1 C1 z1 | A1 e1 B1 G1/2 =e2 B1 E1 E1 g1 z1 e1/2 b1 z1 a1 z1 z1\n| F1 d6 f1 g1 z1 C1 z1/2 f1/2 z1 z1 C1 z1 | A1 e1 B1 G1/2 =e2 B1 E1 E1 g1 z1 e1/2 b1 z1 a1 z1 z1\n| F1 d6 f1 g1 z1 C1 z1/2 f1/2 z1 z1 C1 z1 | A1 e1 b1 B1 F1 E1/4 f4 g1 z1 e1/2 b1 z1/4 b1 z1 z1\n| F1 d6 f1 g1 z1 C1 z1/2 f1/2 z1 z1 C1 b1 | A1 e1 b1 B1 F1 E1/4 f4 g1 z1 e1/2 b1 z1/4 b1 z1 z1\n| F1 d6 ^f1 g1 z1 C1 z1/2 f1/2 z1 z1 C1 b1 | A1 e1 b1 B1 F1 E1/4 f4 g1 z1 e1/2 b1 z1/4 b1 z1 z1\n| ^b1/2 F1 D1 d6 ^f1 z1 C1 z1/2 z1 z1 C1 b1 | A1 e1 b1 B1 F1 E1/4 f4 g1 z1 e1/2 b1 z1/4 b1 z1 z1\n| ^b1/2 F2 F1 D1 d6 z1 C1 z1/2 z1 z1 b1 | A1 e1 b1 B1 F1 E1/4 f4 g1 z1 e1/2 b1 z1/4 b1 z1 z1\n| ^b1/2 _F3 F1 D1 d6 z1 z1/2 z1 z1 b1 | A1 e1 b1 B1 F1 E1/4 f4 g1 z1 e1/2 b1 z1/4 b1 z1 z1\n| ^b1/2 _F3 F1 D1 d6 z1 z1/2 z1 z1 b1 | A1 e1 b1 B1 F1 =E1/4 f4 g1 z1 e1/2 b1 z1/4 b1 z1 z1\n| _F3 F1 D2 d6 _B1 z1 z1 b1 | A1 e1 b1 B1 F1 =E1/4 f4 g1 z1 e1/2 b1 z1/4 b1 z1 z1\n| _F3 F1 D2 d6 _B1 z1 z1 b1 | A1 e1 b1 F1 =E1/4 f4 g1 z1 e1/2 F1 z1/4 b1 z1 f1 z1\n| _F3 G2 B6 f'1 d2 z1 b1 | A3 A4 e1 _B1 z1 z1 f1 =b1 g1 z1 A1\n| _F3 F1 D2 d6 _B1 z1 z1 b1 | A1 e1 g1 F1 =E1/4 f4 g1 z1 =e1/4 z1/2 z1 f1 z3\n| _F3 G2 ^B1 B6 f'1 d2 b1 | A3 A4 e1 G1 z1 f1 =b2 g1 z1 A1\n| _F3 G2 f6 _B1 f'1 d2 b1 | A3 e1 G1 F1 f4 g1 z1 f1 A3\n| _F3 G2 f6 _B1 f'1 d2 b1 | A3 A4 e1 G1 f4 z1 B1 A1\n| _F3 G2 f6 _B1 f'1 d2 b1 | A3 A4 e1 G1 f4 z1 B1 A1\n| ^E,1 z4 =f2 ^G1 B1 f1 E1 f2 f3 | A3 A4 e1 G1 f4 z1 B1 A1 |]\nV: P5\nz1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1\n| z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 G1 | z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1\n| z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 G1 | z1 z1 z1 F1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1\n| z1 e1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 G1 | z1 z1 z1 F1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1\n| z1 e1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 G1 | z1 z1 z1 F1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 a1 z1\n| z1 e1 z1 z1 B1 z1 E1 z1 z1 z1 z1 z1 z1 z1 z1 G1 | z1 z1 z1 F1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 a1 z1\n| z1 e1 z1 z1 B1 z1 E1 z1 z1 z1 z1 z1 z1 z1 z1 G1 | z1 z1 z1 F1 B1 z1 z1 z1 z1 B1 z1 z1 z1 z1 a1 z1\n| z1 e1 z1 z1 B1 z1 E1 z1 z1 z1 z1 z1 z1 z1 z1 G1 | z1 z1 z1 F1 B1 z1 z1 z1 z1 B1 z1 z1 z1 z1 =d1 z1\n| z1 e1 z1 z1 B1 z1 E1 z1 z1 z1 z1 z1 z1 z1 z1 G1 | z1 z1 z1 F1 B1 z1 z1 z1 z1 B2 z1 z1 z1 z1 z1\n| c1 z1 z1 z1 B1 z1 E1 z1 z1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 f1/2 z1 B1 z1 z1 z1 z1 z1 B2 z1 z1 z1 z1 z1/2\n| c1 z1 z1 z1 B1 z1 E1 z1 z1 z1 z1 z1 z1 z1 z1 G1 | z1 z1 f1/2 z1 B1 z1 z1 z1 z1 z1 B2 z1 z1 z1 z1 z1/2\n| c1 z1 z1 z1 B1 z1 E1 z1 z1 z1 z1 z1 z1 z1 z1 G1 | z1 z1 f1/2 z1 B1 z1 z1 z1 z1 z1 B2 b1 z1 z1 z1 z1/2\n| c1 z1 z1 f1 B1 z1 E1 z1 z1 z1 z1 z1 z1 z1 z1 G1 | z1 z1 f1/2 z1 B1 z1 z1 z1 z1 z1 B2 b1 z1 z1 z1 z1/2\n| c1 z1 z1 f1 B1 z1 E1 z1 z1 z1 z1 z1 z1 z1 z1 G1 | z1 z1 f1/2 d1 B1 z1 z1 z1 z1 z1 B2 b1 z1 z1 z1 z1/2\n| c1 z1 z1 f1 B1 z1 E1 z1 z1 B1 z1 z1 z1 z1 z1 G1 | z1 z1 f1/2 d1 B1 z1 z1 z1 z1 z1 B2 b1 z1 z1 z1 z1/2\n| c1 z1 e1 f1 B1 z1 E1 z1 E1 z1 z1 z1 z1 z1 z1 G1 | z1 z1 f1/2 d1 B1 z1 z1 z1 z1 z1 B2 b1 z1 z1 z1 z1/2\n| c1 z1 e1 f1 B1 z1 E1 z1 E1 z1 d1 z1 z1 z1 z1 G1 | z1 z1 f1/2 d1 B1 z1 z1 z1 z1 z1 B2 b1 z1 z1 z1 z1/2\n| c1 z1 e1 f1 B1 z1 E1 z1 E1 z1 d1 z1 z1 z1 d1 G1 | z1 z1 f1/2 d1 B1 z1 z1 z1 z1 z1 B2 b1 z1 z1 z1 z1/2\n| c1 z1 e1 f1 B1 z1 E1 z1 E1 z1 d1 z1 z1 z1 d1 G1 | z1 z1 f1/2 d1 B1 z1 F1 z1 z1 z1 B2 b1 z1 z1 z1 z1/2\n| c1 z1 C1 f1 B1 z1 E1 z1 E1 b1 z1 d1 z1 z1 d1 G1 | z1 z1 f1/2 d1 B1 z1 F1 z1 z1 z1 B2 b1 z1 z1 z1 z1/2\n| c1 z1 C1 B1 z1 E1 z1 E1 b1 z1 d1 z1 z1 z1 d1 G1 | z1 z1 f1/2 d1 B1 z1 F1 z1 z1 z1 B2 b1 z1 z1 z1 z1/2\n| f1 z1 C1 z1 E1 z1 E1 b1 z1 d1 z1 f2 z1 z1 G1 | z1 z1 f1/2 d1 B1 z1 F1 z1 z1 z1 B2 b1 z1 z1 z1 z1/2\n| f1 z1 C1 z1 E1 z1 E1 b1/2 z1 z1/2 d1 z1 f2 z1 z1 G1 | z1 z1 f1/2 d1 B1 z1 F1 z1 z1 z1 B2 b1 z1 z1 z1 z1/2\n| f1 z1 C1 z1 E1 z1 E1 b1/2 z1 d1 z1 f2 b1/2 z1 z1 A1 | z1 z1 f1/2 d1 B1 z1 F1 z1 z1 z1 B2 b1 z1 z1 z1 z1/2\n| f1 z1 C1 z1 E1 z1 E1 b1/2 z1 d1 f1 f2 b1/2 z1 z1 A1 | z1 z1 f1/2 d1 B1 z1 F1 z1 z1 z1 B2 b1 z1 z1 z1 z1/2\n| f1 z1 C1 z1 E1 z1 E1 b1/2 z1 d1 f1 f2 b1/2 z1 z1 A1 | z1 z1 f1/2 d1 B1 b1 F1 z1 z1 z1 B2 b1 z1 z1 z1 z1/2\n| f1 z1 C1 z1 E1 D1 E1 b1/2 z1 d1 f1 f2 b1/2 z1 z1 A1 | z1 z1 f1/2 d1 B1 b1 F1 z1 z1 z1 B2 b1 z1 z1 z1 z1/2\n| f1 z1 C1 z1 E1 D1 E1 b1/2 z1 d1 f1 f2 b1/2 z1 z1 A1 | z1 z1 f1/2 F1 B1 b1 F1 z1 z1 z1 B2 b1 z1 z1 d1 z1/2\n| b1 f1 C1 z1 E1 D1 E1 b1/2 z1 d1 f1 f2 b1/2 z1 z1 A1 | z1 z1 f1/2 F1 B1 b1 F1 z1 z1 z1 B2 b1 z1 z1 d1 z1/2\n| b1 f1 C1 z1 E1 D1 E1 b1/2 z1 d1 f1 f2 b1/2 z1 z1 A1 | z1 b1 f1/2 F1 B1 b1 F1 z1 z1 z1 B2 b1 z1 z1 d1 z1/2\n| b1 f1 C1 z1 E1 D1 E1 b1/2 z1 d1 f1 f2 b1/2 z1 z1 A1 | z1 b1 f1/2 F1 B1 b1 F1 z1 z1 B2 b1 E1 z1 z1 d1 z1/2\n| b1 f1 C1 z1 E1 D1 E1 b1/2 z1 d1 f1 f2 b1/2 z1 z1 A1 | z1 z1 f1/2 F1 B1 b2 z1 z1 B2 b1 E1 z1 z1 d1 z1/2\n| b1 f1 C1 z1 E1 D1 E1 b1/2 z1 d1 f1 f2 b1/2 z1 z1 A1 | G1 z1 f1/2 F1 B1 b2 z1 z1 B2 b1 E1 z1 z1 d1 z1/2\n| b1 f1 C1 z1 E1 D1 E1 b1/2 z1 ^d1 f1 f2 b1/2 z1 z1 A1 | G1 z1 f1/2 F1 B1 b2 z1 z1 B2 b1 E1 z1 z1 d1 z1/2\n| b1 f1 C1 z1 E1 D1 E1 b1/2 z1 ^d1 f1 f2 b1/2 z1 z1 A1 | G1 z1/4 f1/4 F1 B1 =F1 b2 z1 z1 B2 b1 E1 z1 z1 d1 z1/2\n| b1 f1 C1 z1 E1 D1 ^d1 f1 f2 z1 A4 G1 | G1 z1/4 f1/4 F1 B1 =F1 b2 z1 z1 B2 b1 E1 z1 z1 d1 z1/2\n| f1 C1 z1 D1 b2 ^d1 D1 e2 z1 A4 G1 | G1 z1/4 f1/4 F1 B1 =F1 b2 z1 z1 B2 b1 E1 z1 z1 d1 z1/2\n| F1 _b1 B1 G1 C1 D1 d1 e2 z1 A4 F1 G1 | G1 z1/4 f1/4 e1 e1 =F1 b2 z1 z1 C,2 b1 E1 z1 z1 d1 z1/2\n| _b1 B1 G1 C1 D1 ^d1 D1 e2 z1 A4 F1 G1 | G1 z1/4 f1/4 e1 e1 =F1 b2 z1 z1 C,2 b1 E1 z1 z1 d1 z1/2\n| f1 C1 D1 b2 ^d1 D1 e2 z1 A4 F1 G1 | G1 z1/4 f1/4 B1 e1 =F1 b2 z1 z1 C,2 b1 E1 z1 z1 d1 z1/2\n| f1 b1 d1 C1 D1 ^d1 D1 e2 z1 A4 z1 G1 | G1 B1 e1 b1 =F2 b2 G1 c1/4 D,1/4 z2 E1 z1 z1 B,1 z1/2\n| f1 b1 d1 C1 D1 ^d1 D1 e2 z1 A4 F1 G1 | G1 B1 e1 b1 =F2 b2 G1 c1/4 D,1/4 z2 E1 z1 z1 B,1 z1/2\n| f1 C1 D1 b2 ^d1 D1 e2 z1 A4 F1 G1 | G1 f1/4 B1 e1 b1 =F2 b2 G1 c1/4 z2 E1 z1 z1 B,1 z1/2\n| f1 C1 D1 b2 ^d1 D1 e2 z1 A4 F1 G1 | G1 B1 e1 b1 =F2 b2 G1 c1/4 D,1/4 z2 E1 z1 z1 B,1 z1/2\n| f1 C1 D1 b2 ^d1 D1 e2 z1 A4 F1 G1 | G1 _d1 e1 =F3 b'4 f1 c1/2 z2 z1 z1 z1/2\n| f1 C1 D1 b2 ^d1 D1 e2 z1 A4 F1 G1 | G1 _d1 e1 =F3 b'4 f1 c1/2 z2 z1 z1 z1/2\n| f1 C1 D1 b2 ^d1 D1 e2 z1 A4 F1 G1 | G1 _d1 =F3 b'4 f1 c1/2 z2 =b1 z1 z1 z1/2\n| f1 C1 D1 b2 ^d1 D1 e2 z1 A4 F1 G1 | f1 G2 ^G4 E1 _f1/4 =C3 B1/4 =f1 _b1 ^F1/2 c2\n| f1 C1 D1 b2 ^d1 D1 e2 z1 A4 F1 G1 | f1 ^C,2 d'3 E1 =C3 B3/2 ^G1 ^B1 ^F1/2 c2 |]\nV: P6\nz1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 f1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 B1 z1 z1 z1 G1 z1 z1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 f1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 B1 z1 z1 z1 G1 z1 z1 z1 z1 z1 z1 | e1 z1 z1 z1 z1 f1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 B1 z1 z1 z1 G1 z1 z1 z1 z1 z1 A1 | e1 z1 z1 z1 z1 d1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 B1 z1 z1 z1 G1 z1 z1 z1 z1 z1 A1 | e1 b1 z1 z1 z1 d1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 B1 z1 z1 z1 G1 z1 z1 z1 z1 z1 A1 | e1 b1 b1 z1 z1 d1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 B1 z1 z1 z1 G1 z1 z1 z1 z1 z1 A1 | e1 b1 b1 z1 z1 d1 z1 D1 z1 z1 z1 z1 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 B1 z1 z1 z1 G1 z1 z1 a1 z1 z1 A1 | e1 b1 b1 z1 z1 d1 z1 D1 z1 z1 z1 z1 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 B1 z1 z1 G1 z1 z1 f1 a1 z1 z1 A1 | e1 b1 b1 z1 z1 d1 z1 D1 z1 z1 z1 z1 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 B1 z1 z1 G1 f1 z1 f1 a1 z1 z1 A1 | e1 b1 b1 z1 z1 d1 z1 D1 z1 z1 z1 z1 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 B1 z1 z1 f1 z1 f2 a1 z1 z1 A1 | e1 b1 b1 z1 z1 g1 z1 D1 z1 z1 z1 z1 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 B1 z1 z1 f1 z1 f2 a1 z1 z1 A1 | e1 b1 b1 z1 z1 g1 z1 D1 z1 z1 z1 z1 z1 z1 z1 F1\n| z1 z1 z1 z1 z1 B1 z1 z1 f1 z1 f2 a1 z1 d1 A1 | e1 b1 b1 z1 z1 g1 z1 D1 z1 z1 z1 z1 z1 z1 z1 F1\n| z1 z1 z1 z1 b1 B1 z1 z1 f1 z1 f2 a1 z1 d1 A1 | e1 b1 b1 z1 z1 g1 z1 D1 z1 z1 z1 z1 z1 z1 z1 F1\n| z1 z1 z1 z1 b1 B1 z1 z1 f1 z1 z1 d1 e3 A1 | e1 b1 b1 z1 z1 g1 z1 D1 z1 z1 z1 z1 z1 z1 z1 F1\n| z1 z1 z1 z1 b1 B1 z1 z1 f1 z1 z1 d1 e3 A1 | e1 b1 b1 z1 z1 g1 z1 D1 z1 G1 z1 z1 z1 z1 z1 F1\n| z1 z1 z1 z1 b1 B1 E1 z1 F1 f1 z1 z1 e3 A1 | e1 b1 b1 z1 z1 g1 z1 D1 z1 G1 z1 z1 z1 z1 z1 F1\n| z1 z1 F1 z1 b1 B1 E1 z1 F1 f1 z1 z1 e3 A1 | e1 b1 b1 z1 z1 g1 z1 D1 z1 G1 z1 z1 z1 z1 z1 F1\n| z1 z1 F1 z1 b1 B1 E1 z1 F1 f1 z1 z1 e3 A1 | e1 b1 b1 z1 z1 g1 z1 D1 z1 G1 z1 z1 G1 z1 z1 F1\n| z1 z1 F1 z1 b1 B1 E1 z1 F1 f1 z1 f1 e3 A1 | e1 b1 b1 z1 z1 g1 z1 D1 z1 G1 z1 z1 G1 z1 z1 F1\n| z1 F1 b1 z1 b1 B1 E1 z1 F1 f1 z1 f1 e3 A1 | e1 b1 b1 z1 z1 g1 z1 D1 z1 G1 z1 z1 G1 z1 z1 F1\n| b1 F1 b1 z1 b1 B1 E1 z1 F1 f1 z1 f1 e3 A1 | e1 b1 b1 z1 z1 g1 z1 D1 z1 G1 z1 z1 G1 z1 z1 F1\n| b1 F1 b2 z1 b1 B1 E1 z1 d1 b1 z1 e3 A1 | e1 b1 b1 z1 z1 g1 z1 D1 z1 G1 z1 z1 G1 z1 z1 F1\n| b1 F1 b2 z1 b1 B1 E1 z1 d1 b1 z1 e3 A1 | e1 b1 b1 z1 z1 g1 z1 D1 z1 G1 z1 E1 G1 z1 z1 F1\n| b1 F1 z1 b1 z3 B1 C1 z1 d1 b1 e3 A1 | e1 b1 b1 z1 z1 g1 z1 D1 z1 G1 z1 E1 G1 z1 z1 F1\n| b1 F1 z1 b1 z3 B1 C1 z1 d1 b1 e3 A1 | e1 b1 z1 z1 g1 z1 D1 d1 G1 z1 E1 G1 B1 z1 z1 F1\n| b1 F1 z1 b1 z3 B1 C1 z1 d1 b1 e3 A1 | b1 z1 z1 g1 z1 f1 d1 G1 z1 E1 G1 B1 z1 z2 F1\n| b1 F1 z1 b1 f1 B1 F2 C1 z1 d1 b1 e3 A1 | b1 z1 z1 g1 F1 f1 d1 G1 z1 E1 G1 B1 z1 z2 F1\n| b1 F1 z1 b1 f3 B1 C1 z1 d1 b1 e3 A1 | b1 z1 z1 g1 F1 f1 d1 G1 z1 E1 G1 B1 z1 z2 F1\n| b1 F1 z1 b1 f3 B1 C1 z1 d1 b1 e3 A1 | b1 z1 g1 f1 d1 G1 z1 E1 a1 G1 B1 ^a1 z1 z2 F1\n| b1 F1 z1 b1 f3 B1 C1 z1 d1 b1 e3 A1 | b1 z1 g1 f1 d1 G1 z1 E1 a1 B1 ^a1 z1 =b1 z2 F1\n| b1 F1 z1 b1 f3 B1 G1 z1 d1 b1 z3 A1 | b2 z1 =D2 f1 d1 G1 z1 E1 a1 B1 ^a1 z1 =b1 F1\n| b1 F1 z1 b1 f3 B1 C1 z1 d1 b1 e3 A1 | b2 z1 =D2 f1 d1 G1 z1 E1 a1 B1 ^a1 z1 =b1 F1\n| b1 F1 z1 b1 _f3 B1 C1 z1 d1 b1 e3 A1 | b2 z1 =D2 f1 d1 G1 z1 E1 a1 B1 ^a1 z1 =b1 F1\n| b1 F1 z1 b1 _f3 B1 C1 z1 d1 b1 e3 A1 | b2 =D2 B1 f1 d1 G1 z1 E1 a1 B1 ^a1 z1 =b1 F1\n| b1 F1 z1 b1 _f3 B1 C1 z1 d1 b1 e3 A1 | b2 =D2 B1 f1 d1 G1 z1 E1 B1 ^a1 z2 =b1 F1\n| b1 F1 z1 b1 _f3 B1 c1/2 C1/2 z1 B1 b1 g3 A1 | b2 =D2 B1 f1 d1 G1 z1 E1 B1 ^a1 z2 =b1 F1\n| b1 F1 z1 b1 _f3 B1 c1/2 C1/2 z1 B1 b1 ^B3 A1 | b2 =D2 B2 f1 d1 G1 z1 B1 z1 z2 =b1 F1\n| b1 F1 z1 b1 _f3 B1 c1/2 C1/2 z1 B1 b1 ^B3 A1 | b2 =D2 B2 f1 d1 G1 z1 B1 ^a1 z2 =b1 F1\n| b1 F1 z1 b1 _f3 B1 c1/2 C1/2 z1 B1 b1 ^B3 A1 | c4 =D2 B2 d1 G1 z1 B1 z2 =b1 F1\n| b1 F1 z1 b1 _f3 B1 c1/2 C1/2 z1 B1 b1 ^B3 A1 | c4 =D2 B2 d1 z1 z2 =b1 z2 b1\n| b1 E,1 z1 b1 _f3 B1 z1/2 C1/2 z1 B1 b1 ^B3 A1 | c4 =D2 B2 z1 z2 =b2 b2 b1\n| b1 E,1 z1 b1 _f3 B1 c1/2 C1/2 z1 B1 b1 ^B3 A1 | c4 =D2 B2 z1 z2 =b2 b2 b1\n| G1 ^G8 z1 a1 B1 b3 A1 | c4 =D2 B2 z1 z2 =b2 b2 b1 |]\nV: P7\nz1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 f1 z1 | z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1\n| z1 z1 z1 b1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 f1 z1 | z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1\n| z1 z1 z1 b1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 f1 z1 | z1 z1 z1 z1 z1 G1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1\n| z1 z1 z1 b1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 f1 z1 | z1 z1 z1 z1 z1 G1 B1 F1 z1 z1 B1 z1 z1 z1 z1 z1\n| z1 z1 z1 b1 z1 z1 B1 z1 z1 z1 z1 G1 z1 z1 f1 z1 | z1 z1 z1 z1 z1 G1 B1 F1 z1 z1 B1 z1 z1 z1 z1 z1\n| z1 z1 z1 b1 z1 z1 B1 z1 z1 z1 z1 G1 z1 z1 f1 z1 | z1 z1 z1 z1 z1 G1 B1 F1 z1 D1 B1 z1 z1 z1 z1 z1\n| z1 z1 z1 b1 z1 z1 B1 z1 z1 z1 z1 F1 G1 z1 f1 z1 | z1 z1 z1 z1 z1 G1 B1 F1 z1 D1 B1 z1 z1 z1 z1 z1\n| z1 B1 z1 b1 z1 z1 B1 z1 z1 z1 z1 F1 G1 z1 f1 z1 | z1 z1 z1 z1 z1 G1 B1 F1 z1 D1 B1 z1 z1 z1 z1 z1\n| z1 B1 z1 b1 z1 z1 B1 z1 z1 z1 z1 F1 G1 z1 f1 z1 | z1 z1 z1 z1 z1 G1 B1 F1 z1 D1 B1 z1 z1 z1 z1 d1\n| z1 B1 z1 b1 z1 z1 B1 z1 z1 z1 z1 F1 G1 z1 f1 z1 | z1 z1 z1 z1 z1 G1 B1 z1 D1 z2 z1 z1 z1 z1 d1\n| z1 B1 z1 b1 z1 z1 B1 z1 z1 z1 z1 F1 G1 z1 f1 z1 | z1 z1 z1 z1 z1 G1 B1 D1 z2 z1 z1 z1 z1 c1 d1\n| z1 B1 z1 b1 z1 z1 B1 z1 z1 z1 z1 F1 G1 z1 f1 z1 | z1 z1 z1 z1 b1 G1 B1 D1 z2 z1 z1 z1 z1 E1 d1\n| z1 B1 z1 b1 z1 z1 B1 z1 z1 z1 z1 F1 G1 z1 f1 z1 | z1 z1 z1 z1 b1 G1 B1 A1 z2 z1 G1 z1 z1 E1 d1\n| z1 B1 z1 b1 z1 z1 B1 z1 z1 z1 z1 ^F1 G1 z1 f1 z1 | z1 z1 z1 z1 b1 G1 B1 A1 z2 z1 G1 z1 z1 E1 d1\n| z1 B1 z1 b1 z1 z1 B1 z1 z1 z1 z1 ^F1 G1 z1 f1 z1 | z1 z1 z1 z1 b1 G1 B1 A1 z2 B1 G1 z1 z1 E1 d1\n| z1 B1 z1 b1 z1 z1 B1 z1 z1 z1 z1 ^F1 G1 z1 f1 z1 | z1 z1 z1 z1 b1 G1 B1 A1 z2 B1 G1 z1 b1 a1 d1\n| z1 B1 B1 b1 z1 z1 B1 z1 z1 z1 z1 ^F1 G1 z1 f1 z1 | z1 z1 z1 z1 b1 G1 B1 A1 z2 B1 G1 z1 b1 a1 d1\n| z1 B1 B1 b1 z1 z1 B1 z1 z1 z1 z1 ^F1 G1 z1 f1 z1 | E1 z1 z1 z1 b1 G1 B1 A1 z2 B1 G1 z1 b1 a1 d1\n| z1 B1 B1 b1 z1 z1 B1 z1 z1 z1 z1 G1 z1 f1 z2 | E1 z1 z1 z1 b1 G1 B1 A1 z2 B1 G1 z1 b1 a1 d1\n| z1 B1 B1 b1 z1 z1 B1 z1 z1 z1 z1 G1 z1 f1 z2 | E1 z1 z1 z1 b1 G1 B1 A1 z2 B1 G1 d1 b1 a1 d1\n| z1 B1 B1 z1 z1 B1 B1 g1 z1 z1 z1 G1 z1 f1 z2 | E1 z1 z1 z1 b1 G1 B1 A1 z2 B1 G1 d1 b1 a1 d1\n| z1 B1 B1 z1 z1 B1 d1 g1 z1 z1 z1 G1 z1 f1 z2 | E1 z1 z1 z1 b1 G1 B1 A1 z2 B1 G1 d1 b1 a1 d1\n| B1 B1 ^B1 B1 z1 z1 B1 d1 g1 z1 z1 z1 G1 z1 z2 | E1 z1 z1 z1 b1 G1 B1 A1 z2 B1 G1 d1 b1 a1 d1\n| B1 B1 B1 z1 z1 B1 d1 g1 z1 z1 z1 G1 z2 g2 | E1 z1 z1 z1 b1 G1 B1 A1 z2 B1 G1 d1 b1 a1 d1\n| B1 B1 f1 B1 z1 z1 B1 c1 d1 g1 z1 G1 z2 g2 | E1 z1 z1 z1 b1 G1 B1 A1 z2 B1 G1 d1 b1 a1 d1\n| B1 B1 f1 B1 z1 z1 B1 ^e1 d1 g1 z1 G1 z2 g2 | E1 z1 z1 z1 b1 G1 B1 A1 z2 B1 G1 d1 b1 a1 d1\n| B1 B1 f1 B1 z1 z1 B1 ^e1 d1 g1 f1 G1 z2 g2 | E1 z1 z1 z1 b1 G1 B1 A1 z2 B1 G1 d1 b1 a1 d1\n| B1 B1 f1 B1 z1 z1 B1 d3 d1 g1 f1 G1 g2 | E1 z1 z1 z1 b1 G1 B1 A1 z2 B1 G1 d1 b1 a1 d1\n| B1 B1 f1 B1 z1 z1 B1 d3 d1 g1 f1 G1 g2 | E1 z1 d1 z1 b1 G1 B1 A1 z2 B1 G1 d1 b1 a1 d1\n| B1 B1 f1 B1 z1 z1 B1 z3 d1 g1 f1 G1 g2 | E1 z1 d1 B1 b1 G1 A1 z2 B1 F1 G1 d1 b1 a1 d1\n| B1 B1 f1 B1 z1 z1 B1 d3 d1 g1 f1 G1 g2 | E1 z1 d1 B1 b1 G1 A1 z2 B1 F1 G1 d1 b1 a1 d1\n| B1 B1 f1 B1 z1 z1 B1 d3 d1 g1 f1 G1 g2 | E1 z1 d1 F1 b2 G1 z1 z2 z1 C1 G1 d1 b1 F1\n| B1 B1 f1 B1 z1 z1 B1 d3 d1 g1 f1 G1 g2 | E1 z1 d1 B1 b2 G1 A1 z2 B1 G1 d1 b1 a1 d1\n| B1 B1 f1 B1 z1 z1 B1 d3 d1 g1 f1 G1 g2 | E1 z1 d1 B1 b2 G1 A1 B2 B1 G1 d1 b1 a1 d1\n| B1 B1 f1 B1 z1 z1 B1 d3 d1 g1 f1 G1 g2 | E1 z1 d1 B1 b2 G1 B1 G1 d4 b1 a1 d1\n| B1 B3 f1 B1 z1 z1 B1 _d1 d1 g1 f1 G1 g2 | E1 z1 b1 B1 b2 G1 B1 G1 d4 b1 a1 d1\n| B1 B3 f1 B1 z1 z1 a1 _d1 d1 g1 f1 G1 g2 | E1 z1 b1 B1 b2 G1 B1 G1 d4 b1 a1 d1\n| B3 b2 f1 B1 z1 z1 a1 _d1 d1 g1 G1 B2 | E1 z1 b1 B1 b2 G1 B1 G1 d4 b1 a1 d1\n| B2 f1 B1 d1 B1 z1 d4 g1 G1 B3 | E1 z1 b1 B1 b2 G1 B1 G1 d4 b1 a1 d1\n| G2 f1 b1 ^d1 z2 B1 A1 d2 g1 G1 B3 | F1 z1 b1 B1 G1 B1 G1 e2 d4 b1 a1 d1\n| B2 f1 d2 B1 z1 d4 g1 G1 B3 | F1 z1 b1 B1 G1 B1 G1 e2 d4 b1 a1 d1\n| B2 f1 B1 D,2 z1 d4 g1 G1 B3 | F1 z1 b1 B1 G1 B1 G1 e2 d4 b1 a1 d1\n| B2 f1 B1 D,2 z1 d4 g1 G1 B3 | z1 b1 B2 G1 _d1 G1 B1 G1 e2 z4 b1\n| B2 f1 B1 D,2 z1 d4 g1 G1 B3 | z1 b1 B2 G1 B1 G1 e2 d4 b1 a1 d1\n| B2 f1 B1 D,2 z1 d4 g1 G1 B3 | z1 b1 B2 G1 B1 _G1 e2 d4 b1 a1 d1\n| B2 f1 B1 D,2 z1 d4 g1 G1 B3 | z1 b1 B2 G1 B1 e2 _g2 d4 b1 d1\n| B2 f1 B1 D,2 z1 d4 g1 G1 B3 | z1 b1 B2 G1 B1 e2 _g2 d4 b1 d1\n| B2 f1 B1 D,2 z1 d4 g1 G1 B3 | z1 B1 d4 b1 d1 D8\n| B1 b4 =b1 f1 e1 =B8 | z1 B1 d4 b1 d1 D8\n| ^A1 e3 E1 d1 b1 b3 ^f4 a1 b1 | =f2 b1 G,1 C,1 B1 g2 G6 ^B2 |]\nV: P8\nz1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 b1 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 A1 b1 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 B1 z1 B1 z1 z1 A1 b1 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 B1 z1 B1 d1 z1 z1 A1 b1 z1 z1 z1\n| z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 B1 z1 B1 z2 z1 A1 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1/2 B1 z2 z1 z1/2 A1 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 | z1/4 z1 z1 z1 z1 z1 z1/2 B1 z1 z3 z1 z1/4 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 | z1/4 z1 z1 z1 z1 z2 z1/2 B1 z1 z2 z1 z1 z1/4 z1 z1 z1\n| z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 | z1/4 z1 z1 z1 z1 F2 z1/2 B1 z1 z2 z1 z1 z1/4 z1 z1 z1\n| z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 | z1/4 z1 z1 z1 E1 a2 z1/2 B1 z1 z2 z1 z1 z1/4 z1 z1 z1\n| z1 z1 z1 z1 z1 z1 z1 B1 b1 z1 z1 z1 z1 z1 z1 z1 | z1/4 z1 z1 z1 F1 a2 z1/2 B1 z1 z2 z1 z1 z1/4 z1 z1 z1\n| z1 z1 z1 z1 z1 z1 z1 B1 b1 z1 z1 z1 z1 z1 z1 z1 | z1/4 z1 z1/2 G2 z1 F1 a1 B1 z1 z2 z1 z1 z1/4 z1 z1 z1\n| z1 z1 z1 z1 z1 z1 z1 B1 b1 z1 z1 z1 z1 b1 z1 z1 | z1/4 z1 z1/2 G2 z1 F1 a1 B1 z1 z2 z1 z1 z1/4 z1 z1 z1\n| z1 z1 z1 f1 z1 z1 z1 B1 b1 z1 z1 z1 z1 b1 z1 z1 | z1/4 z1 z1/2 G2 z1 F1 a1 B1 z1 z2 z1 z1 z1/4 z1 z1 z1\n| z1 f1 z1 f1 z1 z1 z1 B1 b1 z1 z1 z1 z1 b1 z1 z1 | z1/4 z1 z1/2 G2 z1 F1 a1 B1 z1 z2 z1 z1 z1/4 z1 z1 z1\n| z1 f1 z1 f1 z1 z1 z1 B1 b1 z1 z1 z1 z1 b1 z1 e1 | z1/4 z1 z1/2 G2 z1 F1 a1 B1 z1 z2 z1 z1 z1/4 z1 z1 z1\n| z1 f1 z1 f1 z1 z1 z1 B1 b1 z1 z1 z1 z1 b1 z1 e1 | z1/4 z1 G1/2 G2 z1 F1 a1 B1 z1 z2 z1 z1 z1/4 z1 z1 z1\n| z1 f1 z1 f1 z1 z1 z1 B1 b1 z1 z1 z1 z1 b1 z1 e1 | z1/4 z1 G1/2 G2 z1 F1 a1 e1 z1 z2 z1 z1 z1/4 z1 z1 z1\n| z1 f1 z1 z1 z1 z1 z1 B1 b1 z1 z1 z1 z1 b1 z1 F1 | z1/4 z1 G1/2 G2 z1 a1 e1 c1 z1 z2 z1 z1 z1/4 E1 z1 c1\n| z1 f1 z1 f1 z1 z1 z1 B1 b1 z1 z1 z1 z1 b1 z1 F1 | z1/4 z1 G1/2 G2 z1 b1 e1 c1 z1 z2 z1 z1 z1/4 E1 z1 c1\n| z1 f1 z1 f1 D1 z1 z1 B1 b1 z1 z1 z1 z1 b1 z1 F1 | z1/4 z1 G1/2 G2 z1 b1 e1 c1 z1 z2 z1 z1 z1/4 E1 z1 c1\n| z1 f1 z1 f1 D1 z1 z1 B1 e1 z1 z1 z1 z1 b1 z1 F1 | z1/4 z1 G1/2 G2 z1 b1 e1 c1 z1 z2 z1 z1 z1/4 E1 B1 c1\n| z1 f1 z1 f1 D1 z1 z1 B1 e1 z1 z1 z1 z1 b1 z1 F1 | b1/4 z1 G1/2 z1 G2 z1 b1 c1 z1 z2 B1 z1 z1/4 E1 B1 c1\n| z1 f1 z1 f1 D1 z1 z1 B1 e1 z1 z1 z1 z1 b1 z1 F1 | b1/4 z1 G1/2 G2 z1 b1 e1 c1 z1 z2 B1 z1 z1/4 E1 B1 c1\n| z1 f1 z1 f1 D1 z1 z1 B1 e1 z1 z1 z1 z1 b1 z1 F1 | b1/4 z1 G1/2 G2 z1 b1 e1 c1 z1 z2 B1 C1 z1/4 E1 B1 c1\n| z1 B1 z1 f1 D1 z1 z1 B1 e1 z1 z1 z1 z1 b1 b1 F1 | b1/4 z1 G1/2 G2 z1 b1 e1 c1 z1 z2 B1 C1 z1/4 E1 B1 c1\n| z1 B1 z1 f1 D1 z1 z1 B1 b1 f1 z1 z1 z1 b1 b1 F1 | b1/4 z1 G1/2 G2 z1 b1 e1 c1 z1 z2 B1 C1 z1/4 E1 B1 c1\n| z1 B1 z1 f1 D1 z1 z1 b1 e1 f1 z1 z1 z1 b1 b1 F1 | b1/4 z1 G1/2 G2 z1 b1 e1 c1 z1 z2 B1 C1 z1/4 E1 B1 c1\n| B1 z1 B1 z1 f1 D1 z1 z1 e1 f1 z1 z1 z1 b1 b1 F1 | b1/4 z1 G1/2 G2 z1 b1 e1 c1 z1 z2 B1 C1 z1/4 E1 B1 c1\n| B1 z1 B1 z1 f1 D1 z1 z1 e1 f1 E1 z1 z1 b1 b1 F1 | b1/4 z1 G1/2 G2 z1 b1 e1 c1 z1 z2 B1 C1 z1/4 E1 B1 c1\n| B1 z1 B1 z1 f1 D1 z1 z1 _D1 f1 E1 z1 z1 b1 b1 F1 | b1/4 z1 G1/2 G2 z1 b1 e1 c1 z1 z2 B1 C1 z1/4 E1 B1 c1\n| B1 z1 B1 z1 f1 D1 z1 z1 _D1 f1 E1 z1 z1 b1 b1 F1 | b1/4 z1 G1/2 G2 d1 b1 e1 c1 z1 z2 B1 C1 z1/4 E1 B1 c1\n| B1 z1 B1 z1 f1 D1 z1 D2 f1 E1 z1 z1 b1 b1 F1 | b1/4 z1 G1/2 G2 d1 b1 e1 c1 z1 z2 B1 C1 z1/4 E1 B1 c1\n| B1 z1 z1 z1/2 f1 D1 z1 D2 f1 E1 z1 z1 b1 b1 F1 z1/2 | b1/4 z1 G1/2 G2 d1 b1 e1 c1 z1 z2 B1 C1 z1/4 E1 B1 c1\n| B1 z1 z1 z1/2 f1 D1 D2 f1 E1 z1 e1 z1 b1 b1 F1 z1/2 | b1/4 z1 G1/2 G2 d1 b1 e1 c1 z1 z2 B1 C1 z1/4 E1 B1 c1\n| B1 z1 z1 z1/2 f1 D1 D2 f1 E1 z1 e1 z1 b1 b1 F1 B1/2 | b1/4 z1 G1/2 G2 d1 b1 e1 c1 z1 z2 B1 C1 z1/4 E1 B1 c1\n| B1 z1 z1 z1/2 f1 D1 D2 f1 E1 z1 e1 z1 b1 =b1 F1 B1/2 | b1/4 z1 G1/2 G2 d1 b1 e1 c1 z1 z2 B1 C1 z1/4 E1 B1 c1\n| B1 z1 z1 f1 D1 D2 f1 E1 z1 e1 b1/2 z1 b1 =b1 F1 B1/2 | b1/4 z1 G1/2 G2 d1 b1 e1 c1 z1 z2 B1 C1 z1/4 E1 B1 c1\n| B1 c1 z1 f1 D1 D2 f1 E1 z1 e1 z1 b1 =b1 F1 B1/2 F1/2 | b1/4 z1 G1/2 G2 d1 b1 e1 c1 z1 z2 B1 C1 z1/4 E1 B1 c1\n| B1 c1 z1 f1 D1 D2 f1 E1 z1 e1 z1 b1 =b1 F1 B1/2 F1/2 | b1/4 z1 G1/2 G2 d1 b1 e1 c1 z1 c2 B1 C1 z1/4 E1 B1 c1\n| B1 c1 z1 f1 D1 D2 ^f1 E1 z1 e1 z1 b1 =b1 F1 B1/2 F1/2 | b1/4 z1 G1/2 G2 d1 b1 e1 c1 z1 c2 B1 C1 z1/4 E1 B1 c1\n| B1 c1 z1 f1 D1 D2 ^f1 E1 z1 e1 z1 b1 =b1 F1 B1/2 F1/2 | z1 G1/2 G2 d1 A,1/4 b1 e1 c1 z1 c2 B1 C1 z1/4 E1 B1 c1\n| B1 z1 f1 B1 ^b1 D1 G2 ^f1 E1 z1 F1 z1 =b1 F1 B1/2 F1/2 | z1 G1/2 G2 d1 A,1/4 b1 e1 c1 z1 c2 B1 C1 z1/4 E1 B1 c1\n| B1 z1 f1 B1 ^b1 D1 G2 ^f1 =F1 z1 F1 z1 B1 F1 B1/2 F1/2 | F1 G1/2 G2 d1 A,1/4 b1 e1 c1 z1 c2 B1 b1 z1/4 E1 B1 c1\n| B1 z1 f1 B1 ^b1 D1 G2 ^f1 =F1 z1 f1 z1 =b1 F1 F1/2 b1/2 | F1 G1/2 G2 d1 A,1/4 b1 e1 c1 z1 c2 B1 b1 z1/4 E1 B1 c1\n| B1 z1 f1 B1 ^b1 D1 G2 ^f1 =F1 z1 f1 z1 =b1 F1 F1/2 b1/2 | F1 G1/2 =f2 d1 A,1/4 b1 e1 c1 z1 c2 B1 b1 z1/4 E1 B1 c1\n| B1 z1 _e1 f1 A2 ^b1 D1 G2 ^f1 z1 z1 B1 F1 F1/2 b1/2 | F1 G1/2 =f2 d1 A,1/4 b1 e1 c1 z1 c2 B1 b1 z1/4 E1 B1 c1\n| B1 z1 _e1 f1 ^b1 D1 G2 ^f1 =F2 z1 z1 B1 F1 F1/2 b1/2 | A1 G1/2 d1 f1/4 b1 e1 c1 z1 c2 B3 B1 b1 z1/4 B1 c1\n| B1 z1 _e1 f1 ^b1 D1 G2 ^f1 =F2 z1 z1 B1 F1 F1/2 b1/2 | A1 G1/2 d1 A,1/4 b1 e1 c1 z1 c2 B3 B1 b1 z1/4 B1 c1\n| z1 _e1 f1 D1 z2 ^f1 =F2 z1 ^f1 z1 B1 B1 F1 _G1/2 b1/2 | A1 b2 z1 B1 z3 =B1 b4 B2 b1\n| z1 _e1 f1 ^b1 D1 G2 ^f1 =F2 z1 ^f1 z1 B1 F1 b1/2 b1/2 | A1 G1/2 d1 A,1/4 b1 e1 c1 z1 c2 B3 _B1 b1 z1/4 B1 c1\n| z1 _e1 f1 ^b1 D1 G2 ^f1 =F2 z1 ^f1 z1 B1 F1 b1/2 b1/2 | A1 b2 z1 B1 z3 =B1 b4 B2 b1/2 g1/2\n| z1 _e1 f1 ^b1 D1 G2 ^f1 =F2 z1 ^f1 z1 B1 F1 _G1/2 b1/2 | A1 b2 z1 B1 z3 =B1 b4 B2 b1/2 g1/2\n| z1 _e1 f1 ^b1 D1 G2 ^f1 =F2 z1 ^f1 z1 B1 F1 _G1/2 b1/2 | A1 b2 B1 B1 z3 =B1 b4 B2 b1/2 g1/2\n| a1 _e2 ^b1 D1 b2 ^f1 =F2 z1 ^f1 z1 E3/2 B1 b1/2 | A1 b2 B1 B1 z3 =B1 b4 B2 b1/2 g1/2\n| a1 _e2 ^b1 D1 b2 ^f1 =F2 z1 ^f1 z1 E3/2 B1 b1/2 | b1 c6 f3 E4 E1 d1 |]\nV: P9\nz1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 z1 f1 z1 B1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 z1 f1 z1 e1 z1 z1 z1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 z1 z1 e1 z1 g1 z1 z1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 z1 z1 z1 g1 z1 z1 z1 z1 z2 z1 | z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 z1 z1 z1 g1 z1 z1 z1 z1 f2 z1 | z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 z1 z3 z1 g1 z1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 z1 z3 z1/4 B1 z1 z1 z1 z1/4 z1/2 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1\n| z1 g1 z1 z1 z1 z1 z3 z1/4 B1 z1 z1 z1 z1/4 z1/2 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1\n| z1 g1 z1 z1 z1 z1 z3 z1/4 B1 z1 z1 z1 z1/4 z1/2 z1 z1 | z1 z1 a1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 z1\n| z1 g1 z1 z1 z1 z1 z3 z1/4 B1 z1 z1 z1 z1/4 z1/2 z1 z1 | z1 z1 a1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 f1 z1\n| z1 g1 z1 z1 z1 z1 z3 z1/4 e1 z1 z1 z1 z1/4 z1/2 z1 z1 | z1 z1 a1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 f1 z1\n| z1 z1 z1 z1 z1 c1 z3 z1/4 d1 z1 z1 z1 z1/4 z1/2 z1 G1 | z1 z1 d1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 f1 z1\n| z1 z1 z1 z1 z1 c1 z3 z1/4 d1 z1 z1 z1 z1/4 z1/2 z1 G1 | z1 z1 d1 z1 z1 z1 E1 z1 B1 z1 z1 z1 z1 z1 f1 z1\n| g1 z1 z1 z1 z1 c1 z3 z1/4 d1 z1 z1 z1 z1/4 z1/2 z1 G1 | z1 z1 z1 d1 z1 z1 z1 z1 f1 z1 b1 z1 z1 z1 z1 z1\n| g1 z1 z1 z1 z1 c1 z3 z1/4 d1 z1 z1 z1 z1/4 z1/2 z1 G1 | z1 z1 d1 z1 z1 z1 E1 z1 f1 z1 z1 z1 z1 z1 d1 z1\n| g1 z1 e1/4 z1 z1 z1 c1 z3 d1 z1 z1 z1 z1/4 z1/2 z1 G1 | z1 z1 d1 z1 z1 z1 E1 z1 f1 z1 z1 z1 z1 z1 d1 z1\n| g1 z1 e1/4 z1 z1 z1 c1 z3 d1 z1 z1 z1 z1/4 z1/2 z1 G1 | z1 z1 d1 z1 z1 z1 E1 z1 f1 e1 z1 z1 z1 z1 d1 z1\n| g1 z1 e1/4 z1 z1 z1 c1 z3 a1 z1 z1 z1 z1/4 z1/2 z1 G1 | z1 d1 d1 z1 z1 z1 E1 z1 f1 e1 z1 z1 z1 z1 d1 z1\n| g1 z1 e1/4 z1 a1 z1 c1 z3 a1 z1 z1 z1 z1/4 z1/2 z1 G1 | z1 d1 d1 z1 z1 z1 E1 z1 f1 e1 z1 z1 z1 z1 d1 z1\n| g1 g1 e1/4 z1 a1 z1 c1 z3 a1 z1 z1 z1 z1/4 z1/2 z1 G1 | z1 d1 d1 z1 z1 z1 E1 z1 f1 e1 z1 z1 z1 z1 d1 z1\n| g1 e1 e1/4 z1 a1 z1 c1 z3 a1 z1 z1 z1 z1/4 b1/2 z1 G1 | z1 d1 d1 z1 z1 z1 E1 z1 f1 e1 z1 z1 z1 z1 d1 z1\n| g1 e1 e1/4 z1 a1 z1 c1 z3 a1 z1 z1 z1 z1/4 b1/2 z1 G1 | z1 d1 d1 z1 z1 z1 E1 z1 f1 e1 z1 z1 G1 z1 d1 z1\n| g1 e1 e1/4 z1 a1 z1 c1 z3 a1 z1 z1 e1 z1/4 b1/2 z1 G1 | z1 d1 d1 z1 z1 z1 E1 z1 f1 e1 z1 z1 G1 z1 d1 z1\n| g1 e1 e1/4 z1 a1 z1 c1 z3 a1 z1 z1 e1 z1/4 b1/2 z1 G1 | z1 d1 d1 z1 G1 z1 E1 z1 f1 e1 z1 z1 G1 z1 d1 z1\n| g1 e1 z1 a1 z1 z1/4 c1 z3 a1 z1 z1 z1/4 b1/2 f1 C1 G1 | z1 d1 F1 d1 z1 E1 z1 E1 f1 e1 z1 z1 G1 z1 d1 z1\n| g1 e1 e1/4 z1 a1 z1 c1 z3 a1 z1 z1 z1/4 b1/2 f1 C1 G1 | z1 d1 F1 d1 z1 G1 z1 E1 f1 e1 z1 z1 G1 z1 d1 z1\n| g1 e1 e1/4 g1 a1 z1 c1 z3 a1 z1 z1 z1/4 b1/2 f1 C1 G1 | z1 d1 F1 d1 z1 G1 z1 E1 f1 e1 z1 z1 G1 z1 d1 z1\n| g1 e1 B1/4 g1 a1 z1 c1 z3 a1 f1 z1 z1/4 b1/2 f1 C1 G1 | z1 d1 F1 d1 z1 G1 z1 E1 f1 e1 z1 z1 G1 z1 d1 z1\n| g1 e1 B1/4 g1 a1 z1 c1 z3 a1 f1 z1 z1/4 b1/2 f1 C1 G1 | z1 d1 F1 d1 G1 z1 _b1 E1 f1 e1 z1 z1 G1 z1 d1 z1\n| g1 e1 B1/4 g1 a1 z1 c1 z3 a1 f1 z1 b1/2 f1 C1 b1/4 G1 | z1 d1 F1 d1 G1 z1 _b1 E1 f1 e1 z1 z1 G1 z1 d1 z1\n| g1 e1 B1/4 g1 a1 z1 E1 F3 a1 f1 z1 b1/2 f1 C1 b1/4 z1 | z1 d1 d1 G1 z1 _b1 E1 f1 B2 e1 z1 z1 G1 d1 z1\n| g1 e1 B1/4 g1 a1 z1 c1 F3 a1 f1 z1 b1/2 f1 C1 b1/4 G1 | z1 d1 d1 G1 z1 _b1 E1 f1 B2 e1 z1 z1 G1 d1 z1\n| g1 e1 z1/4 g1 a1 z1 _A1 F3 a1 f1 z1 b1/2 f1 C1 b1/4 G1 | z1 d1 d1 G1 z1 =f1 E1 f1 B2 e1 G1 z1 d1 d1 z1\n| g1 e1 B1/4 g1 a1 z1 _A1 F3 a1 f1 z1 b1/2 f1 C1 b1/4 G1 | z1 d1 d1 G1 z1 =f1 E1 f1 B2 e1 G1 z1 d1 d1 z1\n| e1 B1/4 g1 a1 z1 _A1 F3 a1 f1 z1 b1/2 f1 C1 _g1 b1/4 G1 | z1 d1 d1 G1 z1 =f1 E1 f1 B2 e1 G1 z1 d1 d1 z1\n| e1 B1/4 F1 g1 a1 z1 _A1 F3 a1 f1 b1/2 f1 C1 _g1 b1/4 G1 | z1 d1 d1 G1 z1 =f1 E1 f1 B2 e1 G1 z1 d1 d1 z1\n| e1 B1/4 d2 F1 g1 a1 z1 _A1 E1 F3 b1/2 f1 C1 b1/4 G1 | z1 d1 d1 G1 z1 f1 B2 e1 b1 G1 z1 G1 d1 d1 z1\n| e1 B1/4 F1 g1 a1 z1 _A1 F,2 E1 F3 b1/2 f1 C1 b1/4 G1 | z1 d1 d1 G1 z1 f1 B2 e1 b1 G1 z1 G1 d1 d1 z1\n| e1 B1/4 F1 g1 a1 z1 _A1 F,2 E1 F3 b1/2 f1 C1 b1/4 G1 | z1 d1 d1 G1 z1 =f1 f1 B2 e1 G1 z1 G1 d1 d1 z1\n| e1 B1/4 F1 g1 a1 z1 _A1 F2 E1 F3 b1/2 f1 C1 b1/4 G1 | z4 d1 G1 z1 f1 B2 e1 G1 G1 d1 d1 z1\n| e1 B1/4 F1 g1 a1 z1 _A1 F,2 E1 F3 b1/2 f1 C1 b1/4 G1 | z4 d1 G1 z1 f1 B2 e1 G1 G1 d1 d1 z1\n| e1 B1/4 F1 g1 a1 z1 _A1 F,2 E1 F3 b1/2 f1 C1 b1/4 G1 | z4 d1 G1 z1 f1 e1 G1 d1 d1 ^B2 d1 B1\n| e1 B1/4 F1 g1 a1 z1 _F,1 F,2 E1 F3 b1/2 f1 C1 b1/4 G1 | z4 d1 G1 z1 f1 e1 G1 d1 d1 ^B2 d1 B1\n| e1 B1/4 c1 F1 g1 z1 =F,1 F,2 E1 F3 b1/2 f1 C1 b1/4 G1 | b4 d1 G2 z1 f1 e1 G1 d1 ^B2 d1 B1\n| B1/4 _C1 c1 F1 z1 z1 =F,1 F,2 E1 F3 f1 C1 b1/4 z1/2 G1 | d4 d1 G2 f1 f1 e1 G1 ^D1 ^B2 d1 B1\n| e1 B1/4 c1 F1 g1 z1 =F,1 F,2 E1 F3 b1/2 f1 C1 b1/4 G1 | d4 d1 G2 f1 f1 e1 G1 ^D1 ^B2 d1 B1\n| e1 B1/4 c1 F1 g1 z1 =F,1 F,2 E1 F3 b1/2 f1 C1 b1/4 G1 | d4 d1 f1 f1 b1 G1 ^B2 d1 B4\n| e1 B1/4 c1 F1 g1 z1 =F,1 F,2 E1 F3 b1/2 f1 C1 b1/4 G1 | d4 d1 f1 _E1 f1 b1 ^B2 d1 B4\n| _F1 B1/4 c1 F1 z1 =F,1 E1 =a2 ^B3 b1/2 ^B1 f1 C1 b1/4 G1 | d4 d1 f1 d1 f1 b1 ^B2 d1 B4\n| _F1 B1/4 c1 F1 z1 =F,1 E1 =a2 ^B3 b1/2 ^B1 f1 C1 b1/4 G1 | d4 d1 f1 _E1 f1 b1 ^B2 d1 B4\n| _F1 B1/4 c1 F1 z1 =F,1 E1 =a2 ^B3 b1/2 ^B1 f1 C1 b1/4 G1 | d4 d1 f1 _E1 =B1 b1 ^B2 d1 B4\n| z6 a2 ^D1 f4 B,1 D1 =f1 | a3 ^g1 B1 E1 e6 G1 =B2 e1\n| _F1 A,1 c1 F1 z1 =F,1 E1 =a2 ^B3 b1/2 ^B1/2 f1 C1 b1/2 ^G1/2 | d4 d1 f1 _E1 =B1 b1 ^B2 d1 B4 |]\nV: P10\nz1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 d1 z1 z1\n| z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 ^F1 z1 z1\n| z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 B2 z1 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 B2 z1/2 z1/2 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 E1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 B2 z1/2 z1/2 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 b1 z1 z1 E1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 B2 z1/2 z1/2 z1 z1 z1 z1\n| z1 b1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 E1 B1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 B2 z1/2 z1/2 z1 z1 z1 z1\n| z1 b1 z1 z1 z1 z1 z1 F1 z1 B1 z1 z1 z1 E1 B1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 B2 z1/2 z1/2 z1 z1 z1 z1\n| z1 b1 z1 z1 z1 z1 z1 F1 z1 B1 z1 z1 z1 B1 D1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 B2 z1/2 z1 z1 z1 z1 f1/2\n| z1 b1 z1 z1 z1 z1 z1 F1 z1 B1 z1 z1 z1 B1 D1 z1 | z1 z1 z1 z1 z1 E1 z1 z1 z1 B2 z1/2 z1 z1 z1 z1 f1/2\n| z1 b1 z1 G1 z1 z1 z1 F1 z1 B1 z1 z1 z1 B1 D1 z1 | z1 z1 z1 z1 z1 E1 z1 z1 z1 B2 z1/2 z1 z1 z1 z1 f1/2\n| z1 b1 z1 G1 z1 z1 z1 F1 z1 B1 z1 z1 z1 B1 D1 z1 | z1 z1 z1 z1 z1 E1 z1 z1 z1 B2 z1/2 z1 z1 d1 z1 f1/2\n| z1 b1 z1 G1 z1 z1 z1 F1 z1 B1 z1 z1 z1 B1 D1 z1 | z1 z1 z1 z1 z1 E1 z1 z1 z1 B2 z1/2 z1 z1 d1 e1 f1/2\n| z1 b1 z1 b1 z1 z1 z1 F1 z1 B1 z1 z1 z1 B1 D1 z1 | z1 z1 z1 z1 z1 B1 z1 z1 z1 B2 z1/2 z1 d1 e1 E1 f1/2\n| z1 b1 z1 b1 z1 z1 z1 F1 z1 B1 z1 z1 z1 B1 D1 z1 | z1 z1 z1 z1 z1 B1 d1 z1 z1 B2 z1/2 z1 e1 F1 E1 f1/2\n| z1 b1 z1 b1 z1 z1 z1 F1 z1 B1 z1 F1 z1 B1 D1 z1 | z1 z1 z1 z1 z1 B1 d1 z1 z1 B2 z1/2 z1 e1 F1 E1 f1/2\n| z1 b1 z1 b1 z1 z1 z1 F1 z1 B1 d1 F1 z1 B1 D1 z1 | z1 z1 z1 z1 z1 B1 d1 z1 z1 B2 z1/2 z1 e1 F1 E1 f1/2\n| z1 b1 z1 z1 z1 C1 z2 F1 z1 B1 d1 F1 z1 z1 z1 | z1 z1 z1 z1 z1 B1 d1 z1 z1 B2 z1/2 z1 e1 F1 E1 f1/2\n| z1 b1 z1 z1 z1 C1 z2 F1 z1 B1 d1 F1 z1 D1 z1 | z1 z1 z1 z1 z1 B1 d1 z1 z1 B2 z1/2 z1 e1 F1 E1 f1/2\n| z1 b1 z1 D1 z1 C1 z2 F1 z1 B1 d1 F1 z1 D1 z1 | z1 z1 z1 z1 z1 B1 d1 z1 z1 B2 z1/2 z1 e1 F1 E1 f1/2\n| z1 b1 z1 D1 z1 F1 z2 F1 z1 B1 d1 F1 z1 D1 z1 | z1 z1 z1 z1 z1 B1 d1 z1 d1 B2 z1/2 z1 e1 F1 E1 f1/2\n| z1 b1 z1 D1 z1 F1 z2 F1 z1 B1 d1 =F1 z1 D1 z1 | z1 z1 z1 z1 z1 B1 d1 z1 d1 B2 z1/2 z1 e1 F1 E1 f1/2\n| z1 b1 z1 D1 z1 F1 z2 F1 z1 B1 d1 =F1 z1 D1 z1 | z1 z1 z1 z1 z1 B1 d1 z1 d1 B2 z1/2 B1 e1 F1 E1 f1/2\n| z1 b1 z1 D1 z1 e1 z2 F1 z1 B1 d1 =F1 F1 D1 z1 | z1 z1 z1 z1 z1 B1 d1 z1 d1 B2 z1/2 B1 e1 F1 E1 f1/2\n| z1 b1 z1 D1 z1 e1 z2 F1 z1 B1 d1 =F1 b1 D1 z1 | z1 z1 z1 z1 z1 B1 d1 z1 d1 F2 z1/2 B1 e1 F1 E1 f1/2\n| z1 b1 z1 D1 z1 e1 z2 F1 z1 B1 d1 F2 D1 z1 | z1 z1 z1 z1 z1 B1 d1 z1 d1 F2 z1/2 B1 e1 F1 E1 f1/2\n| z1 b1 z1 D1 z1 e1 z2 F1 z1 B1 d1 F2 D1 z1 | z1 z1 z1 z1 B1 d1 z4 d1 z1/2 B1 e1 F1 E1 f1/2\n| z1 b1 z1 D1 z1 e1 z2 F1 z1 B1 d1 F2 D1 z1 | z1 z1 z1 b1 B1 d1 z4 d1 z1/2 B1 e1 F1 E1 f1/2\n| z1 b1 z1 D1 z1 e1 z2 F1 z1 B1 d1 F2 D1 z1 | z1 z1 z1 b1 B1 F,1 z4 d1 z1/2 B1 a1 b1 E1 f1/2\n| z1 b1 z1 D1 a1 e1 z2 F1 z1 B1 d1 F2 D1 z1 | z1 z1 z1 b1 A1 F,1 z4 d1 z1/2 B1 a1 b1 E1 f1/2\n| z1 G1 z1 D1 a1 e1 z2 F1 z1 B1 d3 D1 z1 | z1 z1 z1 b1 A1 F,1 z4 d1 z1/2 B1 a1 b1 E1 f1/2\n| z1 G1 z1 D1 a1 e1 z2 F1 z1 B1 d3 D1 z1 | z1 z1 z1 b1 A1 F,1 z4 d1 A1/2 B1 a1 b1 E1 f1/2\n| z1 G1 B1 D1 a1 e1 z2 F1 z1 B1 d3 D1 z1 | z1 z1 z1 b1 A1 F,1 z4 d1 A1/2 B1 a1 F1 E1 f1/2\n| z1 G1 B1 D1 a1 e1 z2 F1 z1 B1 d3 D1 z1 | z1 z1 b1 b1 A1 F,1 z4 d1 A1/2 B1 a1 F1 E1 f1/2\n| z1 G1 B1 D1 a1 e1 z2 F1 z1 B1 d3 D1 E1 | z1 z1 b1 b1 A1 F,1 z4 d1 A1/2 B1 a1 F1 E1 f1/2\n| z1 G1 B1 D1 a1 e1 z2 F1 z1 B1 d3 D1 E1 | z1 z1 b1 b1 A1 z4 _d1 A1/2 B1 a1 d1 B1 E1 f1/2\n| z1 G1 B1 D1 a1 e1 z2 F1 z1 B1 d3 D1 E1 | z1 z1 b1 b1 z4 _d1 f'1/2 G1 B1 a1 d1 B1 E1 f1/2\n| z1 G1 B1 D1 a1 e1 z2 F1 z1 B1 d3 D1 E1 | z1 =F1 z1 b1 z4 _d1 f'1 G1 B1 a1 d1 B1 B1/2 f1/2\n| z1 G1 B1 D1 a1 e1 z2 F1 z1 B1 d3 D1 E1 | b1 D1 z1 b4 z4 B1 a1 f1/2 d1 B1 f1/2\n| z1 G1 B1 D1 a1 e1 z2 F1 z1 ^B1 d3 D1 E1 | b1 D1 z1 b4 z4 B1 a1 f1/2 d1 B1 f1/2\n| z1 G1 B1 D1 a1 e1 z2 F1 z1 ^B1 d3 D1 E1 | e1 b1 D1 z1 ^c4 z4 a1 f1/2 d1 B1 f1/2\n| z1 G1 b3 B1 D1 a1 e1 z2 F1 z1 ^B1 D1 E1 | F2 z1/2 z1 b1 z1 a4 z4 f1 d1 f1/2\n| z1 G1 b3 B1 D1 a1 e1 z2 F1 z1 ^B1 D1 E1 | F2 z1 b1 D1 z1 a4 z4 f1/2 d1 f1/2\n| z1 G1 b3 B1 D1 a1 e1 z2 F1 z1 ^B1 D1 E1 | F2 z1 b1 D1 z1 ^c4 z4 f1/2 d1 f1/2\n| z1 G1 ^G3 B1 D1 a1 e1 z2 F1 z1 ^B1 e1 E1 | F2 z1 b1 D1 z1 ^c4 z4 f1/2 d1 f1/2\n| z1 G1 ^f3 B1 D1 z2 F1 z3 ^B1 e1 E1 | F2 z1 b1 D1 z1 ^c4 z4 f1/2 d1 f1/2\n| z1 G1 ^f3 B1 z2 F1 z3 ^e1 ^B1 e1 E1 | F2 z1 b1 D1 z1 ^c4 z4 f1/2 d1 f1/2\n| z1 G1 ^f3 B1 z2 b3 F1 ^e1 ^B1 e1 E1 | F2 z1 b1 D1 z1 ^c4 z4 f1/2 d1 f1/2\n| z1 G1 ^f3 B1 z2 b3 F1 ^e1 ^B1 e1 E1 | D1 z3 z2 F8 z1 f1/2 f1/2\n| z1 ^F2 G1 ^f3 B1 z2 b3 ^B1 e1 E1 | D1 z3 z2 F8 z1 f1/2 f1/2\n| z1 ^F2 G1 ^f3 B1 F,1 z2 b3 ^B1 E1 | D1 z3 z2 F8 z1 f1/2 f1/2\n| z1 ^F2 G1 ^f3 B1 F,1 z2 b3 ^B1 E1 | a1 z3 F8 G3 f1/2 f1/2 |]\nV: P11\nz1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 a1 z1 z1 z1\n| z1 z1 c1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 a1 z1 z1 z1\n| z1 z1 c1 z1 z1 z1 z1 z1 z1 z1 B1 z1 F1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 a1 z1 z1 z1\n| z1 z1 c1 z1 z1 z1 z1 z1 b1 z1 B1 z1 F1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 a1 z1 z1 z1\n| z1 z1 c1 z1 z1 z1 z1 z1 b1 z1 B1 z1 F1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 a1 z1 z1 e1\n| z1 z1 c1 z1 z1 z1 A1 z1 b1 z1 B1 z1 F1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 a1 z1 z1 e1\n| z1 z1 c1 z1 z1 z1 A1 z1 b1 z1 B1 z1 F1 z1 z1 a1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 a1 z1 z1 e1\n| z1 z1 c1 z1 z1 z1 A1 z1 b1 z1 B1 z1 F1 z1 z1 a1 | z1 z1 z1 z1 z1 z1 E1 z1 z1 z1 B1 z1 a1 z1 z1 e1\n| z1 z1 c1 z1 z1 z1 z1 z1 b1 z1 e1 z1 F1 z1 z1 a1 | z1 f1 z1 z1 z1 z1 z1 E1 z1 z1 B1 z1 C1 z1 z1 e1\n| z1 z1 c1 z1 z1 z1 A1 z1 b1 z1 e1 z1 F1 z1 z1 a1 | z1 f1 z1 z1 z1 z1 z1 E1 z1 z1 B1 z1 C1 z1 z1 e1\n| z1 z1 c1 z1 z1 z1 A1 z1 b1 z1 e1 z1 F1 z1 z1 a1 | z1 f1 z1 z1 z1 z1 z1 E1 z1 z1 B1 z1 C1 z1 b1 e1\n| c1 z1 F1 z1 z1 z1 A1 z1 b1 z1 e1 z1 F1 z1 z1 a1 | z1 f1 z1 z1 z1 z1 z1 E1 z1 z1 B1 z1 C1 z1 b1 e1\n| c1 z1 F1 z1 z1 z1 A1 z1 b1 z1 e1 z1 F1 b1 z1 a1 | z1 f1 z1 z1 z1 z1 z1 E1 z1 z1 B1 z1 C1 z1 b1 e1\n| c1 z1 F1 z1 e1 z1 A1 z1 b1 z1 e1 z1 F1 b1 z1 a1 | z1 f1 z1 z1 z1 z1 z1 E1 z1 z1 B1 z1 C1 z1 b1 e1\n| z1 F1 z1 e1 z1 z1 z1 e1 z1 z1 z2 b1 z1 a1 f1 | z1 f1 z1 z1 z1 z1 z1 E1 z1 z1 B1 z1 C1 z1 b1 e1\n| z1 F1 z1 e1 z3 z1 z1 e1 z1 z1 b1 z1 a1 f1 | z1 f1 z1 z1 z1 z1 z1 E1 z1 z1 B1 z1 C1 z1 b1 e1\n| z1 F1 z1 e1 z3 z1 z1 e1 z1 z1 b1 z1 a1 f1 | a1 f1 z1 z1 z1 z1 z1 E1 z1 z1 B1 z1 C1 z1 b1 e1\n| z1 F1 z1 e1 z3 z1 z1 e1 z1 z1 b1 z1 _a1 f1 | a1 f1 z1 z1 z1 z1 z1 E1 z1 z1 B1 z1 C1 z1 b1 e1\n| z1 F1 z1 e1 z3 z1 z2 e1 z1 z1 b1 z1 f1 | a1 f1 z1 z1 z1 z1 z1 E1 z1 z1 B1 z1 C1 z1 b1 e1\n| z1 F1 z1 e1 z3 z1 z2 z1 z2 z1 B1 f1 | a1 f1 z1 z1 z1 F1 z1 E1 z1 z1 B1 z1 C1 z1 b1 e1\n| z1 F1 z1 e1 z3 z1 z2 z1 z2 z1 z1 f1 | a1 f1 z1 z1 z1 F1 z1 E1 z1 z1 B1 z1 C1 z1 b1 e1\n| z1 F1 e1 z3 z1 z2 z1 z2 z1 z1 ^D1 f1 | a1 f1 z1 z1 z1 F1 z1 E1 z1 z1 B1 z1 C1 z1 b1 e1\n| z1 F1 e1 z3 z1 z2 z1 z2 z1 z1 ^D1 f1 | a1 f1 z1 z1 z1 F1 z1 E1 z1 z1 B1 z1 b1 z1 e2\n| F1 e1 z2 B3 z1 z2 z1 z2 z1 z1 B1 | a1 f1 z1 z1 z1 F1 z1 E1 z1 z1 B1 z1 b1 z1 e2\n| F1 e1 z2 B3 z1 z2 z1 z2 z1 z1 B1 | G1 f1 z1 z1 z1 F1 C1 z1 E1 z1 B1 z1 b1 z1 e2\n| F1 e1 z2 B3 z1 z2 z1 z2 z1 z1 B1 | G1 d1 z1 z1 F1 C1 z1 E1 B1 z1 B1 z1 b1 z1 e2\n| F1 e1 z2 B3 z1 z2 z1 z2 z1 z1 C1 | G1 d1 z1 z1 F1 C1 z1 E1 B1 z1 B1 z1 b1 z1 e2\n| F1 e1 z2 B3 z1 z2 z1 z2 z1 z1 C1 | G1 d1 z1 z1 F1 C1 z1 E1 B1 z1 B1 z1 b1 _e1 e2\n| F1 e1 z2 B3 z1 z2 z1 z2 z1 z1 C1 | G1 d1 z1 F1 C1 z1 E1 B1 f1 z1 B1 z1 b1 _e1 e2\n| F1 e1 z2 B3 z1 z2 z1 z2 z1 z1 C1 | G1 d1 z1 F1 C1 z1 E1 B1 f1 z1 D1 z1 b1 _e1 e2\n| F1 e1 z2 B3 A1 z2 z1 z2 z1 z1 C1 | G1 d1 z1 F1 C1 z1 E1 B1 f1 z1 D1 z1 b1 _e1 e2\n| F1 e1 z2 B3 A,1 z2 z1 z2 z1 z1 C1 | G1 d1 z1 F1 C1 z1 E1 B1 f1 z1 D1 z1 b1 _e1 e2\n| F1 e1 z2 B3 A,1 z2 z1 z2 z1 z1 C1 | G1 c1 d1 z1 F1 z1 =e1 B1 f1 z1 D1 z1 b1 _e1 e2\n| F1 e1 z2 B3 A,1 z2 z1 z2 z1 z1 C1 | G1 c1 d1 z3 F1 z1 B1 z1 D1 z1 b1 F1 e2\n| F1 e1 z2 g1 B3 A,1 z2 z1 z2 z1 C1 | G1 c1 d1 z3 F1 z1 B1 z1 D1 z1 b1 F1 e2\n| _F1 e1 z2 g1 B3 A,1 z2 z1 z2 z1 C1 | G1 c1 d1 z3 F1 z1 B1 z1 D1 z1 b1 F1 e2\n| e1 z2 g1 B3 A,1 z2 z1 z1 e3 C1 | G1 c1 d1 z3 F1 z1 B1 z1 D1 z1 b1 F1 e2\n| b1 z2 g1 B3 z2 z1 z1 e3 C2 | G1 c1 d1 z3 F1 z1 B1 z1 D1 z1 b1 F1 e2\n| b1 z2 g1 B3 z2 z1 z1 e3 C2 | G1 c1 ^g1 z3 F1 z1 B1 z1 D1 z1 b1 F1 e2\n| b1 z2 g1 B3 z2 z1 z1 e3 C2 | G1 c1 ^g1 z3 F1 z1 B1 z1 D1 c1 z1 F1 e2\n| _g2 b1 g1 B3 z2 z1 z1 e3 e2 | G1 c1 ^g1 z3 F1 z1 B1 z1 D1 c1 z1 F1 e2\n| _g2 b1 g1 B3 z2 z1 z1 e3 e2 | G1 c1 ^g1 z3 F1 z1 f'1 z1 D1 c1 z1 F1 e2\n| _b'2 ^B1 f2 E4 B1 f1 g1 B1 _d1 b'1 b1 | G1 c1 ^g1 z3 F1 z1 f'1 z1 D1 c1 z1 F1 e2\n| ^C1 d'3 E4 f1 g1 _d1 b'1 b4 | G1 c1 ^g1 z3 F1 z1 f'1 z1 D1 c1 z1 F1 e2\n| =B1 A2 B1 =f4 E3 F2 F,2 z1 | G1 c1 ^g1 z3 F1 z1 f'1 z1 D1 c1 z1 F1 e2\n| =B1 A2 B1 =f4 E3 F2 F,2 d1 | G1 c1 ^g1 z3 F1 z1 f'1 z1 D1 c1 z1 F1 e2\n| =B1 A2 B1 =f4 E3 F2 F,2 d1 | ^G2 ^g1 z3 F1 B,1 f'1 z1 D1 c1 z1 F1 e2 |]\nV: P12\nz1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1\n| c1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1\n| c1 z1 a1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1\n| c1 z1 z1 z1 z1 z1 z1 ^b1 z1 z1 z1 B1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 z1 z1 z1/2 z1 z2 z1/2 B1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 z1 B1 z1/2 z1 z2 z1/2 B1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 z1\n| z1 z1 z1 z1 z1 z1 z1 E1 z1/2 z2 z1/2 B1 z1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 e1 z1 z1\n| z1 z1 z1 z1 z1 z1 z1 E1 z1/2 z2 z1/2 B1 z1 f1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 e1 z1 z1\n| z1 z1 z1 z1 z1 z1 z1 E1 z1/2 z2 z1/2 B1 z1 f1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 A1 B1 z1 e1 z1 z1\n| A1 z1 z1 z1 z1 z1 z1 E1 z1/2 z2 z1/2 B1 z1 f1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 A1 B1 z1 e1 z1 z1\n| f1 z1 E1 z1 z1 z1 z1 E1 z1/2 z2 z1/2 B1 z1 E1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 A1 B1 z1 e1 z1 z1\n| f1 z1 E1 z1 z1 z1 z1 E1 z1/2 z2 z1/2 B1 z1 a1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 A1 B1 z1 e1 z1 b1\n| z1 f1 z1 e1 z1 z1 z1 E1 z1/2 z2 z1/2 B1 z1 B1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 A1 B1 z1 e1 F1 b1\n| f1 z1 E1 e1 z1 z1 z1 E1 z1/2 z2 z1/2 B1 z1 a1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 A1 B1 z1 e1 F1 b1\n| f1 z1 E1 e1 z1 z1 B1 E1 z1/2 z2 z1/2 B1 z1 a1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 A1 B1 z1 e1 F1 b1\n| f1 z1 E1 e1 z1 C1 B1 E1 z1/2 z2 z1/2 B1 z1 a1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 A1 B1 z1 e1 F1 b1\n| f1 z1 E1 e1 z1 C1 B1 E1 z1/2 z2 z1/2 B1 z1 a1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 A1 B1 z1 e1 F1 b1\n| f1 z1 E1 e1 z1 C1 B1 E1 z1/2 z2 z1/2 B1 z1 a1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 A1 B1 f1 e1 F1 b1\n| f1 z1 E1 e1 z1 C1 B1 E1 z1/2 z2 z1/2 B1 =F1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 A1 B1 f1 e1 F1 b1\n| f1 f1 E1 e1 z1 C1 B1 E1 z1/2 z2 z1/2 B1 =F1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 A1 B1 f1 e1 F1 b1\n| f1 f1 E1 e1 z1 C1 B1 E1 z1/2 z2 z1/2 B1 =F1 z1 z1 z1 | b1 z1 z1 z1 z1 z1 z1 B1 z1 z1 A1 B1 f1 e1 F1 b1\n| f1 f1 E1 e1 z1 C1 B1 E1 z1 z2 z1 B1 F1/2 z1 z1 z1/2 | b1 B1 z1 b1 z1 z1 z1 B1 G1 z1 A1 B1 f1 e1 F1 z1\n| f1 f1 E1 e1 z1 C1 B1 E1 z1/2 z2 z1/2 B1 =F1 z1 z1 z1 | b1 B1 z1 b1 z1 z1 z1 B1 z1 z1 A1 B1 f1 e1 F1 b1\n| f1 f1 E1 e1 z1 C1 B1 E1 z1/2 z2 z1/2 B1 =F1 z1 z1 z1 | b1 B1 z1 b1 z1 z1 z1 B1 G1 z1 A1 B1 f1 e1 F1 b1\n| f1 f1 E1 e1 z1 C1 B1 E1 z1/2 z2 z1/2 B1 =F1 z1 =a1 z1 | b1 B1 z1 b1 z1 z1 z1 B1 G1 z1 A1 B1 f1 e1 F1 b1\n| f1 f1 e1 z1 b1 B2 B1 E1 z1/2 z2 z1/2 B1 F1 f1 z1 | b1 B1 z1 B1 z1 z1 z1 B1 G1 z1 A1 B1 f1 e1 F1 b1\n| f1 f1 e1 z1 b1 B2 B1 E1 z1/2 z2 z1/2 B1 =F1 f1 z1 | b1 B1 z1 B1 z1 z1 z1 B1 G1 z1 A1 B1 f1 e1 F1 b1\n| f1 f1 e1 z1 b1 B2 B1 E1 z1/2 z2 z1/2 B1 =F1 f1 z1 | B1 =C1 z1 B1 z1 z1 z1 B1 G1 z1 A1 B1 f1 e1 F1 B1\n| f1 f1 e1 z1 b1 B2 B1 E1 z1/2 z2 z1/2 B1 =F1 f1 z1 | B1 E2 z1 B1 z1 z1 z1 B1 G1 z1 A1 B1 f1 F1 B1\n| f1 f1 e1 z1 b1 D1 B2 B1 E1 z1/2 z2 z1/2 B1 F1 z1 | B1 E2 z1 B1 z1 z1 z1 B1 G1 z1 A1 B1 f1 F1 B1\n| f1 f1 e1 z1/2 b1 D1 B2 B1 E1 z1/2 z2 B1/2 B1 z1 F1/2 z1 | B1 E2 z1 B1 z1 z1 z1 B1 G1 z1 A1 B1 f1 F1 B1\n| f1 f1 e1 z1/2 b1 D1 B2 B1 E1 z1/2 z2 z1/2 B1 z1 F1/2 z1 | B1 E2 z1 B1 z1 z1 z1 B1 G1 z1 A1 B1 f1 F1 B1\n| f1 f1 e1 z1/2 b1 D1 B2 B1 E1 z1/2 z2 z1/2 B1 z1 F1/2 z1 | B1 E2 z1 G1 B1 z1 z1 B1 G1 z1 A1 B1 f1 D1 B1\n| f1 e1 z1/2 b1 D1 B2 B1 E1 z1/2 z2 z1/2 B1 z1 F2 _d1/2 | B1 E2 z1 G1 B1 z1 z1 B1 G1 z1 A1 B1 f1 D1 B1\n| f1 e1 z1/2 b1 D1 B2 B1 E1 z1/2 z2 z1/2 =B1 z1 F2 _d1/2 | B1 E2 z1 G1 B1 z1 z1 B1 G1 z1 A1 B1 f1 D1 B1\n| f1 e1 z1/2 z3 D1 e2 B1 E1 z1/2 z2 F1/2 =B1 z1 _d1/2 | B1 E2 z1 G1 B1 z1 z1 B1 G1 z1 A1 B1 f1 D1 B1\n| f1 e1 z1/2 z3 D1 e2 B1 E1 z1/2 z2 F1/2 =B1 z1 _d1/2 | B1 E2 G1 B1 B1 z1 z1 B1 G1 z1 A1 B1 f1 D1 B1\n| f1 e1 E1/2 z3 D1 e2 b1 E1 z1/2 z2 F1/2 =b1 z1 _d1/2 | B1 G1 B1 c1 B1 z1 z1 B1 G1 b1 z1 A1 B1 f1 D1 B1\n| f1 e1 E1/2 z3 D1 e2 b1 E1 z1/2 z2 F1/2 =b1 z1 _d1/2 | B1 E2 G1 B1 B1 z1 z1 B1 G1 z1 A1 B1 f1 D1 B1\n| f1 e1 E1/2 z3 D1 e2 b1 E1 z1/2 z2 F1/2 =b1 z1 _d1/2 | E2 G1 B1 B1 z1 B1 G1 z1 B2 A1 B1 f1 D1 B1\n| f1 e1 E1/2 z3 D1 e2 b1 E1 z1/2 z2 F1/2 =b1 z1 _d1/2 | E2 G1 B1 =e1 z1 G1 z1 A1 B1 f1 D3 D1 B1\n| f1 e1 E1/2 z3 D1 e2 b1 E1 z1/2 z2 F1/2 =b1 z1 _d1/2 | E2 G1 B1 =e1 z1 G1 z1 A1 ^f1 f1 D3 D1 B1\n| f1 e1 E1/2 z3 D1 e2 b1 E1 z1/2 z2 F1/2 =b1 z1 _d1/2 | E2 G1 B2 =e1 G1 z1 A1 ^f1 f1 D3 D1 B1\n| f1 b1 z3 D1 e2 E1 _B2 z1/2 z2 =E1 z1 _d1/2 | E2 B2 B1 z1 A1 f1 D1 z6 B1\n| a1 b6 F3 F1 z4 B1/4 ^C1/2 z1/4 | E2 B2 B1 z1 A1 f1 D1 z6 B1\n| _f1 g1 E1 _e1 D1 B1 F1 =E,1 a6 e2 | ^E1 b4 ^C1 =g4 z1 z2 C1 g1 _E1\n| a1 b6 F3 F1 z4 B1/4 ^C1/2 z1/4 | D1 E2 B2 E1 F2 F,1 z6 C1\n| a1 b6 F3 F1 z4 B1/4 ^C1/2 z1/4 | G1 _B,2 F2 z6 b1 c4 |]\nV: P13\nz1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1\n| z1 z1 z1 z1 z1 a1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1\n| z1 z1 z1 z1 z1 a1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 | z1 z1 A1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1\n| z1 z1 z1 z1 z1 a1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 | z1 z1 A1 z1 z1 z1 c1 z1 z1 z1 z1 z1 B1 z1 z1 z1\n| z1 z1 z1 z1 z1 a1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 | z1 z1 A1 z1 z1 z1 c1 z1 z1 z1 g1 z1 B1 z1 z1 z1\n| z1 z1 z1 z1 z1 a1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 | z1 A1 z1 A1 z1 z1 c1 z1 z1 z1 g1 z1 B1 z1 z1 z1\n| z1 z1 z1 z1 z1 a1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 | z1 A1 z1 A1 g1 z1 c1 z1 z1 z1 g1 z1 B1 z1 z1 z1\n| z1 z1 z1 z1 z1 a1 z1 z1 z1 z1 z1 z1 B1 z1 z1 z1 | A1 z1 A1 g1 z1 c1 z1 z1 z1 g1 z1 F1 B1 z1 z1 z1\n| z1 z1 z1 z1 z1 a1 z1 z1 z1 b1 z1 z1 B1 z1 z1 z1 | A1 z1 A1 g1 z1 c1 z1 z1 z1 g1 z1 F1 B1 z1 z1 z1\n| z1 z1 z1 z1 a1 z1 D1 z1 z1 b1 z1 z1 B1 z1 z1 z1 | B1 z1 A1 g1 z1 c1 z1 z1 z1 g1 z1 F1 B1 z1 z1 z1\n| z1 z1 z1 z1 a1 z1 D1 z1 z1 b1 z1 z1 B1 B1 z1 z1 | B1 z1 A1 g1 z1 c1 z1 z1 z1 g1 z1 F1 B1 z1 z1 z1\n| z1 z1 z1 z1 a1 z1 D1 F1 z1 b1 z1 z1 B1 B1 z1 z1 | B1 z1 A1 g1 z1 c1 z1 z1 z1 g1 z1 F1 B1 z1 z1 z1\n| z1 z1 z1 z1 a1 z1 D1 F1 z1 b1 z1 z1 B1 B1 z1 z1 | B1 z1 A1 g1 z1 c1 z1 z1 z1 g1 z1 F1 B1 f1 z1 z1\n| z1 z1 z1 z1 a1 z1 D1 A1 z1 b1 z1 D1 B1 B1 z1 z1 | B1 z1 A1 g1 z1 c1 z1 z1 z1 g1 z1 F1 B1 f1 z1 z1\n| z1 z1 B1 z1 z1 D1 A1 z1 b1 z1 z1 D1 B1 c1 z1 z1 | B1 z1 A1 g1 z1 c1 z1 z1 z1 g1 f1 F1 B1 f1 z1 z1\n| z1 z1 B1 z1 a1 z1 D1 A1 z1 b1 z1 D1 B1 c1 z1 z1 | B1 z1 A1 g1 z1 c1 z1 z1 z1 g1 f1 F1 B1 f1 z1 z1\n| z1 z1 B1 z1 a1 z1 D1 A1 z1 b1 z1 D1 B1 c1 z1 z1 | B1 z1 A1 g1 z1 c1 z1 z1 z1 g1 f1 F1 z1 f1 z1 z1\n| z1 z1 B1 z1 a1 z1 D1 A1 z1 b1 z1 D1 B1 c1 B1 z1 | B1 z1 A1 g1 z1 c1 z1 z1 z1 e1 f1 F1 z1 f1 z1 z1\n| z1 z1 B1 z1 a1 z1 D1 A1 z1 b1 z1 D1 B1 c1 B1 z1 | B1 z1 B1 A1 z1 z1 f1 z1 e1 z1 z1 f1 z1 z1 z2\n| z1 z1 B1 z1 a1 z1 D1 A1 z1 b1 z1 D1 B1 c1 B1 z1 | B1 z1 A1 z1 z1 f1 z1 e1 f1 ^F1 z1 f1 z1 z1 z2\n| z1 z1 B1 z1 a1 z1 D1 A1 z1 b1 z1 D1 B1 c1 B1 z1 | B1 z1 A1 z1 z1 f1 z1 f1 g2 z1 f1 z1 z1 z2\n| z1 z1 B1 a1 a1 z1 D1 A1 z1 b1 z1 D1 B1 c1 B1 z1 | B1 z1 z1 z1 f1 z1 f1 g2 z1 f1 z1 z1 E1 f2\n| z1 z1 B1 a1 a1 z1 D1 A1 z1 b1 z1 D1 B1 c1 B1 z1 | B1 z1 A1 z1 z1 f1 z1 f1 g2 z1 f1 z1 z1 f2\n| z1 z1 d1 a1 a1 z1 D1 A1 z1 b1 z1 D1 a1 c1 B1 z1 | B1 b1 z1 F1 z1 z1 z1 f1 g2 z2 f1 z1 z1 f1\n| z1 z1 d1 a1 a1 z1 D1 A1 z1 b1 z1 D1 a1 c1 B1 z1 | B1 z1 A1 z1 z1 z1 f1 g2 z2 f1 z1 z1 f2\n| z1 z1 ^d1 z1 a1 z1 D1 A1 z1 b1 z1 f1 a1 c1 ^B1 z1 | B1 z1 A1 z1 z1 z1 f1 g2 z2 f1 z1 z1 f2\n| g1 b1 z1 ^d1 z1 z1 D1 z1 b1 z1 F1 c1 B1 ^B1 g1 z1 | B1 z1 A1 z1 z1 z1 f1 g2 z2 f1 z1 D1 f2\n| g1 b1 z1 ^d1 z1 z1 D1 B1 z1 b1 z1 F1 c1 B1 ^B1 z1 | B1 z1 A1 z1 z1 z1 f1 g2 z2 f1 z1 D1 f2\n| g1 b1 z1 ^d1 z1 z1 D1 B1 z1 b1 _e1 z1 a1 c1 ^B1 z1 | B1 z1 A1 z1 z1 z1 f1 g2 z2 f1 z1 D1 f2\n| g1 b1 z1 ^d1 z1 z1 D1 B1 z1 f1 b1 _e1 a1 c1 ^B1 z1 | B1 z1 A1 z1 z1 z1 f1 g2 z2 f1 z1 D1 f2\n| g1 ^d1 z1 z1 D1 B1 z1 f1 b3 b1 e1 a1 ^B1 z1 | z1 A1 z1 z1 z1 f1 g2 z2 F1 f1 z1 D1 f2\n| g1 ^d1 z1 z1 D1 B1 z1 f1 b3 b1 a1 a1 ^B1 z1 | B,1 z1 A1 z1 z1 z1 f1 g2 z2 f1 z1 D1 f2\n| g1 ^d1 z1 z1 D1 B1 z1 f1 b3 b1 _e1 a1 ^B1 z1 | B,1 z1 A1 z1 z1 z1 f1 g2 z2 f1 z1 D1 f2\n| g1 z1 z1 D1/2 z3 B1 z1 f1 b3 b1 a1 D1 z1/2 | B,1 z1 A1 z1 z1 z1 f1 g2 z2 f1 z1 D1 f2\n| g1 z1 z1 D1/2 z3 B1 z1 f1 b3 b1 a1 D1 z1/2 | B,1 z1 A1 z1 z1 z1 f1 g2 z2 f1 B1 D1 f2\n| z1 z1 D1/2 z3 B1 z1 f1 b3 a3 D1 z1/2 | B,1 z1 A1 z1 z1 z1 f1 g2 z2 f1 B1 D1 f2\n| z1 z1 =D1/2 z3 B1 z1 f1 b3 a3 D1 z1/2 | E1 c1 A1 z1 E1 z1 F2 z2 z1 f1 f1 D1 f2\n| z1 z1 =D1/2 z3 B1 z1 f1 b3 a3 D1 z1/2 | B,1 z1 A1 z1 E1 z1 f1 g2 z2 f1 f1 D1 f2\n| z1 z1 =D1/2 z3 B1 z1 f1 b3 a3 D1 z1/2 | B,1 z1 z1 E1 z1 f1 _c1 g2 z2 f1 f1 D1 f2\n| z1 z1 =D1/2 z3 B1 z1 f1 b3 a3 D1 z1/2 | z1 F2 z1 F1 z1 _c1 g2 z2 f1 f1 D1 f2\n| z1 z1 =D1/2 z3 B1 z1 f1 b3 a3 D1 z1/2 | z1 F2 z1 F1 z1 b2 _c1 g2 f1 f1 D1 f2\n| z1 z1 =D1/2 z3 B1 e1 f1 b3 a3 D1 z1/2 | z1 F2 z1 F1 z1 b2 _c1 g2 f1 f1 D1 f2\n| z1 z1 =D1/2 z3 B1 e1 f1 b3 a3 D1 z1/2 | z1 d1 F2 z1 b2 g2 f1 ^D1 ^A1 f1 D1 f2\n| z1 z1 =D1/2 z3 B1 e1 f1 b3 a3 D1 z1/2 | z1 F2 z1 b2 _c1 g2 f1 ^D1 ^A1 f1 D1 f2\n| z1 =D1/2 F3 B1 e1 f1 b3 z1 g3 D1 z1/2 | z1 F2 z1 b2 _c1 g2 f1 ^D1 ^A1 f1 D1 f2\n| B,1 F3 B1 e1 f1 b3 z1 g3 D1/2 F1/2 A1/2 z1/2 | z1 F2 A2 z1 _c1 g2 f1 ^D1 ^A1 f1 D1 f2\n| E4 d2 C1 e1 E3 b4 F1 | F1 f2 A2 f1 _c1 g2 f1 ^D1 ^A1 f1 E1 f2\n| B,1 F3 B1 e1 f1 b3 z1 g3 D1/2 F1/2 A1/2 z1/2 | F1 f2 A2 f1 _c1 g2 f1 ^D1 ^A1 f1 E1 f2\n| B,1 F3 B1 e1 f1 b3 z1 g3 D1/2 F1/2 A1/2 z1/2 | F1 _G2 f1 d2 d'1 g2 ^D1 ^F1 ^A1 f1 E1 f2\n| B,1 F3 B1 e1 f1 b3 z1 g3 D1/2 F1/2 A1/2 z1/2 | F1 _G2 f1 d2 d'1 g2 ^D1 ^F1 ^A1 f1 E1 f2 |]\nV: P14\nz1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1\n| z1 z1 z1 z1 z1 b1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1\n| z1 z1 e1 z1 z1 b1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1\n| z1 z1 e1 z1 z1 b1 z1 z1 A1 z1 z1 z1 z1 B1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 z1\n| z1 z1 e1 z1 z1 b1 z1 z1 A1 z1 z1 z1 z1 B1 z1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 g1 z1 B1 z1 z1\n| z1 z1 e1 z1 z1 b1 z1 z1 A1 z1 z1 z1 z1 B1 z1 z1 | e1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 g1 z1 B1 z1 z1\n| z1 z1 e1 z1 z1 b1 B1 z1 A1 z1 z1 z1 z1 B1 z1 z1 | e1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 g1 z1 B1 z1 z1\n| z1 z1 z1 z1 z1 z4 z1 z1 z1 z1 z1 z1 z1 | e1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 g1 z1 B1 z1 z1\n| z1 z1 z1 z1 z1 z4 z1 z1 z1 z1 z1 z1 z1 | e1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 g1 z1 B1 F1 z1\n| z1 z1 z1 z1 z1 z4 z1 z1 z1 z1 z1 z1 z1 | e1 z1 z1 z1 z1 z1 z1 z1 z1 z1 F1 g1 z1 B1 F1 z1\n| z1 z1 z1 z1 z4 F1 z1 z1 z1 z1 z1 z1 z1 | e1 z1 z1 z1 z1 z1 z1 z1 z1 z1 F1 g1 z1 B1 F1 z1\n| z1 G1 z1 z1 z1 z4 F1 z1 z1 z1 z1 z1 z1 | e1 z1 z1 z1 z1 z1 z1 z1 z1 z1 F1 g1 z1 B1 F1 z1\n| z1 G1 z1 z1 z1 z4 F1 z1 z1 z1 B1 z1 z1 | e1 z1 z1 z1 z1 z1 z1 z1 z1 z1 F1 g1 z1 B1 F1 z1\n| z1 G1 z1 z1 z1 z4 F1 z1 z1 z1 B1 z1 z1 | e1 z1 z1 z1 z1 z1 z1 G1 z1 z1 z1 F1 b1 B1 F1 z1\n| z1 G1 z1 z1 z1 z4 F1 z1 z1 z1 B1 z1 z1 | e1 z1 z1 z1 z1 z1 G1 z1 z1 z1 E1 F1 b1 B1 F1 z1\n| z1 G1 z1 z1 z1 z4 F1 z1 z1 z1 B1 z1 z1 | e1 z1 f1 z1 z1 z1 G1 z1 z1 z1 E1 F1 b1 B1 F1 z1\n| z1 G1 z1 z1 z1 z4 F1 A1 z1 z1 B1 z1 z1 | e1 z1 f1 z1 z1 z1 G1 z1 z1 z1 E1 F1 b1 B1 F1 z1\n| z1 G1 z1 z1 z1 z4 F1 A1 z1 z1 B1 z1 z1 | e1 b1 z1 f1 z1 z1 G1 z1 z1 z1 E1 F1 b1 B1 d1 z1\n| z1 G1 z1 z1 z4 z1 F1 g1 z1 z1 B1 z1 z1 | e1 b1 z1 f1 z1 z1 G1 z1 z1 z1 E1 F1 b1 B1 d1 f1\n| z1 G1 z1 z1 z4 f1 F1 A1 z1 z1 B1 z1 z1 | e1 b1 z1 f1 z1 z1 G1 z1 z1 z1 E1 F1 b1 B1 d1 f1\n| G1 z1 z1 z4 f1 F1 A1 z1 z1 B1 g1 z1 z1 | e1 b1 z1 f1 z1 z1 G1 z1 z1 z1 E1 F1 b1 B1 d1 f1\n| G1 z1 z1 z4 f1 F1 A1 b1 z1 A1 g1 z1 z1 | e1 b1 z1 f1 z1 z1 G1 z1 z1 z1 E1 F1 b1 B1 d1 f1\n| F1 z1 z1 z1 f1 F1 z1 b1 G4 A1 g1 z1 z1 | e1 b1 z1 f1 F1 z1 G1 z1 z1 z1 E1 F1 b1 B1 d1 f1\n| G1 z1 z1 z1 f1 F1 A1 b1 G4 A1 g1 z1 z1 | e1 b1 z1 f1 F1 z1 G1 z1 z1 z1 E1 F1 b1 B1 d1 f1\n| F1 z1 z1 f1 F1 e1 F1 b1 G4 A1 g1 z1 z1 | e1 b1 z1 f1 F1 z1 G1 z1 z1 z1 E1 F1 b1 B1 d1 f1\n| F1 z1 z1 f1 F1 e1 ^E1 b1 G4 A1 g1 z1 z1 | e1 b1 z1 f1 F1 z1 G1 z1 z1 z1 E1 F1 b1 B1 d1 f1\n| F1 z1 z1 F1 e3 b1 G4 A1 g1 z1 z1 | e1 b1 z1 f1 F1 z1 G1 z1 z1 z1 E1 F1 b1 B1 d1 f1\n| F1 c1 z1 F1 e3 b1 G4 A1 g1 z1 z1 | e1 b1 z1 f1 F1 z1 G1 z1 z1 z1 E1 F1 b1 B1 d1 f1\n| F1 c1 z1 e3 b1 z4 A2 g1 z1 z1 | e1 b1 z1 f1 F1 z1 G1 z1 z1 z1 E1 F1 b1 B1 f1 f1\n| F1 c1 z1 e3 b1 z4 A2 g1 z1 z1 | e1 b1 G1 z1 f1 z1 =f1 z1 z1 z1 E1 F1 b1 B1 f1 f1\n| F1 c1 z1 e3 b1 z4 A2 g1 z1 z1 | e1 b1 G1 F1 f1 z1 =f1 z1 z1 z1 E1 F1 b1 B1 f1 f1\n| F1 c1 G1 e3 b1 z4 A2 g1 z1 z1 | e1 b1 G1 F1 f1 z1 =f1 z1 z1 z1 E1 F1 b1 B1 f1 f1\n| F1 c1 G1 e3 b1 z4 A2 g1 z1 z1 | b'1 b1 G1 F1 f1 z1 =f1 z1 z1 z1 E1 F1 b1 B1 f1 f1\n| F1 c1 G1 e3 b1 z4 A2 g1 z1 z1 | b1 f1 F1 f1 z1 =f1 z1 z1 z1 E1 F1 b1 f1 a2 f1\n| F1 c1 G1 e3 b1 z4 A2 g1 z1 z1 | e1 b1 f1 z2 =f1 z1 z1 z1 E1 F1 z1 b1 a2 f1\n| F1 c1 G1 e3 b1 z4 A2 g1 z1 z1 | e1 b1 F1 f1 z2 =f1 z1 z1 z1 E1 F1 b1 a2 f1\n| c1 G1 e3 B2 b1 z2 A2 g1 z1 F,1 z1 | e1 b1 F1 f1 z2 =f1 z1 z1 z1 E1 F1 b1 a2 f1\n| c1 G1 e3 B2 b1 z2 A2 g1 z1 F,1 z1 | e1 b1 F1 f1 z2 =f1 z1 z1 z1 E1 =F1 b1 a2 f1\n| c1 G1 e3 B2 B1 d3 A2 g1 z1 z1 | e1 b1 F1 f1 z2 =f1 z1 z1 z1 E1 =F1 b1 a2 f1\n| f1 G1 e3 B2 B1 d3 A2 g1 b1 z1 | e1 b1 F1 f1 z2 =f1 z1 z1 z1 E1 =F1 b1 a2 f1\n| f1 G1 e3 B2 B3 B1 d3 g1 z1 | e1 b1 F1 f1 z2 =f1 z1 z1 z1 E1 =F1 b1 a2 f1\n| f1 G1 e3 z2 B3 d3 g1 _A,1 z1 | e1 b1 F1 f1 z2 =f1 z1 z1 z1 E1 =F1 b1 a2 f1\n| f1 f1 G1 e3 z2 B3 d2 _g1 z1 ^A1 | b1 F1 z2 =f1 z1 z1 z1 E1 =F1 b1 a2 F2 f1\n| f1 G1 e3 z2 B3 d3 _g1 _A,1 ^A1 | e1 b1 F1 f1 z2 =f1 z1 z1 z1 E1 =F1 b1 a2 f1\n| f1 G1 e3 z2 B3 d3 _g1 _A,1 ^A1 | b1 F1 z2 =f1 z1 z1 z1 E1 =F1 b1 a2 F2 f1\n| g1/4 z4 F3 B1 ^F,3 B1 F1 z1 g3/2 f1/4 | b1 F1 z2 =f1 z1 z1 z1 E1 =F1 b1 a2 F2 f1\n| D3/2 E2 f1 G1 F3 F3 _F1 B1 G1/4 A1/4 B2 | b1 F1 z2 =f1 z1 z1 z1 E1 =F1 b1 a2 F2 f1\n| F3 ^D12 e1 | b1 z2 =f1 z1 z1 E3 =F1 b1 a2 F2 f1\n| F3 ^F,12 e1 | b1 z2 =f1 z1 z1 E3 =F1 b1 a2 F2 f1\n| =g4 _f1 e1/2 B1/2 _e1 G1 A1 b2 F2 ^B1 _b2 | b1 z2 =f1 z1 z1 E3 =F1 b1 a2 F2 f1\n| =g4 _f1 B1/2 _e1 G1 A1 b3/2 F2 ^B1 _b2 ^E1 | b1 z2 =f1 z1 z1 E3 =F1 b1 a2 F2 f1 |]\nV: P15\nz1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1\n| z1 G1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1\n| z1 G1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 f1 z1 B1 z1\n| z1 G1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 f1 z1 b1 z1\n| z1 B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 F1 f1 z1 b1 z1\n| z1 D1 z1 C1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 z1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 F1 f1 z1 b1 z1\n| z1 D1 z1 C1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 E1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 F1 f1 z1 b1 z1\n| z1 D1 z1 C1 z1 z1 z1 z1 z1 z1 z1 z1 z1 b1 B1 E1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 F1 f1 z1 b1 z1\n| z1 F1 z1 C1 z1 z1 z1 z1 z1 z1 z1 z1 F1 b1 B1 E1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 F1 f1 z1 b1 z1\n| z1 F1 z1 C1 z1 z1 z1 z1 z1 z1 z1 z1 F1 b1 E1 E1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 F1 f1 z1 b1 z1\n| z1 F1 z1 E1 z1 z1 z1 z1 B1 z1 z1 z1 F1 d1 E1 E1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 F1 f1 z1 b1 z1\n| z1 F1 z1 E1 z1 z1 z1 z1 B1 z1 z1 z1 F1 d1 E1 E1 | z1 z1 z1 z1 z1 z1 z1 F1 z1 z1 z1 F1 f1 z1 b1 z1\n| z1 F1 z1 E1 z1 z1 z1 z1 B1 z1 z1 z1 F1 d1 E1 E1 | z1 z1 z1 z1 z1 a1 z1 F1 z1 z1 z1 F1 f1 z1 b1 z1\n| z1 F1 z1 E1 z1 f1 D1 z1 z1 B1 z1 z1 z1 F1 d1 E1 | z1 z1 z1 z1 z1 a1 z1 F1 z1 z1 z1 F1 f1 z1 b1 z1\n| E1 z1 E1 z1 f1 z1 z1 B1 z1 z2 E1 z1 F1 d1 E1 | z1 z1 z1 z1 z1 a1 z1 F1 z1 z1 z1 F1 f1 z1 b1 z1\n| E1 z1 E1 f1 z1 z1 B1 z1 f1 z2 E1 z1 F1 d1 E1 | z1 z1 z1 z1 z1 a1 z1 F1 z1 z1 z1 F1 f1 z1 b1 z1\n| E1 z1 E1 f1 z1 z1 B1 z1 f1 z2 E1 z1 F1 d1 E1 | z1 z1 z1 z1 z1 a1 z1 F1 z1 z1 c1 F1 f1 z1 b1 z1\n| E1 e2 z1 E1 f1 z1 z1 B1 z1 f1 E1 z1 F1 d1 E1 | z1 z1 z1 z1 z1 a1 z1 F1 z1 z1 c1 F1 f1 z1 b1 z1\n| E1 e2 z1 E1 f1 z1 z1 B1 z1 f1 E1 z1 F1 d1 E1 | z1 z1 c1 z1 z1 a1 z1 F1 z1 z1 c1 F1 f1 z1 b1 z1\n| E1 e2 z1 E1 f1 z1 z1 B1 z1 f1 E1 z1 F1 d1 E1 | z1 z1 c1 z1 z1 a1 z1 F1 z1 a1 c1 F1 f1 z1 b1 z1\n| E1 e2 z1 E1 f1 z1 z1 B1 f1 =A1 z1 E1 z1 d1 E1 | z1 z1 c1 z1 z1 a1 z1 F1 z1 a1 c1 F1 f1 z1 b1 z1\n| E1 e2 z1 E1 f1 z1 z1 B1 f1 =A1 E1 z1 F1 d1 E1 | z1 z1 F1 z1 z1 a1 z1 F1 z1 a1 z1 =f1 f1 z1 b1 z1\n| E1 e2 z1 E1 f1 z1 z1 B1 f1 =A1 E1 z1 F1 d1 E1 | z1 z1 c1 z1 z1 a1 z1 F1 z1 a1 F1 =f1 f1 z1 b1 z1\n| E1 e2 z1 E1 f1 z1 z1 B1 f1 E1 z2 F1 d1 E1 | z1 z1 c1 z1 z1 a1 z1 F1 z1 a1 F1 =f1 f1 z1 b1 z1\n| E1 e2 E1 f1 z1 z1 B1 f1 E1 z2 F1 d1 e1 E1 | z1 z1 c1 z1 z1 a1 z1 F1 z1 a1 F1 =f1 f1 z1 b1 z1\n| B1 e2 E1 f2 z1 z1 B1 f1 E1 z2 d1 e1 E1 | z1 z1 c1 z1 z1 a1 z1 F1 z1 a1 F1 =f1 f1 z1 b1 z1\n| z1 d1 e2 E1 f2 z1 B1 f1 E1 z2 d1 e1 E1 | z1 z1 c1 z1 z1 a1 z1 F1 b1 z1 a1 F1 =f1 f1 F1 z1\n| B1 d1 e2 E1 f2 z1 B1 f1 E1 z2 d1 e1 E1 | z1 z1 c1 z1 z1 a1 z1 F1 b1 z1 a1 F1 =f1 f1 F1 z1\n| B1 d1 e2 E1 f2 z1 B1 f1 E1 z2 d1 e1 E1 | z1 z1 c1 z1 z1 a1 z1 F1 b1 z1 a1 F1 =f1 f1 F1 D1\n| B1 e2 E1 F1 f3 z1 B1 f1 E1 z2 e1 E1 | z1 z1 c1 z1 z1 a1 z1 F1 b1 z1 a1 F1 =f1 f1 F1 D1\n| e2 E1 F1 B2 f2 z1 B1 B1 E1 z2 e1 E1 | z1 z1 c1 z1 z1 a1 z1 F1 b1 z1 a1 F1 =f1 f1 F1 D1\n| e2 E1 F1 B2 f2 z1 B1 B1 E1 z2 e1 E1 | z1 c1 z2 z1 z1 a1 z1 F1 b1 z1 a1 F1 f1 F1 D1\n| e2 E1 F1 B2 f2 z1 B1 B1 E1 z2 e1 E1 | z1 c1 z2 A1 z1 a1 z1 F1 b1 z1 a1 F1 f1 F1 D1\n| e2 E1 F1 B2 f2 z1 B1 B1 E1 z2 e1 E1 | z1 b1 c1 z2 A1 a1 z1 F1 b1 z1 a1 F1 f1 F1 D1\n| e2 E1 _F1 B2 f2 z1 B1 B1 E1 z2 e1 E1 | z1 b1 c1 z2 A1 a1 z1 F1 b1 z1 a1 F1 f1 F1 D1\n| e2 E1 _F1 B2 f2 z1 B1 B1 E1 z2 e1 E1 | z1 b1 c1 z2 A1 a1 z1 F1 b1 z1 a1 F1 _b1 F1 D1\n| e2 E1 _F1 B2 f2 z1 B1 B1 E1 z2 e1 E1 | z1 f1 z2 A1 a1 F1 b1 z1 a1 F2 F1 _b1 F1 D1\n| e2 _g1 _F1 B2 f2 z1 f1 B1 b1 z2 e1 E1 | z1 f1 z2 A1 a1 F1 b1 z1 a1 F2 F1 _b1 F1 D1\n| e2 _g1 _F1 B2 f2 z1 f1 B1 b1 z2 e1 E1 | e1 f1 z2 g1 a1 F1 b1 z1 a1 F2 F1 _b1 F1 D1\n| _g1 _A2 _F1 D2 f2 z1 f1 B1 b1 z2 e1 E1 | e1 f1 z2 g1 a1 F1 b1 z1 a1 F2 F1 _b1 F1 D1\n| _g1 _A2 _F1 D2 f2 z1 f1 B1 b1 z2 e1 E1 | e1 f1 z2 g1 a1 F1 b2 z1 a1 F2 F1 _b1 D1\n| _g1 _A2 _F1 D2 f2 z1 f1 =A1 z2 ^b1 e1 E1 | e1 f1 z2 g1 a1 F1 b2 z1 a1 F2 F1 _b1 D1\n| _g1 _A2 _F1 D2 f2 z1 f1 =A1 z2 ^b1 e1 E1 | e1 f1 z2 ^g1 a1 F1 b2 z1 a1 F2 F1 _b1 D1\n| _g1 _A2 _F1 D2 f2 z1 f1 =A1 z2 ^b1 e1 E1 | e1 f1 z2 ^g1 a1 b2 z1 F2 F1 _b1 D2 D1\n| _g1 _A2 z1 D2 f2 z1 f1 =A1 z2 ^b1 e1 E1 | e1 f1 ^g1 a1 b2 _c1 e4 c1 _b1 D2 D1\n| _g1 _A2 _F1 D2 f2 z1 f1 =A1 z2 ^b1 e1 E1 | e1 f1 ^g1 a1 b2 _c1 e4 c1 _b1 D2 D1\n| _g1 F2 b1 f2 z1 =f4 G2 =f1 E1 f'1 | e1 f1 ^g1 a1 b2 _c1 e4 c1 _b1 D2 D1\n| _g1 F2 _F1 f2 z1 =f4 G2 =f1 E1 f'1 | e1 f1 ^g1 a1 b2 _c1 e4 c1 _b1 D2 D1\n| C1 G2 b2 E1 E1 b3 F1 B3 ^e1 G1 | b6 g1 b4 d1 _a2 _B2 |]\nV: P16\nz1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1\n| z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 d1 z1 z1 z1 B1 | z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 B1\n| z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 d1 z1 z1 z1 B1 | z1 z1 z1 z1 z1 z1 z1 b1 z1 z1 z1 z1 z1 z1 z1 B1\n| z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 d1 z1 z1 z1 d1 | z1 z1 z1 z1 z1 z1 z1 z1 b1 z1 z1 z1 z1 z1 z1 B1\n| z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 G1 z1 z1 z1 d1 | z1 z1 z1 z1 z1 z1 z1 z1 b1 z1 z1 f1 z1 z1 z1 B1\n| z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 G1 F1 z1 z1 d1 | z1 z1 z1 z1 z1 z1 z1 z1 b1 z1 z1 f1 z1 z1 z1 B1\n| z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 G1 F1 z1 z1 d1 | z1 z1 z1 z1 z1 z1 G1 z1 b1 z1 z1 f1 z1 z1 z1 B1\n| z1 z1 z1 G1 z1 z1 z1 z1 z1 z1 z1 G1 F1 z1 z1 d1 | z1 z1 z1 z1 z1 z1 G1 z1 b1 z1 z1 f1 z1 z1 z1 B1\n| z1 z1 z1 G1 z1 z1 z1 z1 z1 z1 z1 G1 F1 z1 z1 d1 | z1 z1 z1 z1 z1 z1 G1 z1 b1 z1 z1 f1 z1 z1 z1 z1\n| z1 z1 z1 G1 z1 z1 z1 G1 z1 z1 z1 G1 F1 z1 z1 d1 | z1 z1 z1 z1 z1 z1 G1 z1 b1 z1 z1 f1 z1 z1 z1 z1\n| z1 z1 z1 G1 z1 z1 z1 G1 z1 z1 z2 z1 z1 z1 d1 | z1 z1 z1 z1 z1 z1 G1 z1 b1 z1 z1 f1 z1 z1 z1 z1\n| z1 z1 z1 f1 G1 z1 z1 z1 G1 z1 z1 z2 z1 z1 d1 | z1 z1 z1 z1 z1 z1 G1 z1 b1 z1 z1 f1 z1 z1 z1 z1\n| z1 z1 z1 z1 G1 z1 z1 z1 G1 z1 z1 z2 z1 z1 d1 | z1 z1 z1 G1 z1 z1 G1 z1 b1 z1 z1 f1 B1 z1 z1 z1\n| z1 z1 z1 f1 G1 z1 z1 z1 G1 z1 z1 z2 z1 z1 d1 | z1 z1 z1 G1 z1 z1 G1 z1 b1 z1 z1 f1 B1 z1 z1 z1\n| z1 z1 z1 f1 G1 z2 z1 z1 z1 G1 z1 z1 z1 z1 d1 | z1 z1 z1 G1 z1 z1 G1 g1 b1 z1 z1 f1 B1 z1 z1 z1\n| z1 z1 z1 f1 G1 f2 z1 z1 z1 G1 z1 z1 z1 z1 d1 | z1 z1 z1 G1 z1 z1 G1 g1 b1 z1 z1 f1 B1 z1 z1 z1\n| z1 z1 z1 f1 G1 f2 z1 z1 z1 G1 z1 z1 z1 E1 d1 | z1 z1 z1 G1 z1 z1 G1 g1 b1 z1 z1 f1 B1 z1 z1 z1\n| z1 z1 z1 f1 G1 f2 z1 z1 z1 G1 z1 z1 z1 E1 d1 | z1 z1 z1 G1 E1 z1 z1 G1 g1 b1 z1 z1 f1 B1 z1 z1\n| z1 z1 z1 f1 G1 f2 z1 z1 G1 z1 z1 e1 z1 E1 d1 | z1 z1 z1 G1 E1 z1 z1 G1 g1 b1 z1 z1 f1 B1 z1 z1\n| z1 z1 z1 f1 G1 f2 z1 z1 G1 z1 z1 e1 z1 E1 d1 | z1 z1 z1 G1 E1 z1 z1 G2 g1 b1 z1 z1 B1 z1 z1\n| z1 z1 z1 f1 G1 f2 z1 z1 G1 z1 z1 e1 z1 E1 d1 | z1 z1 z1 G1 E1 z1 D1 z1 G2 e1 b1 z1 B1 z1 z1\n| z1 z1 z1 f1 G1 f2 c1 z1 G1 z1 z1 e1 z1 E1 d1 | z1 z1 z1 G1 E1 z1 D1 z1 G2 e1 b1 z1 B1 z1 z1\n| z1 z1 z1 f1 G1 f2 c1 z1 G1 z1 z1 e1 z1 E1 d1 | z1 g1 z1 G1 E1 z1 D1 z1 G2 e1 b1 z1 B1 z1 z1\n| z1 z1 z1 f1 G1 f2 c1 z1 G1 z1 z1 e1 z1 E1 d1 | z1 g1 z1 G1 E1 z1 z1 G2 e1 b1 d1 B1 z1 c1 z1\n| z2 z1 z1 f1 D2 c1 z1 G1 z1 z1 e1 z1 z1 d1 | z1 g1 z1 G1 E1 z1 z1 G1 G2 b1 d1 B1 z1 c1 z1\n| z2 z1 z1 f1 G1 f2 c1 z1 G1 z1 z1 e1 z1 d1 | z1 g1 z1 G1 E1 z1 z1 G2 e1 b1 d1 B1 z1 c1 z1\n| z2 z1 z1 f1 G1 f2 c1 z1 G1 z1 z1 e1 z1 d1 | z3 g1 z1 z1 d2 z1 z1 b1 d1 B1 z1 c1 z1\n| z2 z1 z1 f1 G1 f2 c1 z1 z1 z1 e1 z2 d1 | z3 g1 z1 z1 d2 z1 z1 b1 d1 B1 z1 c1 z1\n| z2 z1 z1 f1 G1 f2 c1 z1 z1 z1 e1 z2 B1 | z3 g1 z1 z1 d2 z1 b1 a1 d1 B1 z1 c1 z1\n| z2 z1 z1 f1 G1 f2 c1 z1 F1 z1 e1 z2 B1 | z3 g1 z1 z1 d2 z1 b1 a1 d1 B1 z1 c1 z1\n| z2 z1 z1 f1 G1 f2 c1 z1 F1 z1 e1 z2 B1 | z3 z1 z1 d2 B1 b1 B1 a1 F1 B1 z1 c1 z1\n| z1/2 z1 f1 G1 z1/2 f2 c1 z1 F1 E1 z1 e1 z2 z1 B1 | z3 z1 z1 d2 b1 F1 b1 B1 _f1 B1 z1 c1 z1\n| z2 z1 f1 G1 f2 c1 z1 F1 E1 z1 e1 z2 B1 | z3 z1 z1 d2 b1 F1 b1 B1 _f1 B1 z1 c1 z1\n| z2 z1 f1 G1 f2 c1 z1 F1 E1 z1 e1 z2 B1 | z3 z1 z1 d2 B1 b1 F1 b1 B1 _f1 B1 c1 z1\n| z2 z1 f1 G1 f2 z1 F1 d1 z1 e2 z2 B1 | z3 z1 z1 d2 B1 b1 F1 b1 B1 _f1 B1 c1 z1\n| z2 z1 f1 G1 f2 z1 F1 d1 z1 e2 z2 B1 | z2 z1 z1 d2 B1 F1 _f2 d1 B1 _f1 B1 c1 z1\n| z2 z1 f1 G1 f2 z1 F1 d1 z1 e2 z2 B1 | z2 z1 z1 d2 B1 F1 _f2 _F1 B1 _f1 B1 c1 z1\n| z2 z1 f1 G1 f2 z1 F3 F1 ^d1 z2 B1 | z2 z1 z1 d2 B1 F1 _f2 _F1 B1 _f1 B1 c1 z1\n| z2 z1 f1 G1 f2 z1 F3 F1 ^d1 z2 B1 | z2 z1 z1 B1 F1 _f2 _F1 B1 _f1 d3 B1 z1\n| z2 z1 f1 G1 f2 z1 F3 F1 ^d1 z2 B1 | z2 z1 B1 F1 _f2 _F1 d1 _f1 d3 B1 z1 A1\n| z2 G1 F1 f1 G1 f1 f1 z1 F3 ^d1 z2 B1 | z2 =f1 z1 B1 D3/2 F1 z1 C1 B1/2 _f1 d3 B1 A1\n| z2 z1 f1 G1 f2 z1 F3 F1 ^d1 z2 B1 | z2 =f1 z1 B1 F1 _f2 _F1 d1 _f1 d3 B1 A1\n| E6 z1 f1 B1 =b1 f2 z1 z2 B1 | z2 =f1 z1 B1 F1 _f2 _F1 d1 _f1 d3 B1 A1\n| E6 z1 f1 B1 =b1 f2 z1 z2 B1 | =f1 z6 B1 F1 ^f1 d1 d3 B1 A1\n| c3 E6 z1 f1 B1 b1 z2 B1 | =f1 z6 B1 F1 ^f1 d1 d3 B1 A1\n| c3 E6 z1 f1 B1 b1 z2 B1 | =f1 z6 B1 F1 ^f1 d1 d3 B1 A1\n| c2 f2 =A1 C3 _b1 b1 G1 z2 z2 _E1 | =f1 z6 B1 F1 ^f1 d1 d3 B1 A1\n| c2 f2 =A1 C3 _b1 b1 G1 z2 z2 _E1 | =f1 z6 B1 F1 ^f1 d1 d3 B1 A1 |]",
+			"file": "generated_songs/pan_test.abc",
+			"file_size": 76339,
+			"file_write_time": 131868607325878024,
 			"settings":
 			{
-				"buffer_size": 6028,
+				"buffer_size": 75513,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "X:1\nT:Panning evolved\nM:4/4\nL:1/16\nK:B\nQ:1/4=90\nB1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 | B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1\n| B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 | B1 z1 z1 z1 z1 z1 z1 e1 z1 z1 z1 z1 z1 z1 z1 z1\n| B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 A1 z1 z1 | B1 z1 z1 z1 z1 z1 z1 e1 z1 z1 z1 z1 z1 z1 z1 z1\n| B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 A1 z1 z1 | B1 z1 z1 z1 z1 z1 e1 z1 z1 z1 z1 z1 f1 z1 z1 z1\n| B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 A1 z1 z1 | B1 z1 z1 z1 z1 z1 e1 z1 z1 z1 z1 z1 b1 z1 b1 z1\n| B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 A1 z1 z1 | B1 z1 z1 z1 z1 z1 e1 z1 z1 z1 z1 z1 b'1 z1 b1 z1\n| B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 | B1 z1 z2 z1 z1 F1 z1 z1 z1 z1 F1 z1 z1 b1 z1\n| B1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 z1 A1 z1 z1 | B1 z1 z2 z1 z1 F1 z1 z1 z1 z1 F1 z1 z1 b1 z1\n| B1 z1 z1 z1 z1 z1 z1 A1 z1 z1 z1 z1 z1 A1 z1 z1 | B1 z1 z2 z1 z1 F1 z1 z1 z1 z1 F1 z1 z1 b1 z1\n| B1 z1 z1 z1 z1 z1 z1 A1 z1 z1 z1 z1 z1 A1 z1 z1 | B1 z1 z2 f1 z1 F1 z1 z1 z1 z1 F1 z1 z1 b1 z1\n| B1 z1 z1 z1 z1 z1 z1 A1 z1 z1 z1 z1 z1 A1 z1 z1 | B1 z1 z2 f1 z1 F1 z1 D1 z1 z1 F1 z1 z1 b1 z1\n| B1 z1 z1 z1 z1 z1 z1 A1 z1 z1 z1 F1 z1 A1 z1 z1 | B1 z1 z2 f1 z1 F1 z1 D1 z1 z1 F1 z1 z1 b1 z1\n| B1 z1 z1 z1 z1 z1 z1 A1 z1 z1 z1 F1 z1 A1 z1 z1 | B1 z1 z2 f1 z1 F1 D1 z1 z1 F1 z1 z1 b1 b1 z1\n| B1 z1 d1 z1 z1 z1 z1 A1 z1 z1 z1 F1 z1 A1 z1 z1 | B1 z1 z2 f1 z1 F1 D1 z1 z1 F1 z1 z1 b1 b1 z1\n| B1 z1 d1 z1 z1 z1 z1 A1 z1 F1 z1 F1 z1 A1 z1 z1 | B1 z1 z2 f1 z1 F1 D1 z1 z1 F1 z1 z1 b1 b1 z1\n| B1 z1 d1 z1 z1 z1 z1 A1 z1 F1 z1 F1 z1 A1 z1 z1 | B1 z1 z2 f1 z1 b1 F1 z1 A1 F1 z1 z1 b1 F1 z1\n| B1 z1 d1 z1 z1 z1 z1 A1 z1 F1 z1 F1 z1 A1 G1 z1 | B1 z1 z2 f1 z1 b1 F1 z1 A1 F1 z1 z1 b1 F1 z1\n| B1 z1 d1 z1 z1 z1 z1 A1 z1 F1 z1 F1 z1 A1 G1 z1 | B1 z1 z2 f1 z1 b1 F1 b1 A1 F1 z1 z1 b1 F1 z1\n| b1 z1 d1 z1 z1 z1 z1 A1 z1 F1 z1 F1 z1 A1 G1 z1 | B1 z1 z2 f1 z1 b1 F1 b1 A1 F1 z1 z1 b1 F1 z1\n| b1 z1 d1 z1 d1 z1 z1 A1 z1 F1 z1 F1 z1 A1 G1 z1 | B1 z1 z2 f1 z1 b1 F1 b1 A1 F1 z1 z1 b1 F1 z1\n| B1 z1 d1 z1 z1 z1 A1 z1 F1 z1 F1 z1 A2 G1 z1 | B1 z1 z2 f1 z1 b1 F1 b1 A1 F1 z1 z1 b1 F1 z1\n| B1 z1 d1 z1 z1 z1 A1 z1 F1 z1 F1 z1 A2 G1 z1 | B1 z1 z2 f1 z1 b1 F1 b1 A1 F1 z1 F1 b1 F1 z1\n| B1 z1 d1 z1 z1 z1 A1 z1 F1 z1 F1 z1 A2 G1 z1 | B1 z1 z2 z1 b1 F1 b1 A2 F1 z1 F1 b1 F1 z1\n| B1 z1 d1 z1 z1 z1 A1 z1 F1 z1 F1 z1 A2 G1 z1 | f1 z1 a1 z2 z1 b1 F1 b1 A2 F1 z1 F1 b1 z1\n| B1 z1 d1 z1 z1 z1 A1 z1 F1 z1 F1 z1 A2 G1 z1 | f1 z1 a1 z2 z1 _A1 F1 A1 F1 z1 F1 b1 B2 z1\n| B1 z1 d1 z1 z1 z1 A1 z1 F1 z1 F1 z1 A2 G1 z1 | f1 z1 a1 z2 z1 F1 A2 F1 z1 F1 b1 B2 z1\n| B1 z1 d1 z1 z1 z1 A1 z1 F1 z1 F1 z1 A2 G1 z1 | f1 z1 a1 d1 b2 F1 A2 z1 z1 F1 b1 B2 z1\n| B1 z1 d1 z1 z1 z1 A1 z1 F1 z1 F1 z1 A2 G1 z1 | f1 z1 a1 _d1 b2 F1 A2 z1 z1 F1 b1 B2 z1\n| B1 z1 d1 z1 z1 z1 A1 z1 F1 z1 F1 z1 A2 G1 C1 | f1 z1 a1 _d1 b2 F1 A2 z1 z1 F1 b1 B2 z1\n| B1 z1 d1 z1 z1 z1 A1 D1 a1 F1 z1 F1 z1 A2 C1 | f1 z1 a1 _d1 b2 F1 A2 z1 z1 F1 b1 B2 z1\n| b1 z1 d1 z1 z1 f1 z2 A1 D1 a1 F1 z1 F1 z1 C1 | f1 z1 a1 _d1 b2 F1 A2 z1 z1 F1 b1 B2 z1\n| b1 z1 d1 z1 z1 f1 A1 D1 a1 F1 b1 z1 F1 A2 C1 | f1 z1 a1 e1 b2 F1 A2 z1 z1 F1 b1 B2 z1\n| b1 z1 d1 z1 z1 f1 A1 D1 a1 F1 b1 z1 F1 A2 C1 | f1 z1 a1 _d1 b2 F1 A2 z1 z1 F1 b1 B2 z1\n| b1 z1 d1 z2 f1 A1 D1 a1 F1 b1 z1 F1 A2 C1 | f1 z1 a1 _d1 b2 F1 A2 z1 z1 F1 b1 B2 z1\n| b1 z1 d1 z3 c1 D1 a1 F1 z1 b1 A2 G1 C1 | _f1 B4 b1 z2 z1 f1 z1 B1 G1 z2 z1\n| b1 z1 d1 z2 f2 A1 D1 a1 F1 b1 z1 A2 C1 | f1 z1 a1 d1 b2 F1 A2 z1 _f1 F1 b1 B2 z1\n| b1 d1 z2 f2 c1 D1 a1 F1 z1 b1 A2 G1 C1 | _f1 B4 b1 z2 z1 f1 z1 B1 G1 z2 z1\n| b1 d1 z2 f2 c1 D1 a1 F1 b1 z1 A2 f1 C1 | f1 z1 a1 _d1 b2 F1 A2 z1 _f1 F1 b1 B2 z1\n| b1 d1 z2 f2 c1 D1 a1 F1 ^f1 b1 A2 f1 C1 | _f1 B4 b1 z2 z1 f1 z1 B1 G1 z2 z1\n| b1 d1 z2 z2 c1 D1 a1 F1 ^f1 b1 A2 f1 C1 | B6 _d1 F1 z2 z1 B1 G1 B2 z1\n| b1 d1 z2 f2 c1 D1 a1 F1 ^f1 b1 A2 f1 C1 | B6 _d1 F1 z2 z1 B1 G1 B2 z1\n| b2 d1 z2 f2 c1 D1 a1 F1 b1 A2 f1 C1 | B6 _d1 F1 z2 z1 B1 G1 B2 z1\n| b2 d1 z2 C1 D1 f1 b1 b1 G1 A2 f1 C2 | B6 _d1 z2 z1 G1 b2 B2 z1\n| b2 d1 z2 f2 C1 D1 f1 b1 A2 f1 C2 | B6 _d1 z2 z1 G1 b2 B2 z1\n| _b2 z1 G1 g6 z1 g1 E1 f1 a2 | d3 _D1 =f1 f2 b3 A1 e1 E1 z1 b1/2 z1/2 A1\n| b2 d1 g2 C1 ^e1 f1 _B1 f2 C2 b3 | B6 _d1 z2 z1 G1 b2 B2 z1\n| _b2 G1 g6 z1 g1 E1 f1 C,2 =G1 | d3 _D1 =f1 f2 b3 A1 e1 E1 z1 b1/2 z1/2 A1\n| _b2 G1 g6 z1 g1 E1 f1 C,2 =G1 | F1 E4 E2 d2 =B3 F3 F1 |]",
+			"file": "generated_songs/pan_short.abc",
+			"file_size": 4269,
+			"file_write_time": 131871105919883153,
+			"settings":
+			{
+				"buffer_size": 4269,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/songs/songs.py",
+			"settings":
+			{
+				"buffer_size": 10062,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 1203,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "generated_songs/pan6_short.abc",
+			"settings":
+			{
+				"buffer_size": 1172,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "generated_songs/evolved.abc",
+			"settings":
+			{
+				"buffer_size": 385,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/utils/argparser.py",
+			"settings":
+			{
+				"buffer_size": 1000,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/algorithms/genetic.py",
+			"settings":
+			{
+				"buffer_size": 2784,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "generated_songs/pan16_test.abc",
+			"settings":
+			{
+				"buffer_size": 4256,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "generated_songs/Lichfield_infinity.abc",
+			"settings":
+			{
+				"buffer_size": 18358,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -552,15 +634,46 @@
 	},
 	"expanded_folders":
 	[
-		"/home/samuel/git/Genetic-Music-Generation",
-		"/home/samuel/git/Genetic-Music-Generation/src",
-		"/home/samuel/git/Genetic-Music-Generation/src/models",
-		"/home/samuel/git/Genetic-Music-Generation/src/songs"
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/src",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/src/algorithms",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/src/models",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/src/songs",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/src/utils"
 	],
 	"file_history":
 	[
-		"/home/samuel/git/Genetic-Music-Generation/src/models/measure.py",
-		"/home/samuel/git/Genetic-Music-Generation/src/models/tune.py",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/generated_songs/pan11_short.abc",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/generated_songs/pan15_test.abc",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/generated_songs/pan14_test.abc",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/generated_songs/pan13_test.abc",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/generated_songs/pan12_test.abc",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/generated_songs/pan11_test.abc",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/generated_songs/pan10_test.abc",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/generated_songs/pan9_test.abc",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/generated_songs/pan8_test.abc",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/generated_songs/pan7_test.abc",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/generated_songs/pan6_test.abc",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/generated_songs/pan5_test.abc",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/generated_songs/pan4_test.abc",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/generated_songs/pan3_test.abc",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/generated_songs/pan2_test.abc",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/generated_songs/pan1_test.abc",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/generated_songs/compare.abc",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/generated_songs/clarinet2.abc",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/src/models/tune.py",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/src/models/measure.py",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/src/songs/songs.py",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/generated_songs/clarinet3.abc",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/src/algorithms/genetic.py",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/generated_songs/DiesIrae1.abc",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/generated_songs/Lichfield_infinity.abc",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/generated_songs/DiesIrae1-4.abc",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/generated_songs/DiesIrae3.abc",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/generated_songs/DiesIrae4.abc",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/generated_songs/DiesIrae2.abc",
+		"/C/Users/Samuel/Desktop/Programming/AI/Genetic-Music-Generation/generated_songs/evolved.abc",
+		"/C/Users/Samuel/Desktop/School/Foundations of Data Science; CSC 591/Midterm 2 Study Guide.docx",
 		"/C/Users/sayhen/git/composition/src/models/tune.py",
 		"/C/Users/sayhen/git/composition/src/abc_generator.py",
 		"/C/Users/sayhen/git/composition/src/utils/pitch.py",
@@ -657,40 +770,11 @@
 		"/c/users/sayhen/appdata/local/temp/rsub-qw9t5j/log.go",
 		"/c/users/sayhen/appdata/local/temp/rsub-gkjv2t/jobqueue.go",
 		"/c/users/sayhen/appdata/local/temp/rsub-hrzcbi/job.go",
-		"/c/users/sayhen/appdata/local/temp/rsub-cuuc99/workerconnector.go",
-		"/c/users/sayhen/appdata/local/temp/rsub-4r1x4j/workerconnector.go",
-		"/c/users/sayhen/appdata/local/temp/rsub-1us6qc/descriptor.go",
-		"/c/users/sayhen/appdata/local/temp/rsub-102w74/jobtype.go",
-		"/c/users/sayhen/appdata/local/temp/rsub-dkjyd1/jobtype.go",
-		"/c/users/sayhen/appdata/local/temp/rsub-woxvyz/jobqueue.go",
-		"/c/users/sayhen/appdata/local/temp/rsub-0yvg0_/scheduler.go",
-		"/c/users/sayhen/appdata/local/temp/rsub-p5y5in/job.go",
-		"/c/users/sayhen/appdata/local/temp/rsub-uvb03v/errors.go",
-		"/c/users/sayhen/appdata/local/temp/rsub-4jmf3n/job.html",
-		"/c/users/sayhen/appdata/local/temp/rsub-w5cix8/job.js",
-		"/c/users/sayhen/appdata/local/temp/rsub-bmd5ri/responses.go",
-		"/c/users/sayhen/appdata/local/temp/rsub-wa79pq/queue.proto",
-		"/c/users/sayhen/appdata/local/temp/rsub-5ytdb8/jobqueue.go",
-		"/c/users/sayhen/appdata/local/temp/rsub-dfp2h5/job.go",
-		"/C/Users/sayhen/git/spotify-analysis/spotify_analysis/static/js/main.js",
-		"/C/Users/sayhen/git/spotify-analysis/spotify_analysis/static/js/data.js",
-		"/C/Users/sayhen/git/spotify-analysis/spotify_analysis/static/styles/style.css",
-		"/C/Users/sayhen/git/spotify-analysis/spotify_analysis/views.py",
-		"/C/Users/sayhen/git/spotify-analysis/Procfile",
-		"/c/users/sayhen/appdata/local/temp/rsub-81_jij/jobs.html",
-		"/c/users/sayhen/appdata/local/temp/rsub-3u64sn/objectstore.go",
-		"/c/users/sayhen/appdata/local/temp/rsub-kb2zny/jobqueue.go",
-		"/c/users/sayhen/appdata/local/temp/rsub-vz8jx0/job.go",
-		"/c/users/sayhen/appdata/local/temp/rsub-t5lc22/objects.go",
-		"/c/users/sayhen/appdata/local/temp/rsub-6cc2br/object.go",
-		"/c/users/sayhen/appdata/local/temp/rsub-we83x5/job_test.json",
-		"/c/users/sayhen/appdata/local/temp/rsub-bla9d8/objectstore.go",
-		"/c/users/sayhen/appdata/local/temp/rsub-kqmx2r/responses.go",
-		"/c/users/sayhen/appdata/local/temp/rsub-7g7m8b/object.go"
+		"/c/users/sayhen/appdata/local/temp/rsub-cuuc99/workerconnector.go"
 	],
 	"find":
 	{
-		"height": 39.886039886
+		"height": 41.0
 	},
 	"find_in_files":
 	{
@@ -704,7 +788,33 @@
 		"case_sensitive": true,
 		"find_history":
 		[
-			"PITCH",
+			"\"[A-Z][a-z]*\" ",
+			"z4 z4 z4",
+			"\"[A-Z][a-z]*\" ",
+			"z z z z",
+			"z z z z z z z z z z",
+			"z z z z z z z z z",
+			"z z z z z z z z",
+			"z z z z z z z",
+			"z z z z z z",
+			"z z z z z",
+			"z z z z",
+			"\"[A-Z][a-z]*\" ",
+			"V: ",
+			"\"[A-Z][a-z]*\" ",
+			"z",
+			"B",
+			"\"[A-Z][a-z]*\" ",
+			"\"[A-Z][a-z]* ",
+			"[A-Z ]+",
+			"[A-Z ]*",
+			"[A-Z ]",
+			"[A-Z ]*",
+			"\"B\" ",
+			"\"[A-Z][a-z]*\" ",
+			"\"[A-Z][a-z]*\"",
+			"%%",
+			"\"[A-Z][a-z]*\"",
 			"measure",
 			"e \"\"\"",
 			" \"\"\"",
@@ -805,33 +915,7 @@
 			"| \"",
 			"Mazurka",
 			"Lichfield",
-			"10",
-			",2",
-			" \\",
-			"[i]",
-			" ",
-			"1/2",
-			".1 .1 ",
-			".1 .1",
-			"twinkle",
-			"s",
-			"symbol",
-			"\n    ",
-			"Em",
-			"child_count",
-			"init",
-			"key = self.key",
-			"gen_chord",
-			"chords",
-			"key",
-			"bars",
-			"note_count",
-			"note_bar",
-			",",
-			"= ",
-			".gen",
-			"gen",
-			"best"
+			"10"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -839,6 +923,11 @@
 		"regex": true,
 		"replace_history":
 		[
+			"",
+			"z4",
+			"",
+			"+ ",
+			"",
 			"\"Fdim\"",
 			"|",
 			"/**/*.js"
@@ -852,37 +941,326 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/models/symbol.py",
-					"semi_transient": true,
+					"file": "generated_songs/pan_test.abc",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6028,
+						"buffer_size": 75513,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2411,
-								2416
+								72918,
+								72918
 							]
 						],
 						"settings":
 						{
+							"SL.14.region_keys":
+							[
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "generated_songs/pan_short.abc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4269,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								47,
+								47
+							]
+						],
+						"settings":
+						{
+							"SL.15.region_keys":
+							[
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/songs/songs.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10062,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								374,
+								374
+							]
+						],
+						"settings":
+						{
+							"SL.16.region_keys":
+							[
+							],
+							"SL.31.region_keys":
+							[
+							],
 							"syntax": "Packages/Python/Python.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1210.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1203,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "generated_songs/pan6_short.abc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1172,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								51,
+								51
+							]
+						],
+						"settings":
+						{
+							"SL.17.region_keys":
+							[
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "generated_songs/evolved.abc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 385,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48,
+								48
+							]
+						],
+						"settings":
+						{
+							"SL.18.region_keys":
+							[
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/utils/argparser.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1000,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.19.region_keys":
+							[
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/algorithms/genetic.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2784,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2516,
+								2516
+							]
+						],
+						"settings":
+						{
+							"SL.20.region_keys":
+							[
+							],
+							"SL.84.region_keys":
+							[
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 948.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "generated_songs/pan16_test.abc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4256,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								39,
+								4256
+							]
+						],
+						"settings":
+						{
+							"SL.21.region_keys":
+							[
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 387.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "generated_songs/Lichfield_infinity.abc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18358,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								130,
+								135
+							]
+						],
+						"settings":
+						{
+							"SL.22.region_keys":
+							[
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
 					"type": "text"
 				}
 			]
@@ -931,7 +1309,7 @@
 	"project": "composition.sublime-project",
 	"replace":
 	{
-		"height": 72.0
+		"height": 73.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -969,7 +1347,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 214.0,
+	"side_bar_width": 248.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

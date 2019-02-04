@@ -100,7 +100,7 @@ class Symbol():
                                   weights=WEIGHTS['PITCH_S'])[0]
 
     def gen_length(self, WEIGHTS, beats_left, LENGTH_SUFFIXES=[
-                   '1', '2', '3', '4', '6', '8', '12', '1/2', '3/2', '1/4']):
+                   '1', '2', '3', '4', '5', '6', '8', '12', '1/2', '3/2', '1/4']):
         """Return a random length weighted with WEIGHTS that's less than beats_left
 
         Arguments:
