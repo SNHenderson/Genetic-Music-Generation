@@ -3,6 +3,16 @@ from models.symbol import Symbol
 from models.tune import Tune
 
 """Tunes are encoded in this file"""
+# Pentatonic 5 B C# D# F# G#
+Viol_second = Tune(
+    title = "violin_test",
+    note_count=11,
+    bars=4,
+    note_duration=1,
+    note_bar=4,
+    key='B',
+    string=('"B" B3 F1/4 G1/4 C1/4 D1/4 C1/4 B1/4 C1/2 B3 F1/4 G1/4 C1/4 D1/4 C1/4 B1/4 C1/2 C1/2 C1/2'))
+
 Viol = Tune(
     title = "violin_test",
     note_count=11,
